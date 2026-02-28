@@ -1,0 +1,3623 @@
+[
+  {
+    "id": "あくのはどう",
+    "name": "あくのはどう",
+    "type": "dark",
+    "category": "special",
+    "power": 80,
+    "targets": [
+      "touma",
+      "ayuma",
+      "micchi",
+      "reosan"
+    ]
+  },
+  {
+    "id": "イカサマ",
+    "name": "イカサマ",
+    "type": "dark",
+    "category": "physical",
+    "power": 95,
+    "targets": [
+      "touma",
+      "ayuma",
+      "micchi"
+    ]
+  },
+  {
+    "id": "うっぷんばらし",
+    "name": "うっぷんばらし",
+    "type": "dark",
+    "category": "physical",
+    "power": 75,
+    "targets": [
+      "morimori",
+      "ayuma",
+      "tomoki",
+      "haruta",
+      "macchan",
+      "sena"
+    ]
+  },
+  {
+    "id": "かみくだく",
+    "name": "かみくだく",
+    "type": "dark",
+    "category": "physical",
+    "power": 80,
+    "targets": [
+      "touma",
+      "ayuma",
+      "micchi"
+    ]
+  },
+  {
+    "id": "かみつく",
+    "name": "かみつく",
+    "type": "dark",
+    "category": "physical",
+    "power": 60,
+    "targets": [
+      "touma",
+      "ayuma",
+      "micchi"
+    ]
+  },
+  {
+    "id": "くらいつく",
+    "name": "くらいつく",
+    "type": "dark",
+    "category": "physical",
+    "power": 80,
+    "targets": [
+      "touma",
+      "ayuma",
+      "macchan",
+      "micchi",
+      "nishiki"
+    ]
+  },
+  {
+    "id": "じごくづき",
+    "name": "じごくづき",
+    "type": "dark",
+    "category": "physical",
+    "power": 80,
+    "targets": [
+      "morimitsu",
+      "touma",
+      "ayuma",
+      "micchi"
+    ]
+  },
+  {
+    "id": "しっぺがえし",
+    "name": "しっぺがえし",
+    "type": "dark",
+    "category": "physical",
+    "power": 50,
+    "targets": [
+      "touma",
+      "ayuma",
+      "micchi"
+    ]
+  },
+  {
+    "id": "ダメおし",
+    "name": "ダメおし",
+    "type": "dark",
+    "category": "physical",
+    "power": 60,
+    "targets": [
+      "touma",
+      "ayuma",
+      "micchi"
+    ]
+  },
+  {
+    "id": "つけあがる",
+    "name": "つけあがる",
+    "type": "dark",
+    "category": "physical",
+    "power": 20,
+    "targets": [
+      "touma"
+    ]
+  },
+  {
+    "id": "つじぎり",
+    "name": "つじぎり",
+    "type": "dark",
+    "category": "physical",
+    "power": 70,
+    "targets": [
+      "touma",
+      "ayuma",
+      "bucchi"
+    ]
+  },
+  {
+    "id": "どろぼう",
+    "name": "どろぼう",
+    "type": "dark",
+    "category": "physical",
+    "power": 60,
+    "targets": [
+      "touma",
+      "ayuma",
+      "micchi"
+    ]
+  },
+  {
+    "id": "ナイトバースト",
+    "name": "ナイトバースト",
+    "type": "dark",
+    "category": "special",
+    "power": 85,
+    "targets": [
+      "touma",
+      "ayuma",
+      "micchi"
+    ]
+  },
+  {
+    "id": "バークアウト",
+    "name": "バークアウト",
+    "type": "dark",
+    "category": "special",
+    "power": 55,
+    "targets": [
+      "ayuma",
+      "micchi"
+    ]
+  },
+  {
+    "id": "はたきおとす",
+    "name": "はたきおとす",
+    "type": "dark",
+    "category": "physical",
+    "power": 65,
+    "targets": [
+      "touma",
+      "morimori",
+      "ayuma",
+      "micchi"
+    ]
+  },
+  {
+    "id": "ふいうち",
+    "name": "ふいうち",
+    "type": "dark",
+    "category": "physical",
+    "power": 70,
+    "targets": [
+      "morimitsu",
+      "touma",
+      "ayuma",
+      "tomoki",
+      "micchi"
+    ]
+  },
+  {
+    "id": "ぶんまわす",
+    "name": "ぶんまわす",
+    "type": "dark",
+    "category": "physical",
+    "power": 60,
+    "targets": [
+      "macchan"
+    ]
+  },
+  {
+    "id": "アクセルロック",
+    "name": "アクセルロック",
+    "type": "rock",
+    "category": "physical",
+    "power": 40,
+    "targets": [
+      "takaho",
+      "ikkun"
+    ]
+  },
+  {
+    "id": "いわおとし",
+    "name": "いわおとし",
+    "type": "rock",
+    "category": "physical",
+    "power": 50,
+    "targets": [
+      "takaho",
+      "touma",
+      "ikkun"
+    ]
+  },
+  {
+    "id": "いわなだれ",
+    "name": "いわなだれ",
+    "type": "rock",
+    "category": "physical",
+    "power": 75,
+    "targets": [
+      "takaho",
+      "touma",
+      "ikkun"
+    ]
+  },
+  {
+    "id": "がんせきふうじ",
+    "name": "がんせきふうじ",
+    "type": "rock",
+    "category": "physical",
+    "power": 60,
+    "targets": [
+      "takaho",
+      "ikkun"
+    ]
+  },
+  {
+    "id": "げんしのちから",
+    "name": "げんしのちから",
+    "type": "rock",
+    "category": "special",
+    "power": 60,
+    "targets": [
+      "reosan"
+    ]
+  },
+  {
+    "id": "ころがる",
+    "name": "ころがる",
+    "type": "rock",
+    "category": "physical",
+    "power": 30,
+    "targets": [
+      "takaho",
+      "ume",
+      "haruta",
+      "ikkun"
+    ]
+  },
+  {
+    "id": "ストーンエッジ",
+    "name": "ストーンエッジ",
+    "type": "rock",
+    "category": "physical",
+    "power": 100,
+    "targets": [
+      "eiraku",
+      "takaho",
+      "ikkun"
+    ]
+  },
+  {
+    "id": "パワージェム",
+    "name": "パワージェム",
+    "type": "rock",
+    "category": "special",
+    "power": 80,
+    "targets": [
+      "takaho",
+      "ikkun"
+    ]
+  },
+  {
+    "id": "メテオビーム",
+    "name": "メテオビーム",
+    "type": "rock",
+    "category": "special",
+    "power": 120,
+    "targets": [
+      "tatsuta",
+      "takaho",
+      "ikkun"
+    ]
+  },
+  {
+    "id": "ロックブラスト",
+    "name": "ロックブラスト",
+    "type": "rock",
+    "category": "physical",
+    "power": 25,
+    "targets": [
+      "takaho",
+      "ikkun"
+    ]
+  },
+  {
+    "id": "アシストパワー",
+    "name": "アシストパワー",
+    "type": "psychic",
+    "category": "special",
+    "power": 20,
+    "targets": [
+      "morimitsu",
+      "takaho",
+      "bucchi",
+      "macchan",
+      "micchi",
+      "nishiki",
+      "makocchan"
+    ]
+  },
+  {
+    "id": "サイケこうせん",
+    "name": "サイケこうせん",
+    "type": "psychic",
+    "category": "special",
+    "power": 65,
+    "targets": [
+      "bucchi",
+      "micchi",
+      "nishiki",
+      "makocchan"
+    ]
+  },
+  {
+    "id": "サイコカッター",
+    "name": "サイコカッター",
+    "type": "psychic",
+    "category": "physical",
+    "power": 70,
+    "targets": [
+      "touma",
+      "bucchi",
+      "micchi",
+      "nishiki"
+    ]
+  },
+  {
+    "id": "サイコキネシス",
+    "name": "サイコキネシス",
+    "type": "psychic",
+    "category": "special",
+    "power": 90,
+    "targets": [
+      "bucchi",
+      "micchi",
+      "nishiki",
+      "makocchan",
+      "reosan"
+    ]
+  },
+  {
+    "id": "サイコショック",
+    "name": "サイコショック",
+    "type": "psychic",
+    "category": "special",
+    "power": 80,
+    "targets": [
+      "bucchi",
+      "micchi",
+      "nishiki",
+      "makocchan"
+    ]
+  },
+  {
+    "id": "サイコノイズ",
+    "name": "サイコノイズ",
+    "type": "psychic",
+    "category": "special",
+    "power": 75,
+    "targets": [
+      "bucchi",
+      "micchi",
+      "nishiki"
+    ]
+  },
+  {
+    "id": "サイコファング",
+    "name": "サイコファング",
+    "type": "psychic",
+    "category": "physical",
+    "power": 85,
+    "targets": [
+      "bucchi",
+      "micchi",
+      "nishiki"
+    ]
+  },
+  {
+    "id": "しねんのずつき",
+    "name": "しねんのずつき",
+    "type": "psychic",
+    "category": "physical",
+    "power": 80,
+    "targets": [
+      "micchi",
+      "nishiki"
+    ]
+  },
+  {
+    "id": "じんつうりき",
+    "name": "じんつうりき",
+    "type": "psychic",
+    "category": "special",
+    "power": 80,
+    "targets": [
+      "reosan"
+    ]
+  },
+  {
+    "id": "ねんりき",
+    "name": "ねんりき",
+    "type": "psychic",
+    "category": "special",
+    "power": 50,
+    "targets": [
+      "reosan"
+    ]
+  },
+  {
+    "id": "みらいよち",
+    "name": "みらいよち",
+    "type": "psychic",
+    "category": "special",
+    "power": 120,
+    "targets": [
+      "morimitsu",
+      "micchi",
+      "makocchan"
+    ]
+  },
+  {
+    "id": "ゆめくい",
+    "name": "ゆめくい",
+    "type": "psychic",
+    "category": "special",
+    "power": 100,
+    "targets": [
+      "micchi",
+      "nishiki"
+    ]
+  },
+  {
+    "id": "アームハンマー",
+    "name": "アームハンマー",
+    "type": "fighting",
+    "category": "physical",
+    "power": 100,
+    "targets": [
+      "eiraku",
+      "touma",
+      "morimori",
+      "macchan"
+    ]
+  },
+  {
+    "id": "いわくだき",
+    "name": "いわくだき",
+    "type": "fighting",
+    "category": "physical",
+    "power": 40,
+    "targets": [
+      "eiraku",
+      "takaho",
+      "touma",
+      "morimori",
+      "ayuma",
+      "macchan"
+    ]
+  },
+  {
+    "id": "インファイト",
+    "name": "インファイト",
+    "type": "fighting",
+    "category": "physical",
+    "power": 120,
+    "targets": [
+      "touma",
+      "macchan"
+    ]
+  },
+  {
+    "id": "かかとおとし",
+    "name": "かかとおとし",
+    "type": "fighting",
+    "category": "physical",
+    "power": 120,
+    "targets": [
+      "touma",
+      "macchan"
+    ]
+  },
+  {
+    "id": "かわらわり",
+    "name": "かわらわり",
+    "type": "fighting",
+    "category": "physical",
+    "power": 75,
+    "targets": [
+      "takaho",
+      "touma",
+      "macchan"
+    ]
+  },
+  {
+    "id": "きあいだま",
+    "name": "きあいだま",
+    "type": "fighting",
+    "category": "special",
+    "power": 120,
+    "targets": [
+      "eiraku",
+      "takaho",
+      "morimori",
+      "ayuma",
+      "macchan",
+      "reosan"
+    ]
+  },
+  {
+    "id": "きあいパンチ",
+    "name": "きあいパンチ",
+    "type": "fighting",
+    "category": "physical",
+    "power": 150,
+    "targets": [
+      "eiraku",
+      "takaho",
+      "touma",
+      "morimori",
+      "ayuma",
+      "macchan"
+    ]
+  },
+  {
+    "id": "クロスチョップ",
+    "name": "クロスチョップ",
+    "type": "fighting",
+    "category": "physical",
+    "power": 100,
+    "targets": [
+      "eiraku",
+      "takaho",
+      "touma",
+      "macchan"
+    ]
+  },
+  {
+    "id": "しんくうは",
+    "name": "しんくうは",
+    "type": "fighting",
+    "category": "special",
+    "power": 40,
+    "targets": [
+      "micchi",
+      "makocchan"
+    ]
+  },
+  {
+    "id": "つっぱり",
+    "name": "つっぱり",
+    "type": "fighting",
+    "category": "physical",
+    "power": 15,
+    "targets": [
+      "morimori",
+      "ikkun"
+    ]
+  },
+  {
+    "id": "とびひざげり",
+    "name": "とびひざげり",
+    "type": "fighting",
+    "category": "physical",
+    "power": 130,
+    "targets": [
+      "touma",
+      "macchan"
+    ]
+  },
+  {
+    "id": "ともえなげ",
+    "name": "ともえなげ",
+    "type": "fighting",
+    "category": "physical",
+    "power": 60,
+    "targets": [
+      "touma"
+    ]
+  },
+  {
+    "id": "トリプルキック",
+    "name": "トリプルキック",
+    "type": "fighting",
+    "category": "physical",
+    "power": 10,
+    "targets": [
+      "takaho",
+      "touma",
+      "macchan"
+    ]
+  },
+  {
+    "id": "ドレインパンチ",
+    "name": "ドレインパンチ",
+    "type": "fighting",
+    "category": "physical",
+    "power": 75,
+    "targets": [
+      "morimitsu",
+      "takaho",
+      "touma",
+      "macchan"
+    ]
+  },
+  {
+    "id": "にどげり",
+    "name": "にどげり",
+    "type": "fighting",
+    "category": "physical",
+    "power": 30,
+    "targets": [
+      "takaho",
+      "touma",
+      "ayuma",
+      "macchan"
+    ]
+  },
+  {
+    "id": "ばかぢから",
+    "name": "ばかぢから",
+    "type": "fighting",
+    "category": "physical",
+    "power": 120,
+    "targets": [
+      "eiraku",
+      "ayuma",
+      "macchan"
+    ]
+  },
+  {
+    "id": "ばくれつパンチ",
+    "name": "ばくれつパンチ",
+    "type": "fighting",
+    "category": "physical",
+    "power": 100,
+    "targets": [
+      "macchan"
+    ]
+  },
+  {
+    "id": "はっけい",
+    "name": "はっけい",
+    "type": "fighting",
+    "category": "physical",
+    "power": 60,
+    "targets": [
+      "touma"
+    ]
+  },
+  {
+    "id": "はどうだん",
+    "name": "はどうだん",
+    "type": "fighting",
+    "category": "special",
+    "power": 80,
+    "targets": [
+      "eiraku",
+      "touma",
+      "ayuma",
+      "macchan",
+      "reosan"
+    ]
+  },
+  {
+    "id": "はやてがえし",
+    "name": "はやてがえし",
+    "type": "fighting",
+    "category": "physical",
+    "power": 65,
+    "targets": [
+      "morimitsu",
+      "takaho"
+    ]
+  },
+  {
+    "id": "ボディプレス",
+    "name": "ボディプレス",
+    "type": "fighting",
+    "category": "physical",
+    "power": 80,
+    "targets": [
+      "morimori",
+      "ikkun"
+    ]
+  },
+  {
+    "id": "マッハパンチ",
+    "name": "マッハパンチ",
+    "type": "fighting",
+    "category": "physical",
+    "power": 40,
+    "targets": [
+      "macchan"
+    ]
+  },
+  {
+    "id": "ローキック",
+    "name": "ローキック",
+    "type": "fighting",
+    "category": "physical",
+    "power": 65,
+    "targets": [
+      "touma",
+      "ayuma",
+      "macchan",
+      "fuuto"
+    ]
+  },
+  {
+    "id": "ウッドハンマー",
+    "name": "ウッドハンマー",
+    "type": "grass",
+    "category": "physical",
+    "power": 120,
+    "targets": [
+      "tatsuta",
+      "takaho"
+    ]
+  },
+  {
+    "id": "ウッドホーン",
+    "name": "ウッドホーン",
+    "type": "grass",
+    "category": "physical",
+    "power": 75,
+    "targets": [
+      "tatsuta",
+      "takaho"
+    ]
+  },
+  {
+    "id": "えだづき",
+    "name": "えだづき",
+    "type": "grass",
+    "category": "physical",
+    "power": 40,
+    "targets": [
+      "morimitsu",
+      "morimori"
+    ]
+  },
+  {
+    "id": "エナジーボール",
+    "name": "エナジーボール",
+    "type": "grass",
+    "category": "special",
+    "power": 90,
+    "targets": [
+      "tatsuta",
+      "takaho",
+      "reosan"
+    ]
+  },
+  {
+    "id": "ギガドレイン",
+    "name": "ギガドレイン",
+    "type": "grass",
+    "category": "special",
+    "power": 75,
+    "targets": [
+      "tatsuta",
+      "takaho",
+      "ayuma",
+      "macchan",
+      "micchi",
+      "sena",
+      "ikkun"
+    ]
+  },
+  {
+    "id": "くさわけ",
+    "name": "くさわけ",
+    "type": "grass",
+    "category": "physical",
+    "power": 50,
+    "targets": [
+      "tatsuta",
+      "takaho"
+    ]
+  },
+  {
+    "id": "グラススライダー",
+    "name": "グラススライダー",
+    "type": "grass",
+    "category": "physical",
+    "power": 55,
+    "targets": [
+      "tatsuta",
+      "takaho"
+    ]
+  },
+  {
+    "id": "すいとる",
+    "name": "すいとる",
+    "type": "grass",
+    "category": "special",
+    "power": 20,
+    "targets": [
+      "ikkun"
+    ]
+  },
+  {
+    "id": "ソーラービーム",
+    "name": "ソーラービーム",
+    "type": "grass",
+    "category": "special",
+    "power": 120,
+    "targets": [
+      "tatsuta",
+      "haruta"
+    ]
+  },
+  {
+    "id": "ソーラーブレード",
+    "name": "ソーラーブレード",
+    "type": "grass",
+    "category": "physical",
+    "power": 125,
+    "targets": [
+      "tatsuta",
+      "haruta"
+    ]
+  },
+  {
+    "id": "タネばくだん",
+    "name": "タネばくだん",
+    "type": "grass",
+    "category": "physical",
+    "power": 80,
+    "targets": [
+      "tatsuta",
+      "takaho"
+    ]
+  },
+  {
+    "id": "タネマシンガン",
+    "name": "タネマシンガン",
+    "type": "grass",
+    "category": "physical",
+    "power": 25,
+    "targets": [
+      "macchan"
+    ]
+  },
+  {
+    "id": "つるのムチ",
+    "name": "つるのムチ",
+    "type": "grass",
+    "category": "physical",
+    "power": 45,
+    "targets": [
+      "tatsuta",
+      "takaho"
+    ]
+  },
+  {
+    "id": "ハードプラント",
+    "name": "ハードプラント",
+    "type": "grass",
+    "category": "special",
+    "power": 150,
+    "targets": [
+      "takaho"
+    ]
+  },
+  {
+    "id": "はっぱカッター",
+    "name": "はっぱカッター",
+    "type": "grass",
+    "category": "physical",
+    "power": 55,
+    "targets": [
+      "tatsuta",
+      "takaho",
+      "touma",
+      "bucchi"
+    ]
+  },
+  {
+    "id": "はなびらのまい",
+    "name": "はなびらのまい",
+    "type": "grass",
+    "category": "special",
+    "power": 120,
+    "targets": [
+      "tatsuta",
+      "takaho",
+      "machida",
+      "fuuto"
+    ]
+  },
+  {
+    "id": "はなふぶき",
+    "name": "はなふぶき",
+    "type": "grass",
+    "category": "physical",
+    "power": 90,
+    "targets": [
+      "tatsuta",
+      "takaho",
+      "machida"
+    ]
+  },
+  {
+    "id": "パワーウィップ",
+    "name": "パワーウィップ",
+    "type": "grass",
+    "category": "physical",
+    "power": 120,
+    "targets": [
+      "takaho"
+    ]
+  },
+  {
+    "id": "マジカルリーフ",
+    "name": "マジカルリーフ",
+    "type": "grass",
+    "category": "special",
+    "power": 60,
+    "targets": [
+      "machida",
+      "bucchi",
+      "haruta",
+      "makocchan"
+    ]
+  },
+  {
+    "id": "メガドレイン",
+    "name": "メガドレイン",
+    "type": "grass",
+    "category": "special",
+    "power": 40,
+    "targets": [
+      "tatsuta",
+      "takaho",
+      "ayuma",
+      "macchan",
+      "micchi",
+      "nishiki",
+      "sena",
+      "ikkun"
+    ]
+  },
+  {
+    "id": "リーフストーム",
+    "name": "リーフストーム",
+    "type": "grass",
+    "category": "special",
+    "power": 130,
+    "targets": [
+      "tatsuta",
+      "takaho"
+    ]
+  },
+  {
+    "id": "リーフブレード",
+    "name": "リーフブレード",
+    "type": "grass",
+    "category": "physical",
+    "power": 90,
+    "targets": [
+      "tatsuta",
+      "takaho",
+      "ikkun"
+    ]
+  },
+  {
+    "id": "うらみつらみ",
+    "name": "うらみつらみ",
+    "type": "ghost",
+    "category": "special",
+    "power": 75,
+    "targets": [
+      "nishiki"
+    ]
+  },
+  {
+    "id": "おどろかす",
+    "name": "おどろかす",
+    "type": "ghost",
+    "category": "physical",
+    "power": 30,
+    "targets": [
+      "morimitsu",
+      "ume",
+      "touma",
+      "morimori",
+      "ayuma",
+      "micchi",
+      "ikkun"
+    ]
+  },
+  {
+    "id": "かげうち",
+    "name": "かげうち",
+    "type": "ghost",
+    "category": "physical",
+    "power": 40,
+    "targets": [
+      "ume",
+      "micchi",
+      "nishiki",
+      "reosan"
+    ]
+  },
+  {
+    "id": "かげぬい",
+    "name": "かげぬい",
+    "type": "ghost",
+    "category": "physical",
+    "power": 80,
+    "targets": [
+      "ume",
+      "micchi",
+      "nishiki",
+      "reosan"
+    ]
+  },
+  {
+    "id": "ゴーストダイブ",
+    "name": "ゴーストダイブ",
+    "type": "ghost",
+    "category": "physical",
+    "power": 90,
+    "targets": [
+      "ume",
+      "nishiki",
+      "reosan"
+    ]
+  },
+  {
+    "id": "したでなめる",
+    "name": "したでなめる",
+    "type": "ghost",
+    "category": "physical",
+    "power": 30,
+    "targets": [
+      "reosan"
+    ]
+  },
+  {
+    "id": "シャドークロー",
+    "name": "シャドークロー",
+    "type": "ghost",
+    "category": "physical",
+    "power": 70,
+    "targets": [
+      "ume",
+      "nishiki",
+      "reosan"
+    ]
+  },
+  {
+    "id": "シャドーパンチ",
+    "name": "シャドーパンチ",
+    "type": "ghost",
+    "category": "physical",
+    "power": 60,
+    "targets": [
+      "ume",
+      "macchan",
+      "nishiki",
+      "reosan"
+    ]
+  },
+  {
+    "id": "シャドーボール",
+    "name": "シャドーボール",
+    "type": "ghost",
+    "category": "special",
+    "power": 80,
+    "targets": [
+      "ume",
+      "nishiki",
+      "reosan"
+    ]
+  },
+  {
+    "id": "シャドーレイ",
+    "name": "シャドーレイ",
+    "type": "ghost",
+    "category": "special",
+    "power": 100,
+    "targets": [
+      "ume",
+      "nishiki",
+      "reosan"
+    ]
+  },
+  {
+    "id": "たたりめ",
+    "name": "たたりめ",
+    "type": "ghost",
+    "category": "special",
+    "power": 65,
+    "targets": [
+      "ume",
+      "micchi",
+      "nishiki",
+      "sena",
+      "reosan"
+    ]
+  },
+  {
+    "id": "ふんどのこぶし",
+    "name": "ふんどのこぶし",
+    "type": "ghost",
+    "category": "physical",
+    "power": 50,
+    "targets": [
+      "ume",
+      "macchan",
+      "nishiki",
+      "reosan"
+    ]
+  },
+  {
+    "id": "ポルターガイスト",
+    "name": "ポルターガイスト",
+    "type": "ghost",
+    "category": "physical",
+    "power": 110,
+    "targets": [
+      "ume",
+      "reosan"
+    ]
+  },
+  {
+    "id": "アイススピナー",
+    "name": "アイススピナー",
+    "type": "ice",
+    "category": "physical",
+    "power": 80,
+    "targets": [
+      "tomoki",
+      "haruta"
+    ]
+  },
+  {
+    "id": "アイスハンマー",
+    "name": "アイスハンマー",
+    "type": "ice",
+    "category": "physical",
+    "power": 100,
+    "targets": [
+      "tomoki",
+      "haruta"
+    ]
+  },
+  {
+    "id": "オーロラビーム",
+    "name": "オーロラビーム",
+    "type": "ice",
+    "category": "special",
+    "power": 65,
+    "targets": [
+      "tomoki",
+      "haruta"
+    ]
+  },
+  {
+    "id": "こおりのいぶき",
+    "name": "こおりのいぶき",
+    "type": "ice",
+    "category": "special",
+    "power": 60,
+    "targets": [
+      "tomoki",
+      "haruta"
+    ]
+  },
+  {
+    "id": "こおりのキバ",
+    "name": "こおりのキバ",
+    "type": "ice",
+    "category": "physical",
+    "power": 65,
+    "targets": [
+      "tomoki",
+      "haruta"
+    ]
+  },
+  {
+    "id": "こおりのつぶて",
+    "name": "こおりのつぶて",
+    "type": "ice",
+    "category": "physical",
+    "power": 40,
+    "targets": [
+      "tatsuta",
+      "ume",
+      "tomoki",
+      "haruta"
+    ]
+  },
+  {
+    "id": "こごえるかぜ",
+    "name": "こごえるかぜ",
+    "type": "ice",
+    "category": "special",
+    "power": 55,
+    "targets": [
+      "tomoki",
+      "haruta"
+    ]
+  },
+  {
+    "id": "こなゆき",
+    "name": "こなゆき",
+    "type": "ice",
+    "category": "special",
+    "power": 40,
+    "targets": [
+      "ume",
+      "tomoki",
+      "haruta"
+    ]
+  },
+  {
+    "id": "つららおとし",
+    "name": "つららおとし",
+    "type": "ice",
+    "category": "physical",
+    "power": 85,
+    "targets": [
+      "tatsuta",
+      "ume",
+      "tomoki",
+      "haruta"
+    ]
+  },
+  {
+    "id": "つららばり",
+    "name": "つららばり",
+    "type": "ice",
+    "category": "physical",
+    "power": 25,
+    "targets": [
+      "tatsuta",
+      "ume",
+      "tomoki",
+      "haruta"
+    ]
+  },
+  {
+    "id": "トリプルアクセル",
+    "name": "トリプルアクセル",
+    "type": "ice",
+    "category": "physical",
+    "power": 20,
+    "targets": [
+      "tomoki",
+      "haruta"
+    ]
+  },
+  {
+    "id": "ふぶき",
+    "name": "ふぶき",
+    "type": "ice",
+    "category": "special",
+    "power": 110,
+    "targets": [
+      "tatsuta",
+      "ume"
+    ]
+  },
+  {
+    "id": "フリーズドライ",
+    "name": "フリーズドライ",
+    "type": "ice",
+    "category": "special",
+    "power": 70,
+    "targets": [
+      "nishiki"
+    ]
+  },
+  {
+    "id": "ゆきなだれ",
+    "name": "ゆきなだれ",
+    "type": "ice",
+    "category": "physical",
+    "power": 60,
+    "targets": [
+      "tatsuta",
+      "ume",
+      "tomoki",
+      "haruta"
+    ]
+  },
+  {
+    "id": "れいとうパンチ",
+    "name": "れいとうパンチ",
+    "type": "ice",
+    "category": "physical",
+    "power": 75,
+    "targets": [
+      "tomoki",
+      "haruta",
+      "macchan"
+    ]
+  },
+  {
+    "id": "れいとうビーム",
+    "name": "れいとうビーム",
+    "type": "ice",
+    "category": "special",
+    "power": 90,
+    "targets": [
+      "tomoki",
+      "haruta"
+    ]
+  },
+  {
+    "id": "10まんばりき",
+    "name": "10まんばりき",
+    "type": "ground",
+    "category": "physical",
+    "power": 95,
+    "targets": [
+      "eiraku",
+      "machida",
+      "macchan"
+    ]
+  },
+  {
+    "id": "あなをほる",
+    "name": "あなをほる",
+    "type": "ground",
+    "category": "physical",
+    "power": 80,
+    "targets": [
+      "eiraku",
+      "tatsuta",
+      "morimori",
+      "ayuma",
+      "ikkun"
+    ]
+  },
+  {
+    "id": "じしん",
+    "name": "じしん",
+    "type": "ground",
+    "category": "physical",
+    "power": 100,
+    "targets": [
+      "machida",
+      "morimori"
+    ]
+  },
+  {
+    "id": "じだんだ",
+    "name": "じだんだ",
+    "type": "ground",
+    "category": "physical",
+    "power": 75,
+    "targets": [
+      "eiraku",
+      "morimitsu",
+      "ume",
+      "morimori",
+      "ayuma",
+      "haruta",
+      "macchan",
+      "sena",
+      "ikkun"
+    ]
+  },
+  {
+    "id": "じならし",
+    "name": "じならし",
+    "type": "ground",
+    "category": "physical",
+    "power": 60,
+    "targets": [
+      "machida",
+      "morimori"
+    ]
+  },
+  {
+    "id": "すなじごく",
+    "name": "すなじごく",
+    "type": "ground",
+    "category": "physical",
+    "power": 35,
+    "targets": [
+      "ikkun"
+    ]
+  },
+  {
+    "id": "だいちのちから",
+    "name": "だいちのちから",
+    "type": "ground",
+    "category": "special",
+    "power": 90,
+    "targets": [
+      "machida",
+      "morimori",
+      "reosan"
+    ]
+  },
+  {
+    "id": "ドリルライナー",
+    "name": "ドリルライナー",
+    "type": "ground",
+    "category": "physical",
+    "power": 80,
+    "targets": [
+      "machida",
+      "morimori",
+      "sena"
+    ]
+  },
+  {
+    "id": "どろかけ",
+    "name": "どろかけ",
+    "type": "ground",
+    "category": "special",
+    "power": 20,
+    "targets": [
+      "morimitsu",
+      "ume",
+      "touma",
+      "morimori",
+      "reosan"
+    ]
+  },
+  {
+    "id": "ねっさのあらし",
+    "name": "ねっさのあらし",
+    "type": "ground",
+    "category": "special",
+    "power": 100,
+    "targets": [
+      "machida",
+      "morimori"
+    ]
+  },
+  {
+    "id": "ねっさのだいち",
+    "name": "ねっさのだいち",
+    "type": "ground",
+    "category": "special",
+    "power": 70,
+    "targets": [
+      "machida",
+      "morimori",
+      "ikkun"
+    ]
+  },
+  {
+    "id": "ぶちかまし",
+    "name": "ぶちかまし",
+    "type": "ground",
+    "category": "physical",
+    "power": 120,
+    "targets": [
+      "machida",
+      "morimori",
+      "sena",
+      "ikkun"
+    ]
+  },
+  {
+    "id": "ボーンラッシュ",
+    "name": "ボーンラッシュ",
+    "type": "ground",
+    "category": "physical",
+    "power": 25,
+    "targets": [
+      "tatsuta",
+      "morimitsu",
+      "ume",
+      "machida",
+      "touma",
+      "morimori",
+      "haruta",
+      "macchan"
+    ]
+  },
+  {
+    "id": "マッドショット",
+    "name": "マッドショット",
+    "type": "ground",
+    "category": "special",
+    "power": 55,
+    "targets": [
+      "morimitsu",
+      "ume",
+      "machida",
+      "touma",
+      "morimori",
+      "reosan"
+    ]
+  },
+  {
+    "id": "10まんボルト",
+    "name": "10まんボルト",
+    "type": "electric",
+    "category": "special",
+    "power": 90,
+    "targets": [
+      "morimitsu",
+      "ume",
+      "machida",
+      "touma",
+      "ayuma",
+      "tomoki",
+      "haruta",
+      "macchan",
+      "micchi",
+      "sena",
+      "fuuto",
+      "makocchan",
+      "reosan"
+    ]
+  },
+  {
+    "id": "エレキネット",
+    "name": "エレキネット",
+    "type": "electric",
+    "category": "special",
+    "power": 55,
+    "targets": [
+      "ume",
+      "sena",
+      "makocchan",
+      "reosan"
+    ]
+  },
+  {
+    "id": "かみなり",
+    "name": "かみなり",
+    "type": "electric",
+    "category": "special",
+    "power": 110,
+    "targets": [
+      "ume",
+      "ayuma",
+      "sena",
+      "makocchan"
+    ]
+  },
+  {
+    "id": "かみなりのキバ",
+    "name": "かみなりのキバ",
+    "type": "electric",
+    "category": "physical",
+    "power": 65,
+    "targets": [
+      "ume",
+      "sena"
+    ]
+  },
+  {
+    "id": "かみなりパンチ",
+    "name": "かみなりパンチ",
+    "type": "electric",
+    "category": "physical",
+    "power": 75,
+    "targets": [
+      "ume",
+      "macchan",
+      "sena"
+    ]
+  },
+  {
+    "id": "サンダーダイブ",
+    "name": "サンダーダイブ",
+    "type": "electric",
+    "category": "physical",
+    "power": 100,
+    "targets": [
+      "ume",
+      "machida",
+      "ayuma",
+      "haruta",
+      "micchi",
+      "sena"
+    ]
+  },
+  {
+    "id": "スパーク",
+    "name": "スパーク",
+    "type": "electric",
+    "category": "physical",
+    "power": 65,
+    "targets": [
+      "morimitsu",
+      "ume",
+      "machida",
+      "touma",
+      "ayuma",
+      "tomoki",
+      "haruta",
+      "macchan",
+      "micchi",
+      "sena",
+      "fuuto",
+      "makocchan",
+      "reosan"
+    ]
+  },
+  {
+    "id": "チャージビーム",
+    "name": "チャージビーム",
+    "type": "electric",
+    "category": "special",
+    "power": 50,
+    "targets": [
+      "ume",
+      "bucchi",
+      "sena",
+      "reosan",
+      "makocchan"
+    ]
+  },
+  {
+    "id": "でんきショック",
+    "name": "でんきショック",
+    "type": "electric",
+    "category": "special",
+    "power": 40,
+    "targets": [
+      "eiraku",
+      "tatsuta",
+      "morimitsu",
+      "takaho",
+      "ume",
+      "machida",
+      "touma",
+      "morimori",
+      "ayuma",
+      "bucchi",
+      "tomoki",
+      "haruta",
+      "macchan",
+      "micchi",
+      "nishiki",
+      "sena",
+      "ikkun",
+      "fuuto",
+      "makocchan",
+      "reosan"
+    ]
+  },
+  {
+    "id": "でんげきは",
+    "name": "でんげきは",
+    "type": "electric",
+    "category": "special",
+    "power": 60,
+    "targets": [
+      "morimitsu",
+      "ume",
+      "machida",
+      "touma",
+      "ayuma",
+      "tomoki",
+      "haruta",
+      "macchan",
+      "micchi",
+      "sena",
+      "fuuto",
+      "makocchan",
+      "reosan"
+    ]
+  },
+  {
+    "id": "でんじほう",
+    "name": "でんじほう",
+    "type": "electric",
+    "category": "special",
+    "power": 120,
+    "targets": [
+      "ume",
+      "sena",
+      "makocchan"
+    ]
+  },
+  {
+    "id": "パラボラチャージ",
+    "name": "パラボラチャージ",
+    "type": "electric",
+    "category": "special",
+    "power": 65,
+    "targets": [
+      "ume",
+      "sena",
+      "makocchan"
+    ]
+  },
+  {
+    "id": "ほうでん",
+    "name": "ほうでん",
+    "type": "electric",
+    "category": "special",
+    "power": 80,
+    "targets": [
+      "ume",
+      "sena",
+      "makocchan"
+    ]
+  },
+  {
+    "id": "ほっぺすりすり",
+    "name": "ほっぺすりすり",
+    "type": "electric",
+    "category": "physical",
+    "power": 20,
+    "targets": [
+      "morimori"
+    ]
+  },
+  {
+    "id": "ボルテッカー",
+    "name": "ボルテッカー",
+    "type": "electric",
+    "category": "physical",
+    "power": 120,
+    "targets": [
+      "machida",
+      "haruta",
+      "micchi",
+      "sena"
+    ]
+  },
+  {
+    "id": "ボルトチェンジ",
+    "name": "ボルトチェンジ",
+    "type": "electric",
+    "category": "special",
+    "power": 70,
+    "targets": [
+      "ume",
+      "machida",
+      "ayuma",
+      "haruta",
+      "micchi",
+      "sena",
+      "makocchan"
+    ]
+  },
+  {
+    "id": "ワイルドボルト",
+    "name": "ワイルドボルト",
+    "type": "electric",
+    "category": "physical",
+    "power": 90,
+    "targets": [
+      "ume",
+      "sena"
+    ]
+  },
+  {
+    "id": "アシッドボム",
+    "name": "アシッドボム",
+    "type": "poison",
+    "category": "special",
+    "power": 40,
+    "targets": [
+      "tatsuta",
+      "ikkun",
+      "makocchan"
+    ]
+  },
+  {
+    "id": "クリアスモッグ",
+    "name": "クリアスモッグ",
+    "type": "poison",
+    "category": "special",
+    "power": 50,
+    "targets": [
+      "bucchi",
+      "makocchan"
+    ]
+  },
+  {
+    "id": "クロスポイズン",
+    "name": "クロスポイズン",
+    "type": "poison",
+    "category": "physical",
+    "power": 70,
+    "targets": [
+      "ikkun",
+      "makocchan"
+    ]
+  },
+  {
+    "id": "ゲップ",
+    "name": "ゲップ",
+    "type": "poison",
+    "category": "special",
+    "power": 120,
+    "targets": [
+      "morimori",
+      "ikkun"
+    ]
+  },
+  {
+    "id": "ダストシュート",
+    "name": "ダストシュート",
+    "type": "poison",
+    "category": "physical",
+    "power": 120,
+    "targets": [
+      "morimitsu",
+      "haruta",
+      "ikkun"
+    ]
+  },
+  {
+    "id": "どくづき",
+    "name": "どくづき",
+    "type": "poison",
+    "category": "physical",
+    "power": 80,
+    "targets": [
+      "morimitsu",
+      "touma",
+      "micchi",
+      "makocchan"
+    ]
+  },
+  {
+    "id": "どくどくのキバ",
+    "name": "どくどくのキバ",
+    "type": "poison",
+    "category": "physical",
+    "power": 80,
+    "targets": [
+      "ume",
+      "ikkun"
+    ]
+  },
+  {
+    "id": "ヘドロばくだん",
+    "name": "ヘドロばくだん",
+    "type": "poison",
+    "category": "special",
+    "power": 90,
+    "targets": [
+      "morimori",
+      "ikkun",
+      "reosan"
+    ]
+  },
+  {
+    "id": "ベノムショック",
+    "name": "ベノムショック",
+    "type": "poison",
+    "category": "special",
+    "power": 65,
+    "targets": [
+      "tatsuta",
+      "makocchan"
+    ]
+  },
+  {
+    "id": "ようかいえき",
+    "name": "ようかいえき",
+    "type": "poison",
+    "category": "special",
+    "power": 40,
+    "targets": [
+      "morimori",
+      "ikkun"
+    ]
+  },
+  {
+    "id": "げきりん",
+    "name": "げきりん",
+    "type": "dragon",
+    "category": "physical",
+    "power": 120,
+    "targets": [
+      "ayuma",
+      "macchan",
+      "sena"
+    ]
+  },
+  {
+    "id": "スケイルショット",
+    "name": "スケイルショット",
+    "type": "dragon",
+    "category": "physical",
+    "power": 25,
+    "targets": [
+      "tatsuta",
+      "macchan"
+    ]
+  },
+  {
+    "id": "たつまき",
+    "name": "たつまき",
+    "type": "dragon",
+    "category": "special",
+    "power": 40,
+    "targets": [
+      "tatsuta",
+      "macchan"
+    ]
+  },
+  {
+    "id": "ときのほうこう",
+    "name": "ときのほうこう",
+    "type": "dragon",
+    "category": "special",
+    "power": 150,
+    "targets": [
+      "makocchan"
+    ]
+  },
+  {
+    "id": "ドラゴンクロー",
+    "name": "ドラゴンクロー",
+    "type": "dragon",
+    "category": "physical",
+    "power": 80,
+    "targets": [
+      "tatsuta",
+      "macchan"
+    ]
+  },
+  {
+    "id": "ドラゴンダイブ",
+    "name": "ドラゴンダイブ",
+    "type": "dragon",
+    "category": "physical",
+    "power": 100,
+    "targets": [
+      "tatsuta",
+      "macchan"
+    ]
+  },
+  {
+    "id": "ドラゴンテール",
+    "name": "ドラゴンテール",
+    "type": "dragon",
+    "category": "physical",
+    "power": 60,
+    "targets": [
+      "tatsuta",
+      "macchan"
+    ]
+  },
+  {
+    "id": "りゅうせいぐん",
+    "name": "りゅうせいぐん",
+    "type": "dragon",
+    "category": "special",
+    "power": 130,
+    "targets": [
+      "tatsuta",
+      "macchan"
+    ]
+  },
+  {
+    "id": "りゅうのいぶき",
+    "name": "りゅうのいぶき",
+    "type": "dragon",
+    "category": "special",
+    "power": 60,
+    "targets": [
+      "tatsuta",
+      "macchan"
+    ]
+  },
+  {
+    "id": "りゅうのはどう",
+    "name": "りゅうのはどう",
+    "type": "dragon",
+    "category": "special",
+    "power": 85,
+    "targets": [
+      "tatsuta",
+      "macchan",
+      "reosan"
+    ]
+  },
+  {
+    "id": "ワイドブレイカー",
+    "name": "ワイドブレイカー",
+    "type": "dragon",
+    "category": "physical",
+    "power": 60,
+    "targets": [
+      "tatsuta",
+      "macchan"
+    ]
+  },
+  {
+    "id": "あばれる",
+    "name": "あばれる",
+    "type": "normal",
+    "category": "physical",
+    "power": 120,
+    "targets": [
+      "ume",
+      "touma",
+      "morimori",
+      "ayuma",
+      "macchan",
+      "sena",
+      "ikkun"
+    ]
+  },
+  {
+    "id": "いびき",
+    "name": "いびき",
+    "type": "normal",
+    "category": "special",
+    "power": 50,
+    "targets": [
+      "morimori",
+      "nishiki",
+      "ikkun",
+      "fuuto"
+    ]
+  },
+  {
+    "id": "ウェザーボール",
+    "name": "ウェザーボール",
+    "type": "normal",
+    "category": "special",
+    "power": 50,
+    "targets": [
+      "morimori",
+      "tomoki"
+    ]
+  },
+  {
+    "id": "エコーボイス",
+    "name": "エコーボイス",
+    "type": "normal",
+    "category": "special",
+    "power": 40,
+    "targets": [
+      "eiraku",
+      "tatsuta",
+      "ikkun",
+      "fuuto"
+    ]
+  },
+  {
+    "id": "かいりき",
+    "name": "かいりき",
+    "type": "normal",
+    "category": "physical",
+    "power": 80,
+    "targets": [
+      "eiraku",
+      "macchan"
+    ]
+  },
+  {
+    "id": "かたきうち",
+    "name": "かたきうち",
+    "type": "normal",
+    "category": "physical",
+    "power": 70,
+    "targets": [
+      "eiraku",
+      "takaho",
+      "machida",
+      "morimori",
+      "ayuma",
+      "haruta",
+      "macchan",
+      "sena"
+    ]
+  },
+  {
+    "id": "からげんき",
+    "name": "からげんき",
+    "type": "normal",
+    "category": "physical",
+    "power": 70,
+    "targets": [
+      "tatsuta",
+      "morimori",
+      "reosan"
+    ]
+  },
+  {
+    "id": "ギガインパクト",
+    "name": "ギガインパクト",
+    "type": "normal",
+    "category": "physical",
+    "power": 150,
+    "targets": [
+      "eiraku"
+    ]
+  },
+  {
+    "id": "きりさく",
+    "name": "きりさく",
+    "type": "normal",
+    "category": "physical",
+    "power": 70,
+    "targets": [
+      "touma",
+      "sena"
+    ]
+  },
+  {
+    "id": "こうそくスピン",
+    "name": "こうそくスピン",
+    "type": "normal",
+    "category": "physical",
+    "power": 50,
+    "targets": [
+      "eiraku",
+      "morimitsu",
+      "ume",
+      "touma",
+      "bucchi",
+      "micchi",
+      "nishiki",
+      "fuuto"
+    ]
+  },
+  {
+    "id": "さわぐ",
+    "name": "さわぐ",
+    "type": "normal",
+    "category": "special",
+    "power": 90,
+    "targets": [
+      "tatsuta",
+      "morimitsu",
+      "ume",
+      "touma",
+      "morimori",
+      "ayuma",
+      "tomoki",
+      "haruta",
+      "macchan",
+      "nishiki",
+      "sena",
+      "ikkun",
+      "fuuto"
+    ]
+  },
+  {
+    "id": "じばく",
+    "name": "じばく",
+    "type": "normal",
+    "category": "physical",
+    "power": 200,
+    "targets": [
+      "eiraku",
+      "tatsuta",
+      "morimitsu",
+      "touma",
+      "morimori",
+      "nishiki",
+      "ikkun"
+    ]
+  },
+  {
+    "id": "しめつける",
+    "name": "しめつける",
+    "type": "normal",
+    "category": "physical",
+    "power": 15,
+    "targets": [
+      "touma"
+    ]
+  },
+  {
+    "id": "しんそく",
+    "name": "しんそく",
+    "type": "normal",
+    "category": "physical",
+    "power": 80,
+    "targets": [
+      "eiraku",
+      "machida",
+      "ayuma",
+      "tomoki",
+      "haruta",
+      "macchan",
+      "micchi"
+    ]
+  },
+  {
+    "id": "ずつき",
+    "name": "ずつき",
+    "type": "normal",
+    "category": "physical",
+    "power": 70,
+    "targets": [
+      "eiraku",
+      "tatsuta",
+      "morimitsu",
+      "takaho",
+      "ume",
+      "machida",
+      "touma",
+      "morimori",
+      "ayuma",
+      "bucchi",
+      "tomoki",
+      "haruta",
+      "macchan",
+      "micchi",
+      "nishiki",
+      "sena",
+      "ikkun",
+      "fuuto",
+      "reosan"
+    ]
+  },
+  {
+    "id": "すてみタックル",
+    "name": "すてみタックル",
+    "type": "normal",
+    "category": "physical",
+    "power": 120,
+    "targets": [
+      "morimori",
+      "nishiki"
+    ]
+  },
+  {
+    "id": "スピードスター",
+    "name": "スピードスター",
+    "type": "normal",
+    "category": "special",
+    "power": 60,
+    "targets": [
+      "machida",
+      "ayuma",
+      "tomoki",
+      "haruta",
+      "macchan",
+      "micchi"
+    ]
+  },
+  {
+    "id": "たいあたり",
+    "name": "たいあたり",
+    "type": "normal",
+    "category": "physical",
+    "power": 40,
+    "targets": [
+      "eiraku",
+      "tatsuta",
+      "morimitsu",
+      "takaho",
+      "ume",
+      "machida",
+      "touma",
+      "morimori",
+      "ayuma",
+      "bucchi",
+      "tomoki",
+      "haruta",
+      "macchan",
+      "micchi",
+      "nishiki",
+      "sena",
+      "ikkun",
+      "fuuto",
+      "reosan"
+    ]
+  },
+  {
+    "id": "ダブルアタック",
+    "name": "ダブルアタック",
+    "type": "normal",
+    "category": "physical",
+    "power": 35,
+    "targets": [
+      "eiraku",
+      "morimitsu",
+      "takaho",
+      "touma",
+      "ayuma",
+      "haruta",
+      "macchan",
+      "micchi",
+      "sena",
+      "fuuto"
+    ]
+  },
+  {
+    "id": "でんこうせっか",
+    "name": "でんこうせっか",
+    "type": "normal",
+    "category": "physical",
+    "power": 40,
+    "targets": [
+      "eiraku",
+      "touma",
+      "ayuma",
+      "haruta",
+      "macchan",
+      "fuuto"
+    ]
+  },
+  {
+    "id": "とっしん",
+    "name": "とっしん",
+    "type": "normal",
+    "category": "physical",
+    "power": 90,
+    "targets": [
+      "eiraku",
+      "tatsuta",
+      "morimitsu",
+      "takaho",
+      "ume",
+      "machida",
+      "touma",
+      "morimori",
+      "ayuma",
+      "bucchi",
+      "tomoki",
+      "haruta",
+      "macchan",
+      "micchi",
+      "nishiki",
+      "sena",
+      "ikkun",
+      "fuuto",
+      "reosan"
+    ]
+  },
+  {
+    "id": "ねこだまし",
+    "name": "ねこだまし",
+    "type": "normal",
+    "category": "physical",
+    "power": 40,
+    "targets": [
+      "touma"
+    ]
+  },
+  {
+    "id": "のしかかり",
+    "name": "のしかかり",
+    "type": "normal",
+    "category": "physical",
+    "power": 85,
+    "targets": [
+      "ume",
+      "morimori",
+      "ikkun"
+    ]
+  },
+  {
+    "id": "ハイパーボイス",
+    "name": "ハイパーボイス",
+    "type": "normal",
+    "category": "special",
+    "power": 90,
+    "targets": [
+      "eiraku",
+      "tatsuta",
+      "touma",
+      "morimori",
+      "ayuma",
+      "ikkun",
+      "fuuto",
+      "reosan"
+    ]
+  },
+  {
+    "id": "はかいこうせん",
+    "name": "はかいこうせん",
+    "type": "normal",
+    "category": "special",
+    "power": 150,
+    "targets": [
+      "ume",
+      "morimori",
+      "haruta",
+      "ikkun"
+    ]
+  },
+  {
+    "id": "ばくおんぱ",
+    "name": "ばくおんぱ",
+    "type": "normal",
+    "category": "special",
+    "power": 140,
+    "targets": [
+      "eiraku",
+      "touma",
+      "ikkun"
+    ]
+  },
+  {
+    "id": "フェイント",
+    "name": "フェイント",
+    "type": "normal",
+    "category": "physical",
+    "power": 30,
+    "targets": [
+      "eiraku",
+      "morimitsu",
+      "takaho",
+      "ume",
+      "touma",
+      "ayuma",
+      "haruta",
+      "macchan",
+      "micchi",
+      "fuuto"
+    ]
+  },
+  {
+    "id": "ふみつけ",
+    "name": "ふみつけ",
+    "type": "normal",
+    "category": "physical",
+    "power": 65,
+    "targets": [
+      "ayuma",
+      "micchi"
+    ]
+  },
+  {
+    "id": "ほしがる",
+    "name": "ほしがる",
+    "type": "normal",
+    "category": "physical",
+    "power": 60,
+    "targets": [
+      "ikkun",
+      "fuuto"
+    ]
+  },
+  {
+    "id": "みだれづき",
+    "name": "みだれづき",
+    "type": "normal",
+    "category": "physical",
+    "power": 15,
+    "targets": [
+      "morimitsu"
+    ]
+  },
+  {
+    "id": "わるあがき",
+    "name": "わるあがき",
+    "type": "normal",
+    "category": "physical",
+    "power": 50,
+    "targets": [
+      "eiraku",
+      "tatsuta",
+      "morimitsu",
+      "takaho",
+      "ume",
+      "machida",
+      "touma",
+      "morimori",
+      "ayuma",
+      "bucchi",
+      "tomoki",
+      "haruta",
+      "macchan",
+      "micchi",
+      "nishiki",
+      "sena",
+      "ikkun",
+      "fuuto",
+      "makocchan",
+      "reosan"
+    ]
+  },
+  {
+    "id": "アイアンテール",
+    "name": "アイアンテール",
+    "type": "steel",
+    "category": "physical",
+    "power": 100,
+    "targets": [
+      "ayuma",
+      "sena"
+    ]
+  },
+  {
+    "id": "アイアンヘッド",
+    "name": "アイアンヘッド",
+    "type": "steel",
+    "category": "physical",
+    "power": 80,
+    "targets": [
+      "ayuma",
+      "haruta",
+      "sena"
+    ]
+  },
+  {
+    "id": "ゴールドラッシュ",
+    "name": "ゴールドラッシュ",
+    "type": "steel",
+    "category": "special",
+    "power": 120,
+    "targets": [
+      "morimitsu"
+    ]
+  },
+  {
+    "id": "コメットパンチ",
+    "name": "コメットパンチ",
+    "type": "steel",
+    "category": "physical",
+    "power": 90,
+    "targets": [
+      "ayuma",
+      "macchan",
+      "sena"
+    ]
+  },
+  {
+    "id": "スマートホーン",
+    "name": "スマートホーン",
+    "type": "steel",
+    "category": "physical",
+    "power": 70,
+    "targets": [
+      "ayuma",
+      "sena"
+    ]
+  },
+  {
+    "id": "タキオンカッター",
+    "name": "タキオンカッター",
+    "type": "steel",
+    "category": "special",
+    "power": 50,
+    "targets": [
+      "ayuma",
+      "bucchi",
+      "haruta",
+      "makocchan"
+    ]
+  },
+  {
+    "id": "てっていこうせん",
+    "name": "てっていこうせん",
+    "type": "steel",
+    "category": "special",
+    "power": 140,
+    "targets": [
+      "ayuma",
+      "haruta"
+    ]
+  },
+  {
+    "id": "はめつのめがい",
+    "name": "はめつのめがい",
+    "type": "steel",
+    "category": "special",
+    "power": 140,
+    "targets": [
+      "reosan"
+    ]
+  },
+  {
+    "id": "バレットパンチ",
+    "name": "バレットパンチ",
+    "type": "steel",
+    "category": "physical",
+    "power": 40,
+    "targets": [
+      "ayuma",
+      "macchan",
+      "sena"
+    ]
+  },
+  {
+    "id": "メタルクロー",
+    "name": "メタルクロー",
+    "type": "steel",
+    "category": "physical",
+    "power": 50,
+    "targets": [
+      "ayuma",
+      "sena"
+    ]
+  },
+  {
+    "id": "ラスターカノン",
+    "name": "ラスターカノン",
+    "type": "steel",
+    "category": "special",
+    "power": 80,
+    "targets": [
+      "ayuma",
+      "sena",
+      "makocchan"
+    ]
+  },
+  {
+    "id": "アクロバット",
+    "name": "アクロバット",
+    "type": "flying",
+    "category": "physical",
+    "power": 55,
+    "targets": [
+      "morimitsu",
+      "touma",
+      "ayuma",
+      "tomoki",
+      "macchan",
+      "fuuto"
+    ]
+  },
+  {
+    "id": "エアカッター",
+    "name": "エアカッター",
+    "type": "flying",
+    "category": "special",
+    "power": 60,
+    "targets": [
+      "morimitsu",
+      "touma",
+      "bucchi",
+      "tomoki",
+      "micchi"
+    ]
+  },
+  {
+    "id": "エアスラッシュ",
+    "name": "エアスラッシュ",
+    "type": "flying",
+    "category": "special",
+    "power": 75,
+    "targets": [
+      "morimitsu",
+      "touma",
+      "tomoki",
+      "micchi"
+    ]
+  },
+  {
+    "id": "かぜおこし",
+    "name": "かぜおこし",
+    "type": "flying",
+    "category": "special",
+    "power": 40,
+    "targets": [
+      "tatsuta",
+      "ayuma",
+      "tomoki"
+    ]
+  },
+  {
+    "id": "こがらしあらし",
+    "name": "こがらしあらし",
+    "type": "flying",
+    "category": "special",
+    "power": 100,
+    "targets": [
+      "morimitsu",
+      "ume",
+      "tomoki",
+      "fuuto"
+    ]
+  },
+  {
+    "id": "ゴットバード",
+    "name": "ゴットバード",
+    "type": "flying",
+    "category": "physical",
+    "power": 140,
+    "targets": [
+      "morimitsu",
+      "tomoki"
+    ]
+  },
+  {
+    "id": "そらをとぶ",
+    "name": "そらをとぶ",
+    "type": "flying",
+    "category": "physical",
+    "power": 90,
+    "targets": [
+      "eiraku",
+      "tatsuta",
+      "morimitsu",
+      "takaho",
+      "ayuma",
+      "tomoki",
+      "haruta",
+      "micchi",
+      "sena",
+      "fuuto",
+      "makocchan"
+    ]
+  },
+  {
+    "id": "ダブルウイング",
+    "name": "ダブルウイング",
+    "type": "flying",
+    "category": "physical",
+    "power": 40,
+    "targets": [
+      "morimitsu",
+      "takaho",
+      "tomoki",
+      "fuuto"
+    ]
+  },
+  {
+    "id": "ついばむ",
+    "name": "ついばむ",
+    "type": "flying",
+    "category": "physical",
+    "power": 60,
+    "targets": [
+      "touma",
+      "haruta",
+      "nishiki"
+    ]
+  },
+  {
+    "id": "つつく",
+    "name": "つつく",
+    "type": "flying",
+    "category": "physical",
+    "power": 35,
+    "targets": [
+      "morimitsu",
+      "touma",
+      "tomoki"
+    ]
+  },
+  {
+    "id": "つばさでうつ",
+    "name": "つばさでうつ",
+    "type": "flying",
+    "category": "physical",
+    "power": 60,
+    "targets": [
+      "morimitsu",
+      "tomoki"
+    ]
+  },
+  {
+    "id": "つばめがえし",
+    "name": "つばめがえし",
+    "type": "flying",
+    "category": "physical",
+    "power": 60,
+    "targets": [
+      "tatsuta",
+      "morimitsu",
+      "touma",
+      "ayuma",
+      "tomoki",
+      "macchan",
+      "fuuto"
+    ]
+  },
+  {
+    "id": "とびはねる",
+    "name": "とびはねる",
+    "type": "flying",
+    "category": "physical",
+    "power": 85,
+    "targets": [
+      "ume",
+      "morimori"
+    ]
+  },
+  {
+    "id": "ドリルくちばし",
+    "name": "ドリルくちばし",
+    "type": "flying",
+    "category": "physical",
+    "power": 80,
+    "targets": [
+      "morimitsu",
+      "tomoki"
+    ]
+  },
+  {
+    "id": "ブレイブバード",
+    "name": "ブレイブバード",
+    "type": "flying",
+    "category": "physical",
+    "power": 120,
+    "targets": [
+      "morimitsu"
+    ]
+  },
+  {
+    "id": "ぼうふう",
+    "name": "ぼうふう",
+    "type": "flying",
+    "category": "special",
+    "power": 110,
+    "targets": [
+      "morimitsu",
+      "touma",
+      "morimori",
+      "tomoki",
+      "sena",
+      "fuuto"
+    ]
+  },
+  {
+    "id": "じゃれつく",
+    "name": "じゃれつく",
+    "type": "fairy",
+    "category": "physical",
+    "power": 90,
+    "targets": [
+      "eiraku",
+      "tatsuta",
+      "morimitsu",
+      "takaho",
+      "ume",
+      "touma",
+      "morimori",
+      "ayuma",
+      "bucchi",
+      "tomoki",
+      "haruta",
+      "macchan"
+    ]
+  },
+  {
+    "id": "チャームボイス",
+    "name": "チャームボイス",
+    "type": "fairy",
+    "category": "special",
+    "power": 40,
+    "targets": [
+      "machida",
+      "morimori",
+      "bucchi",
+      "haruta",
+      "fuuto",
+      "makocchan"
+    ]
+  },
+  {
+    "id": "ドレインキッス",
+    "name": "ドレインキッス",
+    "type": "fairy",
+    "category": "special",
+    "power": 50,
+    "targets": [
+      "morimori",
+      "bucchi",
+      "haruta",
+      "makocchan"
+    ]
+  },
+  {
+    "id": "マジカルシャイン",
+    "name": "マジカルシャイン",
+    "type": "fairy",
+    "category": "special",
+    "power": 80,
+    "targets": [
+      "machida",
+      "bucchi",
+      "haruta",
+      "makocchan"
+    ]
+  },
+  {
+    "id": "ミストバースト",
+    "name": "ミストバースト",
+    "type": "fairy",
+    "category": "special",
+    "power": 100,
+    "targets": [
+      "bucchi",
+      "haruta",
+      "makocchan"
+    ]
+  },
+  {
+    "id": "みわくのボイス",
+    "name": "みわくのボイス",
+    "type": "fairy",
+    "category": "special",
+    "power": 80,
+    "targets": [
+      "eiraku",
+      "machida",
+      "bucchi",
+      "haruta",
+      "makocchan"
+    ]
+  },
+  {
+    "id": "ムーンフォース",
+    "name": "ムーンフォース",
+    "type": "fairy",
+    "category": "special",
+    "power": 95,
+    "targets": [
+      "morimitsu",
+      "bucchi",
+      "haruta",
+      "makocchan"
+    ]
+  },
+  {
+    "id": "ようせいのかぜ",
+    "name": "ようせいのかぜ",
+    "type": "fairy",
+    "category": "special",
+    "power": 40,
+    "targets": [
+      "bucchi",
+      "haruta",
+      "makocchan"
+    ]
+  },
+  {
+    "id": "オーバーヒート",
+    "name": "オーバーヒート",
+    "type": "fire",
+    "category": "special",
+    "power": 130,
+    "targets": [
+      "morimitsu",
+      "haruta",
+      "fuuto"
+    ]
+  },
+  {
+    "id": "かえんぐるま",
+    "name": "かえんぐるま",
+    "type": "fire",
+    "category": "physical",
+    "power": 60,
+    "targets": [
+      "morimitsu",
+      "fuuto"
+    ]
+  },
+  {
+    "id": "かえんほうしゃ",
+    "name": "かえんほうしゃ",
+    "type": "fire",
+    "category": "special",
+    "power": 90,
+    "targets": [
+      "morimitsu",
+      "tomoki",
+      "fuuto"
+    ]
+  },
+  {
+    "id": "かえんボール",
+    "name": "かえんボール",
+    "type": "fire",
+    "category": "physical",
+    "power": 120,
+    "targets": [
+      "morimitsu",
+      "machida",
+      "ayuma",
+      "haruta",
+      "micchi",
+      "fuuto"
+    ]
+  },
+  {
+    "id": "しっとのほのお",
+    "name": "しっとのほのお",
+    "type": "fire",
+    "category": "special",
+    "power": 70,
+    "targets": [
+      "eiraku",
+      "ayuma",
+      "nishiki",
+      "reosan"
+    ]
+  },
+  {
+    "id": "せいなるほのお",
+    "name": "せいなるほのお",
+    "type": "fire",
+    "category": "physical",
+    "power": 100,
+    "targets": [
+      "fuuto"
+    ]
+  },
+  {
+    "id": "だいもんじ",
+    "name": "だいもんじ",
+    "type": "fire",
+    "category": "special",
+    "power": 110,
+    "targets": [
+      "morimitsu",
+      "macchan",
+      "fuuto"
+    ]
+  },
+  {
+    "id": "ニトロチャージ",
+    "name": "ニトロチャージ",
+    "type": "fire",
+    "category": "physical",
+    "power": 50,
+    "targets": [
+      "morimitsu",
+      "machida",
+      "ayuma",
+      "tomoki",
+      "haruta",
+      "macchan",
+      "micchi",
+      "fuuto"
+    ]
+  },
+  {
+    "id": "ねっぷう",
+    "name": "ねっぷう",
+    "type": "fire",
+    "category": "special",
+    "power": 95,
+    "targets": [
+      "morimitsu",
+      "takaho",
+      "fuuto"
+    ]
+  },
+  {
+    "id": "フレアソング",
+    "name": "フレアソング",
+    "type": "fire",
+    "category": "special",
+    "power": 80,
+    "targets": [
+      "eiraku",
+      "tatsuta",
+      "fuuto"
+    ]
+  },
+  {
+    "id": "フレアドライブ",
+    "name": "フレアドライブ",
+    "type": "fire",
+    "category": "physical",
+    "power": 120,
+    "targets": [
+      "morimitsu",
+      "fuuto"
+    ]
+  },
+  {
+    "id": "ブレイズキック",
+    "name": "ブレイズキック",
+    "type": "fire",
+    "category": "physical",
+    "power": 85,
+    "targets": [
+      "morimitsu",
+      "machida",
+      "ayuma",
+      "haruta",
+      "micchi",
+      "fuuto"
+    ]
+  },
+  {
+    "id": "ふんか",
+    "name": "ふんか",
+    "type": "fire",
+    "category": "special",
+    "power": 150,
+    "targets": [
+      "morimitsu",
+      "morimori",
+      "ayuma",
+      "fuuto"
+    ]
+  },
+  {
+    "id": "ほのおのうず",
+    "name": "ほのおのうず",
+    "type": "fire",
+    "category": "special",
+    "power": 35,
+    "targets": [
+      "morimitsu",
+      "touma",
+      "fuuto"
+    ]
+  },
+  {
+    "id": "ほのおのキバ",
+    "name": "ほのおのキバ",
+    "type": "fire",
+    "category": "physical",
+    "power": 65,
+    "targets": [
+      "morimitsu",
+      "fuuto"
+    ]
+  },
+  {
+    "id": "ほのおのパンチ",
+    "name": "ほのおのパンチ",
+    "type": "fire",
+    "category": "physical",
+    "power": 75,
+    "targets": [
+      "morimitsu",
+      "macchan",
+      "fuuto"
+    ]
+  },
+  {
+    "id": "ほのおのまい",
+    "name": "ほのおのまい",
+    "type": "fire",
+    "category": "special",
+    "power": 80,
+    "targets": [
+      "fuuto"
+    ]
+  },
+  {
+    "id": "マジカルフレイム",
+    "name": "マジカルフレイム",
+    "type": "fire",
+    "category": "special",
+    "power": 75,
+    "targets": [
+      "machida",
+      "bucchi",
+      "haruta",
+      "makocchan"
+    ]
+  },
+  {
+    "id": "もえつきる",
+    "name": "もえつきる",
+    "type": "fire",
+    "category": "special",
+    "power": 130,
+    "targets": [
+      "morimitsu",
+      "touma",
+      "morimori",
+      "haruta"
+    ]
+  },
+  {
+    "id": "やけっぱち",
+    "name": "やけっぱち",
+    "type": "fire",
+    "category": "physical",
+    "power": 75,
+    "targets": [
+      "morimitsu",
+      "morimori",
+      "fuuto"
+    ]
+  },
+  {
+    "id": "れんごく",
+    "name": "れんごく",
+    "type": "fire",
+    "category": "special",
+    "power": 100,
+    "targets": [
+      "ayuma"
+    ]
+  },
+  {
+    "id": "アクアカッター",
+    "name": "アクアカッター",
+    "type": "water",
+    "category": "physical",
+    "power": 70,
+    "targets": [
+      "eiraku",
+      "machida",
+      "touma",
+      "bucchi"
+    ]
+  },
+  {
+    "id": "アクアジェット",
+    "name": "アクアジェット",
+    "type": "water",
+    "category": "physical",
+    "power": 40,
+    "targets": [
+      "eiraku",
+      "machida"
+    ]
+  },
+  {
+    "id": "アクアステップ",
+    "name": "アクアステップ",
+    "type": "water",
+    "category": "physical",
+    "power": 80,
+    "targets": [
+      "eiraku",
+      "machida"
+    ]
+  },
+  {
+    "id": "アクアテール",
+    "name": "アクアテール",
+    "type": "water",
+    "category": "physical",
+    "power": 90,
+    "targets": [
+      "eiraku",
+      "machida"
+    ]
+  },
+  {
+    "id": "アクアブレイク",
+    "name": "アクアブレイク",
+    "type": "water",
+    "category": "physical",
+    "power": 85,
+    "targets": [
+      "eiraku",
+      "machida"
+    ]
+  },
+  {
+    "id": "うずしお",
+    "name": "うずしお",
+    "type": "water",
+    "category": "special",
+    "power": 35,
+    "targets": [
+      "machida",
+      "micchi",
+      "sena"
+    ]
+  },
+  {
+    "id": "うたかたのアリア",
+    "name": "うたかたのアリア",
+    "type": "water",
+    "category": "special",
+    "power": 90,
+    "targets": [
+      "makocchan"
+    ]
+  },
+  {
+    "id": "クイックターン",
+    "name": "クイックターン",
+    "type": "water",
+    "category": "physical",
+    "power": 60,
+    "targets": [
+      "eiraku",
+      "machida",
+      "ayuma",
+      "macchan"
+    ]
+  },
+  {
+    "id": "ジェットパンチ",
+    "name": "ジェットパンチ",
+    "type": "water",
+    "category": "physical",
+    "power": 60,
+    "targets": [
+      "eiraku",
+      "machida",
+      "macchan"
+    ]
+  },
+  {
+    "id": "しおふき",
+    "name": "しおふき",
+    "type": "water",
+    "category": "special",
+    "power": 150,
+    "targets": [
+      "eiraku",
+      "machida"
+    ]
+  },
+  {
+    "id": "ダイビング",
+    "name": "ダイビング",
+    "type": "water",
+    "category": "physical",
+    "power": 80,
+    "targets": [
+      "morimitsu",
+      "takaho",
+      "machida",
+      "ayuma",
+      "macchan"
+    ]
+  },
+  {
+    "id": "たきのぼり",
+    "name": "たきのぼり",
+    "type": "water",
+    "category": "physical",
+    "power": 80,
+    "targets": [
+      "eiraku",
+      "ume",
+      "machida",
+      "micchi",
+      "fuuto"
+    ]
+  },
+  {
+    "id": "だくりゅう",
+    "name": "だくりゅう",
+    "type": "water",
+    "category": "special",
+    "power": 90,
+    "targets": [
+      "tatsuta",
+      "morimori",
+      "ikkun"
+    ]
+  },
+  {
+    "id": "なみのり",
+    "name": "なみのり",
+    "type": "water",
+    "category": "special",
+    "power": 90,
+    "targets": [
+      "eiraku",
+      "morimitsu",
+      "takaho",
+      "machida",
+      "macchan",
+      "reosan"
+    ]
+  },
+  {
+    "id": "ねっとう",
+    "name": "ねっとう",
+    "type": "water",
+    "category": "special",
+    "power": 80,
+    "targets": [
+      "touma"
+    ]
+  },
+  {
+    "id": "ねらいうち",
+    "name": "ねらいうち",
+    "type": "water",
+    "category": "special",
+    "power": 80,
+    "targets": [
+      "machida",
+      "ayuma",
+      "tomoki",
+      "haruta"
+    ]
+  },
+  {
+    "id": "ハイドロポンプ",
+    "name": "ハイドロポンプ",
+    "type": "water",
+    "category": "special",
+    "power": 110,
+    "targets": [
+      "eiraku",
+      "machida"
+    ]
+  },
+  {
+    "id": "バブルこうせん",
+    "name": "バブルこうせん",
+    "type": "water",
+    "category": "special",
+    "power": 65,
+    "targets": [
+      "eiraku",
+      "machida"
+    ]
+  },
+  {
+    "id": "ひやみず",
+    "name": "ひやみず",
+    "type": "water",
+    "category": "special",
+    "power": 50,
+    "targets": [
+      "ume"
+    ]
+  },
+  {
+    "id": "みずのはどう",
+    "name": "みずのはどう",
+    "type": "water",
+    "category": "special",
+    "power": 60,
+    "targets": [
+      "eiraku",
+      "machida",
+      "reosan"
+    ]
+  },
+  {
+    "id": "かふんだんご",
+    "name": "かふんだんご",
+    "type": "bug",
+    "category": "special",
+    "power": 90,
+    "targets": [
+      "tatsuta",
+      "ume",
+      "bucchi",
+      "tomoki",
+      "reosan"
+    ]
+  },
+  {
+    "id": "きゅうけつ",
+    "name": "きゅうけつ",
+    "type": "bug",
+    "category": "physical",
+    "power": 80,
+    "targets": [
+      "ume",
+      "reosan"
+    ]
+  },
+  {
+    "id": "シザークロス",
+    "name": "シザークロス",
+    "type": "bug",
+    "category": "physical",
+    "power": 80,
+    "targets": [
+      "touma",
+      "haruta"
+    ]
+  },
+  {
+    "id": "であいがしら",
+    "name": "であいがしら",
+    "type": "bug",
+    "category": "physical",
+    "power": 90,
+    "targets": [
+      "eiraku",
+      "takaho",
+      "nishiki",
+      "sena",
+      "reosan"
+    ]
+  },
+  {
+    "id": "とどめばり",
+    "name": "とどめばり",
+    "type": "bug",
+    "category": "physical",
+    "power": 50,
+    "targets": [
+      "bucchi",
+      "reosan"
+    ]
+  },
+  {
+    "id": "とびかかる",
+    "name": "とびかかる",
+    "type": "bug",
+    "category": "physical",
+    "power": 80,
+    "targets": [
+      "morimitsu",
+      "ume",
+      "touma",
+      "morimori",
+      "ayuma",
+      "bucchi",
+      "haruta",
+      "macchan",
+      "fuuto",
+      "reosan"
+    ]
+  },
+  {
+    "id": "とんぼがえり",
+    "name": "とんぼがえり",
+    "type": "bug",
+    "category": "physical",
+    "power": 70,
+    "targets": [
+      "eiraku",
+      "tatsuta",
+      "morimitsu",
+      "takaho",
+      "ume",
+      "machida",
+      "morimori",
+      "ayuma",
+      "bucchi",
+      "tomoki",
+      "haruta",
+      "macchan",
+      "micchi",
+      "nishiki",
+      "sena",
+      "ikkun",
+      "fuuto",
+      "reosan"
+    ]
+  },
+  {
+    "id": "まとわりつく",
+    "name": "まとわりつく",
+    "type": "bug",
+    "category": "special",
+    "power": 20,
+    "targets": [
+      "morimitsu",
+      "ikkun",
+      "reosan"
+    ]
+  },
+  {
+    "id": "ミサイルばり",
+    "name": "ミサイルばり",
+    "type": "bug",
+    "category": "physical",
+    "power": 25,
+    "targets": [
+      "morimitsu",
+      "bucchi",
+      "reosan"
+    ]
+  },
+  {
+    "id": "むしのさざめき",
+    "name": "むしのさざめき",
+    "type": "bug",
+    "category": "special",
+    "power": 90,
+    "targets": [
+      "bucchi",
+      "reosan"
+    ]
+  },
+  {
+    "id": "メガホーン",
+    "name": "メガホーン",
+    "type": "bug",
+    "category": "physical",
+    "power": 120,
+    "targets": [
+      "bucchi",
+      "fuuto",
+      "reosan"
+    ]
+  },
+  {
+    "id": "れんぞくぎり",
+    "name": "れんぞくぎり",
+    "type": "bug",
+    "category": "physical",
+    "power": 40,
+    "targets": [
+      "touma",
+      "bucchi",
+      "ikkun"
+    ]
+  }
+]
