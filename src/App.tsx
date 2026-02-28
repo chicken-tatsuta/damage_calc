@@ -153,40 +153,6 @@ const TYPE_LABELS: Record<PokemonType, string> = {
   fairy: "フェアリー",
 };
 
-// 既存 import の下あたりに追加
-// ※ type名は実際の PokemonType に合わせて調整してください
-const TYPE_COLORS: Record<string, string> = {
-  normal: '#A8A77A',
-  fire: '#EE8130',
-  water: '#6390F0',
-  electric: '#F7D02C',
-  grass: '#7AC74C',
-  ice: '#96D9D6',
-  fighting: '#C22E28',
-  poison: '#A33EA1',
-  ground: '#E2BF65',
-  flying: '#A98FF3',
-  psychic: '#F95587',
-  bug: '#A6B91A',
-  rock: '#B6A136',
-  ghost: '#735797',
-  dragon: '#6F35FC',
-  dark: '#705746',
-  steel: '#B7B7CE',
-  fairy: '#D685AD',
-};
-
-// 背景色から自動で良さげな文字色を決める（白or黒）
-const getChipTextColor = (bgColor: string) => {
-  const hex = bgColor.replace('#', '');
-  if (hex.length !== 6) return '#fff';
-  const r = parseInt(hex.slice(0, 2), 16);
-  const g = parseInt(hex.slice(2, 4), 16);
-  const b = parseInt(hex.slice(4, 6), 16);
-  const luminance = (0.299 * r + 0.587 * g + 0.114 * b) / 255;
-  return luminance > 0.6 ? 'rgba(0, 0, 0, 0.87)' : '#fff';
-};
-
 const STAGE_OPTIONS = Array.from({ length: 13 }, (_, i) => i - 6).map((v) => ({
   value: v,
   label: v === 0 ? "±0" : v > 0 ? `+${v}` : `${v}`,
@@ -725,11 +691,6 @@ const koSummary = (() => {
   // そうでなければ「乱数n発(xx%) / 確定m発」
   return `乱数${randomKO.hits}発 (${randomKO.chance.toFixed(1)}%) / 確定${guaranteedHits}発`;
 })();
-
-// resultText は koSummary の「後」に置く
-const resultText = `${result.min} ~ ${result.max} ダメージ（${result.minPercent.toFixed(
-  1
-)}% ~ ${result.maxPercent.toFixed(1)}%） ${koSummary}`;
 
 // タイプ相性倍率（STAB抜き）
 const typeEffectiveness =
