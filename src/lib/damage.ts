@@ -23,6 +23,9 @@ export type PokemonType =
   | "steel"
   | "fairy";
 
+export type Weather = "none" | "sun" | "rain" | "sand" | "snow";
+export type Field = "none" | "electric" | "grassy" | "psychic" | "misty";
+
 type TypeRelation = {
   strong: PokemonType[];    // こうかばつぐん (x2)
   weak: PokemonType[];      // いまひとつ (x0.5)
@@ -78,19 +81,66 @@ const getSTAB = (
   return attackerTypes.includes(moveType) ? 1.5 : 1.0;
 };
 
+const getWeatherModifier = (
+  weather: Weather,
+  moveType: PokemonType,
+): number => {
+  if (weather === "sun") {
+    if (moveType === "fire") return 1.5;
+    if (moveType === "water") return 0.5;
+  }
+
+  if (weather === "rain") {
+    if (moveType === "water") return 1.5;
+    if (moveType === "fire") return 0.5;
+  }
+
+  return 1.0;
+};
+
+const getFieldModifier = (
+  field: Field,
+  moveType: PokemonType,
+  attackerGrounded: boolean,
+  defenderGrounded: boolean,
+): number => {
+  if (field === "electric" && moveType === "electric" && attackerGrounded) {
+    return 1.3;
+  }
+
+  if (field === "grassy" && moveType === "grass" && attackerGrounded) {
+    return 1.3;
+  }
+
+  if (field === "psychic" && moveType === "psychic" && attackerGrounded) {
+    return 1.3;
+  }
+
+  if (field === "misty" && moveType === "dragon" && defenderGrounded) {
+    return 0.5;
+  }
+
+  return 1.0;
+};
+
 // -------------------------
 // ダメージ計算まわり
 // -------------------------
 
 export type CalcDamageArgs = {
-  level: number;             // レベル（だいたい 50 を想定）
-  power: number;             // 技の威力
-  attack: number;            // 攻撃側の実数値（物理 or 特殊）
-  defense: number;           // 防御側の実数値（物理 or 特殊）
-  moveType: PokemonType;     // 技タイプ
-  attackerTypes: PokemonType[]; // 攻撃側のタイプ(1〜2個)
-  defenderTypes: PokemonType[]; // 防御側のタイプ(1〜2個)
-  defenderHp: number;        // 防御側のHP実数値
+  level: number;
+  power: number;
+  attack: number;
+  defense: number;
+  moveType: PokemonType;
+  attackerTypes: PokemonType[];
+  defenderTypes: PokemonType[];
+  defenderHp: number;
+  isCrit?: boolean;
+  weather?: Weather;
+  field?: Field;
+  attackerGrounded?: boolean;
+  defenderGrounded?: boolean;
 };
 
 export type DamageResult = {
@@ -151,6 +201,11 @@ export const calcDamage = (args: CalcDamageArgs): DamageResult => {
     attackerTypes,
     defenderTypes,
     defenderHp,
+    isCrit = false,
+    weather = "none",
+    field = "none",
+    attackerGrounded = true,
+    defenderGrounded = true,
   } = args;
 
   if (power <= 0 || attack <= 0 || defense <= 0 || defenderHp <= 0) {
@@ -165,24 +220,36 @@ export const calcDamage = (args: CalcDamageArgs): DamageResult => {
     };
   }
 
-  // --- ① 乱数・補正を除いた「素のダメージ」部分（公式準拠） ---
+  // --- ① 乱数・補正を除いた「素のダメージ」部分 ---
   const step1 = Math.floor((2 * level) / 5) + 2;
   const step2 = Math.floor((step1 * power * attack) / defense);
   const baseDamage = Math.floor(step2 / 50) + 2;
 
-  // --- ② STAB + タイプ相性 ---
+  // --- ② STAB + タイプ相性 + 急所 ---
   const stab = getSTAB(moveType, attackerTypes);
-  const typeEff = getTypeEffectiveness(moveType, defenderTypes);
+const typeEff = getTypeEffectiveness(moveType, defenderTypes);
+const weatherModifier = getWeatherModifier(weather, moveType);
+const fieldModifier = getFieldModifier(
+  field,
+  moveType,
+  attackerGrounded,
+  defenderGrounded
+);
+const otherModifier = 1.0;
+const critMultiplier = isCrit ? 1.5 : 1.0;
 
-  // 今は天候・持ち物・ランク補正などは全部 1 としておく
-  const otherModifier = 1.0;
-
-  const modifierWithoutRandom = stab * typeEff * otherModifier;
+const modifierWithoutRandom =
+  stab *
+  typeEff *
+  weatherModifier *
+  fieldModifier *
+  critMultiplier *
+  otherModifier;
 
   // --- ③ 乱数16通り（0.85〜1.00） ---
   const rolls: number[] = [];
   for (let i = 0; i < 16; i++) {
-    const rand = (85 + i) / 100; // 0.85, 0.86, ... , 1.00
+    const rand = (85 + i) / 100;
     const damage = Math.floor(baseDamage * modifierWithoutRandom * rand);
     rolls.push(damage);
   }
