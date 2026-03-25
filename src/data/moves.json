@@ -5,12 +5,15 @@
     "type": "dark",
     "category": "special",
     "power": 80,
+    "accuracy": 100,
     "targets": [
       "touma",
       "ayuma",
       "micchi",
       "reosan"
-    ]
+    ],
+    "isContact": false,
+    "flinchChance": 0.2
   },
   {
     "id": "イカサマ",
@@ -18,11 +21,48 @@
     "type": "dark",
     "category": "physical",
     "power": 95,
+    "accuracy": 100,
     "targets": [
       "touma",
       "ayuma",
       "micchi"
-    ]
+    ],
+    "isContact": true
+  },
+  {
+    "id": "いちゃもん",
+    "name": "いちゃもん",
+    "type": "dark",
+    "category": "status",
+    "power": 0,
+    "accuracy": 100,
+    "targets": [
+      "morimitsu",
+      "ume",
+      "touma",
+      "morimori",
+      "ayuma",
+      "tomoki",
+      "macchan",
+      "micchi",
+      "sena",
+      "ikkun"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "うそなき",
+    "name": "うそなき",
+    "type": "dark",
+    "category": "status",
+    "power": 0,
+    "accuracy": 100,
+    "targets": [
+      "touma",
+      "ayuma",
+      "micchi"
+    ],
+    "isContact": false
   },
   {
     "id": "うっぷんばらし",
@@ -30,6 +70,7 @@
     "type": "dark",
     "category": "physical",
     "power": 75,
+    "accuracy": 100,
     "targets": [
       "morimori",
       "ayuma",
@@ -37,7 +78,36 @@
       "haruta",
       "macchan",
       "sena"
-    ]
+    ],
+    "isContact": true
+  },
+  {
+    "id": "おきみやげ",
+    "name": "おきみやげ",
+    "type": "dark",
+    "category": "status",
+    "power": 0,
+    "accuracy": 100,
+    "targets": [
+      "touma",
+      "ayuma",
+      "micchi"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "おだてる",
+    "name": "おだてる",
+    "type": "dark",
+    "category": "status",
+    "power": 0,
+    "accuracy": 100,
+    "targets": [
+      "morimitsu",
+      "takaho",
+      "macchan"
+    ],
+    "isContact": false
   },
   {
     "id": "かみくだく",
@@ -45,11 +115,13 @@
     "type": "dark",
     "category": "physical",
     "power": 80,
+    "accuracy": 100,
     "targets": [
       "touma",
       "ayuma",
       "micchi"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "かみつく",
@@ -57,11 +129,14 @@
     "type": "dark",
     "category": "physical",
     "power": 60,
+    "accuracy": 100,
     "targets": [
       "touma",
       "ayuma",
       "micchi"
-    ]
+    ],
+    "isContact": true,
+    "flinchChance": 0.3
   },
   {
     "id": "くらいつく",
@@ -69,13 +144,15 @@
     "type": "dark",
     "category": "physical",
     "power": 80,
+    "accuracy": 100,
     "targets": [
       "touma",
       "ayuma",
       "macchan",
       "micchi",
       "nishiki"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "じごくづき",
@@ -83,12 +160,14 @@
     "type": "dark",
     "category": "physical",
     "power": 80,
+    "accuracy": 100,
     "targets": [
       "morimitsu",
       "touma",
       "ayuma",
       "micchi"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "しっぺがえし",
@@ -96,11 +175,38 @@
     "type": "dark",
     "category": "physical",
     "power": 50,
+    "accuracy": 100,
     "targets": [
       "touma",
       "ayuma",
       "micchi"
-    ]
+    ],
+    "isContact": true
+  },
+  {
+    "id": "すてゼリフ",
+    "name": "すてゼリフ",
+    "type": "dark",
+    "category": "status",
+    "power": 0,
+    "accuracy": 100,
+    "targets": [
+      "ayuma"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "すりかえ",
+    "name": "すりかえ",
+    "type": "dark",
+    "category": "status",
+    "power": 0,
+    "accuracy": 100,
+    "targets": [
+      "tomoki",
+      "micchi"
+    ],
+    "isContact": false
   },
   {
     "id": "ダメおし",
@@ -108,11 +214,31 @@
     "type": "dark",
     "category": "physical",
     "power": 60,
+    "accuracy": 100,
     "targets": [
       "touma",
       "ayuma",
       "micchi"
-    ]
+    ],
+    "isContact": true
+  },
+  {
+    "id": "ちょうはつ",
+    "name": "ちょうはつ",
+    "type": "dark",
+    "category": "status",
+    "power": 0,
+    "accuracy": 100,
+    "targets": [
+      "eiraku",
+      "morimitsu",
+      "ume",
+      "touma",
+      "ayuma",
+      "macchan",
+      "micchi"
+    ],
+    "isContact": false
   },
   {
     "id": "つけあがる",
@@ -120,9 +246,11 @@
     "type": "dark",
     "category": "physical",
     "power": 20,
+    "accuracy": 100,
     "targets": [
       "touma"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "つじぎり",
@@ -130,11 +258,32 @@
     "type": "dark",
     "category": "physical",
     "power": 70,
+    "accuracy": 100,
     "targets": [
       "touma",
       "ayuma",
       "bucchi"
-    ]
+    ],
+    "isContact": true,
+    "critRank": 1
+  },
+  {
+    "id": "つめとぎ",
+    "name": "つめとぎ",
+    "type": "dark",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "touma",
+      "ayuma",
+      "micchi",
+      "nishiki"
+    ],
+    "isContact": false,
+    "selfStatChanges": {
+      "atk": 1
+    }
   },
   {
     "id": "どろぼう",
@@ -142,11 +291,13 @@
     "type": "dark",
     "category": "physical",
     "power": 60,
+    "accuracy": 100,
     "targets": [
       "touma",
       "ayuma",
       "micchi"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "ナイトバースト",
@@ -154,11 +305,13 @@
     "type": "dark",
     "category": "special",
     "power": 85,
+    "accuracy": 95,
     "targets": [
       "touma",
       "ayuma",
       "micchi"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "バークアウト",
@@ -166,10 +319,12 @@
     "type": "dark",
     "category": "special",
     "power": 55,
+    "accuracy": 95,
     "targets": [
       "ayuma",
       "micchi"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "はたきおとす",
@@ -177,12 +332,14 @@
     "type": "dark",
     "category": "physical",
     "power": 65,
+    "accuracy": 100,
     "targets": [
       "touma",
       "morimori",
       "ayuma",
       "micchi"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "ふいうち",
@@ -190,13 +347,15 @@
     "type": "dark",
     "category": "physical",
     "power": 70,
+    "accuracy": 100,
     "targets": [
       "morimitsu",
       "touma",
       "ayuma",
       "tomoki",
       "micchi"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "ぶんまわす",
@@ -204,9 +363,42 @@
     "type": "dark",
     "category": "physical",
     "power": 60,
+    "accuracy": 100,
     "targets": [
       "macchan"
-    ]
+    ],
+    "isContact": true
+  },
+  {
+    "id": "わるだくみ",
+    "name": "わるだくみ",
+    "type": "dark",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "eiraku",
+      "tatsuta",
+      "morimitsu",
+      "ume",
+      "machida",
+      "touma",
+      "morimori",
+      "ayuma",
+      "tomoki",
+      "haruta",
+      "macchan",
+      "micchi",
+      "nishiki",
+      "sena",
+      "ikkun",
+      "fuuto",
+      "reosan"
+    ],
+    "isContact": false,
+    "selfStatChanges": {
+      "spa": 2
+    }
   },
   {
     "id": "アクセルロック",
@@ -214,10 +406,12 @@
     "type": "rock",
     "category": "physical",
     "power": 40,
+    "accuracy": 100,
     "targets": [
       "takaho",
       "ikkun"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "いわおとし",
@@ -225,11 +419,13 @@
     "type": "rock",
     "category": "physical",
     "power": 50,
+    "accuracy": 95,
     "targets": [
       "takaho",
       "touma",
       "ikkun"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "いわなだれ",
@@ -237,11 +433,14 @@
     "type": "rock",
     "category": "physical",
     "power": 75,
+    "accuracy": 90,
     "targets": [
       "takaho",
       "touma",
       "ikkun"
-    ]
+    ],
+    "isContact": false,
+    "flinchChance": 0.3
   },
   {
     "id": "がんせきふうじ",
@@ -249,10 +448,12 @@
     "type": "rock",
     "category": "physical",
     "power": 60,
+    "accuracy": 95,
     "targets": [
       "takaho",
       "ikkun"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "げんしのちから",
@@ -260,9 +461,18 @@
     "type": "rock",
     "category": "special",
     "power": 60,
+    "accuracy": 100,
     "targets": [
       "reosan"
-    ]
+    ],
+    "isContact": false,
+    "selfStatChanges": {
+      "atk": 1,
+      "def": 1,
+      "spa": 1,
+      "spd": 1,
+      "spe": 1
+    }
   },
   {
     "id": "ころがる",
@@ -270,12 +480,33 @@
     "type": "rock",
     "category": "physical",
     "power": 30,
+    "accuracy": 90,
     "targets": [
       "takaho",
       "ume",
       "haruta",
       "ikkun"
-    ]
+    ],
+    "isContact": true
+  },
+  {
+    "id": "ステルスロック",
+    "name": "ステルスロック",
+    "type": "rock",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "morimitsu",
+      "takaho",
+      "ume",
+      "touma",
+      "morimori",
+      "tomoki",
+      "micchi",
+      "ikkun"
+    ],
+    "isContact": false
   },
   {
     "id": "ストーンエッジ",
@@ -283,11 +514,26 @@
     "type": "rock",
     "category": "physical",
     "power": 100,
+    "accuracy": 80,
     "targets": [
       "eiraku",
       "takaho",
       "ikkun"
-    ]
+    ],
+    "isContact": false,
+    "critRank": 1
+  },
+  {
+    "id": "すなあらし",
+    "name": "すなあらし",
+    "type": "rock",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "ikkun"
+    ],
+    "isContact": false
   },
   {
     "id": "パワージェム",
@@ -295,10 +541,12 @@
     "type": "rock",
     "category": "special",
     "power": 80,
+    "accuracy": 100,
     "targets": [
       "takaho",
       "ikkun"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "メテオビーム",
@@ -306,11 +554,32 @@
     "type": "rock",
     "category": "special",
     "power": 120,
+    "accuracy": 90,
     "targets": [
       "tatsuta",
       "takaho",
       "ikkun"
-    ]
+    ],
+    "isContact": false
+  },
+  {
+    "id": "ロックカット",
+    "name": "ロックカット",
+    "type": "rock",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "tatsuta",
+      "takaho",
+      "nishiki",
+      "ikkun",
+      "makocchan"
+    ],
+    "isContact": false,
+    "selfStatChanges": {
+      "spe": 2
+    }
   },
   {
     "id": "ロックブラスト",
@@ -318,10 +587,14 @@
     "type": "rock",
     "category": "physical",
     "power": 25,
+    "accuracy": 90,
     "targets": [
       "takaho",
       "ikkun"
-    ]
+    ],
+    "isContact": false,
+    "minHits": 2,
+    "maxHits": 5
   },
   {
     "id": "アシストパワー",
@@ -329,6 +602,7 @@
     "type": "psychic",
     "category": "special",
     "power": 20,
+    "accuracy": 100,
     "targets": [
       "morimitsu",
       "takaho",
@@ -337,7 +611,88 @@
       "micchi",
       "nishiki",
       "makocchan"
-    ]
+    ],
+    "isContact": false
+  },
+  {
+    "id": "いやしのねがい",
+    "name": "いやしのねがい",
+    "type": "psychic",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "bucchi",
+      "haruta",
+      "nishiki",
+      "makocchan"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "ガードシェア",
+    "name": "ガードシェア",
+    "type": "psychic",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "bucchi",
+      "nishiki",
+      "ikkun"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "ガードスワップ",
+    "name": "ガードスワップ",
+    "type": "psychic",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "bucchi",
+      "micchi",
+      "nishiki"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "こうそくいどう",
+    "name": "こうそくいどう",
+    "type": "psychic",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "eiraku",
+      "machida",
+      "ayuma",
+      "tomoki",
+      "haruta",
+      "macchan",
+      "micchi"
+    ],
+    "isContact": false,
+    "selfStatChanges": {
+      "spe": 2
+    }
+  },
+  {
+    "id": "コスモパワー",
+    "name": "コスモパワー",
+    "type": "psychic",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "reosan"
+    ],
+    "isContact": false,
+    "selfStatChanges": {
+      "def": 1,
+      "spd": 1
+    }
   },
   {
     "id": "サイケこうせん",
@@ -345,12 +700,14 @@
     "type": "psychic",
     "category": "special",
     "power": 65,
+    "accuracy": 100,
     "targets": [
       "bucchi",
       "micchi",
       "nishiki",
       "makocchan"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "サイコカッター",
@@ -358,12 +715,15 @@
     "type": "psychic",
     "category": "physical",
     "power": 70,
+    "accuracy": 100,
     "targets": [
       "touma",
       "bucchi",
       "micchi",
       "nishiki"
-    ]
+    ],
+    "isContact": false,
+    "critRank": 1
   },
   {
     "id": "サイコキネシス",
@@ -371,13 +731,15 @@
     "type": "psychic",
     "category": "special",
     "power": 90,
+    "accuracy": 100,
     "targets": [
       "bucchi",
       "micchi",
       "nishiki",
       "makocchan",
       "reosan"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "サイコショック",
@@ -385,12 +747,14 @@
     "type": "psychic",
     "category": "special",
     "power": 80,
+    "accuracy": 100,
     "targets": [
       "bucchi",
       "micchi",
       "nishiki",
       "makocchan"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "サイコノイズ",
@@ -398,11 +762,13 @@
     "type": "psychic",
     "category": "special",
     "power": 75,
+    "accuracy": 100,
     "targets": [
       "bucchi",
       "micchi",
       "nishiki"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "サイコファング",
@@ -410,11 +776,41 @@
     "type": "psychic",
     "category": "physical",
     "power": 85,
+    "accuracy": 100,
     "targets": [
       "bucchi",
       "micchi",
       "nishiki"
-    ]
+    ],
+    "isContact": true
+  },
+  {
+    "id": "サイコフィールド",
+    "name": "サイコフィールド",
+    "type": "psychic",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "bucchi",
+      "micchi",
+      "nishiki"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "さいみんじゅつ",
+    "name": "さいみんじゅつ",
+    "type": "psychic",
+    "category": "status",
+    "power": 0,
+    "accuracy": 60,
+    "targets": [
+      "micchi",
+      "nishiki",
+      "reosan"
+    ],
+    "isContact": false
   },
   {
     "id": "しねんのずつき",
@@ -422,10 +818,26 @@
     "type": "psychic",
     "category": "physical",
     "power": 80,
+    "accuracy": 90,
     "targets": [
       "micchi",
       "nishiki"
-    ]
+    ],
+    "isContact": true,
+    "flinchChance": 0.2
+  },
+  {
+    "id": "じゅうりょく",
+    "name": "じゅうりょく",
+    "type": "psychic",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "micchi",
+      "nishiki"
+    ],
+    "isContact": false
   },
   {
     "id": "じんつうりき",
@@ -433,9 +845,120 @@
     "type": "psychic",
     "category": "special",
     "power": 80,
+    "accuracy": 100,
     "targets": [
       "reosan"
-    ]
+    ],
+    "isContact": false,
+    "flinchChance": 0.1
+  },
+  {
+    "id": "スキルスワップ",
+    "name": "スキルスワップ",
+    "type": "psychic",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "bucchi",
+      "micchi",
+      "nishiki"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "テレポート",
+    "name": "テレポート",
+    "type": "psychic",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "morimitsu",
+      "reosan"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "トリック",
+    "name": "トリック",
+    "type": "psychic",
+    "category": "status",
+    "power": 0,
+    "accuracy": 100,
+    "targets": [
+      "touma",
+      "bucchi",
+      "micchi",
+      "nishiki",
+      "makocchan"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "トリックルーム",
+    "name": "トリックルーム",
+    "type": "psychic",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "nishiki"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "ドわすれ",
+    "name": "ドわすれ",
+    "type": "psychic",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "tatsuta",
+      "ume",
+      "touma",
+      "morimori",
+      "ayuma",
+      "macchan",
+      "nishiki",
+      "sena",
+      "ikkun",
+      "fuuto"
+    ],
+    "isContact": false,
+    "selfStatChanges": {
+      "spd": 2
+    }
+  },
+  {
+    "id": "ねむる",
+    "name": "ねむる",
+    "type": "psychic",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "eiraku",
+      "tatsuta",
+      "morimitsu",
+      "takaho",
+      "ume",
+      "machida",
+      "touma",
+      "morimori",
+      "ayuma",
+      "bucchi",
+      "tomoki",
+      "haruta",
+      "macchan",
+      "micchi",
+      "nishiki",
+      "sena",
+      "ikkun",
+      "makocchan"
+    ],
+    "isContact": false
   },
   {
     "id": "ねんりき",
@@ -443,9 +966,91 @@
     "type": "psychic",
     "category": "special",
     "power": 50,
+    "accuracy": 100,
     "targets": [
       "reosan"
-    ]
+    ],
+    "isContact": false
+  },
+  {
+    "id": "パワーシェア",
+    "name": "パワーシェア",
+    "type": "psychic",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "morimitsu",
+      "takaho",
+      "bucchi",
+      "macchan",
+      "micchi",
+      "nishiki"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "パワースワップ",
+    "name": "パワースワップ",
+    "type": "psychic",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "micchi",
+      "nishiki"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "パワートリック",
+    "name": "パワートリック",
+    "type": "psychic",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "touma",
+      "bucchi",
+      "micchi",
+      "nishiki",
+      "makocchan"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "ひかりのかべ",
+    "name": "ひかりのかべ",
+    "type": "psychic",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "morimitsu",
+      "ume",
+      "bucchi",
+      "haruta",
+      "micchi",
+      "nishiki",
+      "makocchan",
+      "reosan"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "ふういん",
+    "name": "ふういん",
+    "type": "psychic",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "bucchi",
+      "micchi",
+      "nishiki",
+      "makocchan"
+    ],
+    "isContact": false
   },
   {
     "id": "みらいよち",
@@ -453,11 +1058,33 @@
     "type": "psychic",
     "category": "special",
     "power": 120,
+    "accuracy": 100,
     "targets": [
       "morimitsu",
       "micchi",
       "makocchan"
-    ]
+    ],
+    "isContact": false
+  },
+  {
+    "id": "めいそう",
+    "name": "めいそう",
+    "type": "psychic",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "takaho",
+      "macchan",
+      "nishiki",
+      "reosan",
+      "makocchan"
+    ],
+    "isContact": false,
+    "selfStatChanges": {
+      "spa": 1,
+      "spd": 1
+    }
   },
   {
     "id": "ゆめくい",
@@ -465,10 +1092,30 @@
     "type": "psychic",
     "category": "special",
     "power": 100,
+    "accuracy": 100,
     "targets": [
       "micchi",
       "nishiki"
-    ]
+    ],
+    "isContact": false
+  },
+  {
+    "id": "リフレクター",
+    "name": "リフレクター",
+    "type": "psychic",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "morimitsu",
+      "ume",
+      "haruta",
+      "micchi",
+      "nishiki",
+      "makocchan",
+      "reosan"
+    ],
+    "isContact": false
   },
   {
     "id": "アームハンマー",
@@ -476,12 +1123,17 @@
     "type": "fighting",
     "category": "physical",
     "power": 100,
+    "accuracy": 90,
     "targets": [
       "eiraku",
       "touma",
       "morimori",
       "macchan"
-    ]
+    ],
+    "isContact": true,
+    "selfStatChanges": {
+      "spe": -1
+    }
   },
   {
     "id": "いわくだき",
@@ -489,6 +1141,7 @@
     "type": "fighting",
     "category": "physical",
     "power": 40,
+    "accuracy": 100,
     "targets": [
       "eiraku",
       "takaho",
@@ -496,7 +1149,8 @@
       "morimori",
       "ayuma",
       "macchan"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "インファイト",
@@ -504,10 +1158,16 @@
     "type": "fighting",
     "category": "physical",
     "power": 120,
+    "accuracy": 100,
     "targets": [
       "touma",
       "macchan"
-    ]
+    ],
+    "isContact": true,
+    "selfStatChanges": {
+      "def": -1,
+      "spd": -1
+    }
   },
   {
     "id": "かかとおとし",
@@ -515,10 +1175,12 @@
     "type": "fighting",
     "category": "physical",
     "power": 120,
+    "accuracy": 90,
     "targets": [
       "touma",
       "macchan"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "かわらわり",
@@ -526,11 +1188,13 @@
     "type": "fighting",
     "category": "physical",
     "power": 75,
+    "accuracy": 100,
     "targets": [
       "takaho",
       "touma",
       "macchan"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "きあいだま",
@@ -538,6 +1202,7 @@
     "type": "fighting",
     "category": "special",
     "power": 120,
+    "accuracy": 70,
     "targets": [
       "eiraku",
       "takaho",
@@ -545,7 +1210,8 @@
       "ayuma",
       "macchan",
       "reosan"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "きあいパンチ",
@@ -553,6 +1219,7 @@
     "type": "fighting",
     "category": "physical",
     "power": 150,
+    "accuracy": 100,
     "targets": [
       "eiraku",
       "takaho",
@@ -560,7 +1227,8 @@
       "morimori",
       "ayuma",
       "macchan"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "クロスチョップ",
@@ -568,12 +1236,29 @@
     "type": "fighting",
     "category": "physical",
     "power": 100,
+    "accuracy": 80,
     "targets": [
       "eiraku",
       "takaho",
       "touma",
       "macchan"
-    ]
+    ],
+    "isContact": true,
+    "critRank": 1
+  },
+  {
+    "id": "けたぐり",
+    "name": "けたぐり",
+    "type": "fighting",
+    "category": "physical",
+    "power": 100,
+    "accuracy": 100,
+    "targets": [
+      "takaho",
+      "touma",
+      "macchan"
+    ],
+    "isContact": true
   },
   {
     "id": "しんくうは",
@@ -581,10 +1266,12 @@
     "type": "fighting",
     "category": "special",
     "power": 40,
+    "accuracy": 100,
     "targets": [
       "micchi",
       "makocchan"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "つっぱり",
@@ -592,10 +1279,14 @@
     "type": "fighting",
     "category": "physical",
     "power": 15,
+    "accuracy": 100,
     "targets": [
       "morimori",
       "ikkun"
-    ]
+    ],
+    "isContact": true,
+    "minHits": 2,
+    "maxHits": 5
   },
   {
     "id": "とびひざげり",
@@ -603,10 +1294,12 @@
     "type": "fighting",
     "category": "physical",
     "power": 130,
+    "accuracy": 90,
     "targets": [
       "touma",
       "macchan"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "ともえなげ",
@@ -614,9 +1307,11 @@
     "type": "fighting",
     "category": "physical",
     "power": 60,
+    "accuracy": 90,
     "targets": [
       "touma"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "トリプルキック",
@@ -624,11 +1319,16 @@
     "type": "fighting",
     "category": "physical",
     "power": 10,
+    "accuracy": 90,
     "targets": [
       "takaho",
       "touma",
       "macchan"
-    ]
+    ],
+    "isContact": true,
+    "hitCount": 3,
+    "accuracyPerHit": true,
+    "powerStep": 10
   },
   {
     "id": "ドレインパンチ",
@@ -636,12 +1336,15 @@
     "type": "fighting",
     "category": "physical",
     "power": 75,
+    "accuracy": 100,
     "targets": [
       "morimitsu",
       "takaho",
       "touma",
       "macchan"
-    ]
+    ],
+    "isContact": true,
+    "drainRatio": 0.5
   },
   {
     "id": "にどげり",
@@ -649,12 +1352,32 @@
     "type": "fighting",
     "category": "physical",
     "power": 30,
+    "accuracy": 100,
     "targets": [
       "takaho",
       "touma",
       "ayuma",
       "macchan"
-    ]
+    ],
+    "isContact": true,
+    "hitCount": 2
+  },
+  {
+    "id": "はいすいのじん",
+    "name": "はいすいのじん",
+    "type": "fighting",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "eiraku",
+      "tatsuta",
+      "touma",
+      "haruta",
+      "nishiki",
+      "sena"
+    ],
+    "isContact": false
   },
   {
     "id": "ばかぢから",
@@ -662,11 +1385,17 @@
     "type": "fighting",
     "category": "physical",
     "power": 120,
+    "accuracy": 100,
     "targets": [
       "eiraku",
       "ayuma",
       "macchan"
-    ]
+    ],
+    "isContact": true,
+    "selfStatChanges": {
+      "atk": -1,
+      "def": -1
+    }
   },
   {
     "id": "ばくれつパンチ",
@@ -674,9 +1403,11 @@
     "type": "fighting",
     "category": "physical",
     "power": 100,
+    "accuracy": 50,
     "targets": [
       "macchan"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "はっけい",
@@ -684,9 +1415,12 @@
     "type": "fighting",
     "category": "physical",
     "power": 60,
+    "accuracy": 100,
     "targets": [
       "touma"
-    ]
+    ],
+    "isContact": true,
+    "targetStatus": "paralysis"
   },
   {
     "id": "はどうだん",
@@ -694,13 +1428,15 @@
     "type": "fighting",
     "category": "special",
     "power": 80,
+    "accuracy": null,
     "targets": [
       "eiraku",
       "touma",
       "ayuma",
       "macchan",
       "reosan"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "はやてがえし",
@@ -708,10 +1444,31 @@
     "type": "fighting",
     "category": "physical",
     "power": 65,
+    "accuracy": 100,
     "targets": [
       "morimitsu",
       "takaho"
-    ]
+    ],
+    "isContact": true
+  },
+  {
+    "id": "ビルドアップ",
+    "name": "ビルドアップ",
+    "type": "fighting",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "eiraku",
+      "morimitsu",
+      "ayuma",
+      "macchan"
+    ],
+    "isContact": false,
+    "selfStatChanges": {
+      "atk": 1,
+      "def": 1
+    }
   },
   {
     "id": "ボディプレス",
@@ -719,10 +1476,12 @@
     "type": "fighting",
     "category": "physical",
     "power": 80,
+    "accuracy": 100,
     "targets": [
       "morimori",
       "ikkun"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "マッハパンチ",
@@ -730,9 +1489,26 @@
     "type": "fighting",
     "category": "physical",
     "power": 40,
+    "accuracy": 100,
     "targets": [
       "macchan"
-    ]
+    ],
+    "isContact": true,
+    "priority": 1
+  },
+  {
+    "id": "みきり",
+    "name": "みきり",
+    "type": "fighting",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "takaho",
+      "touma",
+      "macchan"
+    ],
+    "isContact": false
   },
   {
     "id": "ローキック",
@@ -740,12 +1516,14 @@
     "type": "fighting",
     "category": "physical",
     "power": 65,
+    "accuracy": 100,
     "targets": [
       "touma",
       "ayuma",
       "macchan",
       "fuuto"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "ウッドハンマー",
@@ -753,10 +1531,12 @@
     "type": "grass",
     "category": "physical",
     "power": 120,
+    "accuracy": 100,
     "targets": [
       "tatsuta",
       "takaho"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "ウッドホーン",
@@ -764,10 +1544,12 @@
     "type": "grass",
     "category": "physical",
     "power": 75,
+    "accuracy": 100,
     "targets": [
       "tatsuta",
       "takaho"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "えだづき",
@@ -775,10 +1557,12 @@
     "type": "grass",
     "category": "physical",
     "power": 40,
+    "accuracy": 100,
     "targets": [
       "morimitsu",
       "morimori"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "エナジーボール",
@@ -786,11 +1570,13 @@
     "type": "grass",
     "category": "special",
     "power": 90,
+    "accuracy": 100,
     "targets": [
       "tatsuta",
       "takaho",
       "reosan"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "ギガドレイン",
@@ -798,6 +1584,7 @@
     "type": "grass",
     "category": "special",
     "power": 75,
+    "accuracy": 100,
     "targets": [
       "tatsuta",
       "takaho",
@@ -806,7 +1593,23 @@
       "micchi",
       "sena",
       "ikkun"
-    ]
+    ],
+    "isContact": false,
+    "drainRatio": 0.5
+  },
+  {
+    "id": "キノコのほうし",
+    "name": "キノコのほうし",
+    "type": "grass",
+    "category": "status",
+    "power": 0,
+    "accuracy": 100,
+    "targets": [
+      "tatsuta",
+      "sena",
+      "ikkun"
+    ],
+    "isContact": false
   },
   {
     "id": "くさわけ",
@@ -814,10 +1617,15 @@
     "type": "grass",
     "category": "physical",
     "power": 50,
+    "accuracy": 100,
     "targets": [
       "tatsuta",
       "takaho"
-    ]
+    ],
+    "isContact": true,
+    "selfStatChanges": {
+      "spe": 1
+    }
   },
   {
     "id": "グラススライダー",
@@ -825,10 +1633,70 @@
     "type": "grass",
     "category": "physical",
     "power": 55,
+    "accuracy": 100,
     "targets": [
       "tatsuta",
       "takaho"
-    ]
+    ],
+    "isContact": true
+  },
+  {
+    "id": "グラスフィールド",
+    "name": "グラスフィールド",
+    "type": "grass",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "tatsuta",
+      "touma",
+      "bucchi"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "こうごうせい",
+    "name": "こうごうせい",
+    "type": "grass",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "tatsuta",
+      "takaho"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "コットンガード",
+    "name": "コットンガード",
+    "type": "grass",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "tatsuta"
+    ],
+    "isContact": false,
+    "selfStatChanges": {
+      "def": 3
+    }
+  },
+  {
+    "id": "しびれごな",
+    "name": "しびれごな",
+    "type": "grass",
+    "category": "status",
+    "power": 0,
+    "accuracy": 75,
+    "targets": [
+      "tatsuta",
+      "takaho",
+      "haruta",
+      "macchan"
+    ],
+    "isContact": false,
+    "targetStatus": "paralysis"
   },
   {
     "id": "すいとる",
@@ -836,9 +1704,11 @@
     "type": "grass",
     "category": "special",
     "power": 20,
+    "accuracy": 100,
     "targets": [
       "ikkun"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "ソーラービーム",
@@ -846,10 +1716,12 @@
     "type": "grass",
     "category": "special",
     "power": 120,
+    "accuracy": 100,
     "targets": [
       "tatsuta",
       "haruta"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "ソーラーブレード",
@@ -857,10 +1729,12 @@
     "type": "grass",
     "category": "physical",
     "power": 125,
+    "accuracy": 100,
     "targets": [
       "tatsuta",
       "haruta"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "タネばくだん",
@@ -868,10 +1742,12 @@
     "type": "grass",
     "category": "physical",
     "power": 80,
+    "accuracy": 100,
     "targets": [
       "tatsuta",
       "takaho"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "タネマシンガン",
@@ -879,9 +1755,25 @@
     "type": "grass",
     "category": "physical",
     "power": 25,
+    "accuracy": 100,
     "targets": [
       "macchan"
-    ]
+    ],
+    "isContact": true,
+    "minHits": 2,
+    "maxHits": 5
+  },
+  {
+    "id": "ちからをすいとる",
+    "name": "ちからをすいとる",
+    "type": "grass",
+    "category": "status",
+    "power": 0,
+    "accuracy": 100,
+    "targets": [
+      "reosan"
+    ],
+    "isContact": false
   },
   {
     "id": "つるのムチ",
@@ -889,10 +1781,39 @@
     "type": "grass",
     "category": "physical",
     "power": 45,
+    "accuracy": 100,
     "targets": [
       "tatsuta",
       "takaho"
-    ]
+    ],
+    "isContact": true
+  },
+  {
+    "id": "なやみのタネ",
+    "name": "なやみのタネ",
+    "type": "grass",
+    "category": "status",
+    "power": 0,
+    "accuracy": 100,
+    "targets": [
+      "takaho",
+      "morimori"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "ねをはる",
+    "name": "ねをはる",
+    "type": "grass",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "tatsuta",
+      "morimitsu",
+      "takaho"
+    ],
+    "isContact": false
   },
   {
     "id": "ハードプラント",
@@ -900,9 +1821,11 @@
     "type": "grass",
     "category": "special",
     "power": 150,
+    "accuracy": 90,
     "targets": [
       "takaho"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "はっぱカッター",
@@ -910,12 +1833,15 @@
     "type": "grass",
     "category": "physical",
     "power": 55,
+    "accuracy": 95,
     "targets": [
       "tatsuta",
       "takaho",
       "touma",
       "bucchi"
-    ]
+    ],
+    "isContact": false,
+    "critRank": 1
   },
   {
     "id": "はなびらのまい",
@@ -923,12 +1849,14 @@
     "type": "grass",
     "category": "special",
     "power": 120,
+    "accuracy": 100,
     "targets": [
       "tatsuta",
       "takaho",
       "machida",
       "fuuto"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "はなふぶき",
@@ -936,11 +1864,13 @@
     "type": "grass",
     "category": "physical",
     "power": 90,
+    "accuracy": 100,
     "targets": [
       "tatsuta",
       "takaho",
       "machida"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "パワーウィップ",
@@ -948,9 +1878,11 @@
     "type": "grass",
     "category": "physical",
     "power": 120,
+    "accuracy": 85,
     "targets": [
       "takaho"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "マジカルリーフ",
@@ -958,12 +1890,14 @@
     "type": "grass",
     "category": "special",
     "power": 60,
+    "accuracy": null,
     "targets": [
       "machida",
       "bucchi",
       "haruta",
       "makocchan"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "メガドレイン",
@@ -971,6 +1905,7 @@
     "type": "grass",
     "category": "special",
     "power": 40,
+    "accuracy": 100,
     "targets": [
       "tatsuta",
       "takaho",
@@ -980,7 +1915,22 @@
       "nishiki",
       "sena",
       "ikkun"
-    ]
+    ],
+    "isContact": false,
+    "drainRatio": 0.5
+  },
+  {
+    "id": "やどりぎのタネ",
+    "name": "やどりぎのタネ",
+    "type": "grass",
+    "category": "status",
+    "power": 0,
+    "accuracy": 90,
+    "targets": [
+      "tatsuta",
+      "takaho"
+    ],
+    "isContact": false
   },
   {
     "id": "リーフストーム",
@@ -988,10 +1938,15 @@
     "type": "grass",
     "category": "special",
     "power": 130,
+    "accuracy": 90,
     "targets": [
       "tatsuta",
       "takaho"
-    ]
+    ],
+    "isContact": false,
+    "selfStatChanges": {
+      "spa": -2
+    }
   },
   {
     "id": "リーフブレード",
@@ -999,11 +1954,40 @@
     "type": "grass",
     "category": "physical",
     "power": 90,
+    "accuracy": 100,
     "targets": [
       "tatsuta",
       "takaho",
       "ikkun"
-    ]
+    ],
+    "isContact": true,
+    "critRank": 1
+  },
+  {
+    "id": "わたほうし",
+    "name": "わたほうし",
+    "type": "grass",
+    "category": "status",
+    "power": 0,
+    "accuracy": 100,
+    "targets": [
+      "tatsuta"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "あやしいひかり",
+    "name": "あやしいひかり",
+    "type": "ghost",
+    "category": "status",
+    "power": 0,
+    "accuracy": 100,
+    "targets": [
+      "ume",
+      "nishiki",
+      "reosan"
+    ],
+    "isContact": false
   },
   {
     "id": "うらみつらみ",
@@ -1011,9 +1995,11 @@
     "type": "ghost",
     "category": "special",
     "power": 75,
+    "accuracy": 100,
     "targets": [
       "nishiki"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "おどろかす",
@@ -1021,6 +2007,7 @@
     "type": "ghost",
     "category": "physical",
     "power": 30,
+    "accuracy": 100,
     "targets": [
       "morimitsu",
       "ume",
@@ -1029,7 +2016,9 @@
       "ayuma",
       "micchi",
       "ikkun"
-    ]
+    ],
+    "isContact": true,
+    "flinchChance": 0.3
   },
   {
     "id": "かげうち",
@@ -1037,12 +2026,14 @@
     "type": "ghost",
     "category": "physical",
     "power": 40,
+    "accuracy": 100,
     "targets": [
       "ume",
       "micchi",
       "nishiki",
       "reosan"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "かげぬい",
@@ -1050,12 +2041,14 @@
     "type": "ghost",
     "category": "physical",
     "power": 80,
+    "accuracy": 100,
     "targets": [
       "ume",
       "micchi",
       "nishiki",
       "reosan"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "ゴーストダイブ",
@@ -1063,11 +2056,13 @@
     "type": "ghost",
     "category": "physical",
     "power": 90,
+    "accuracy": 100,
     "targets": [
       "ume",
       "nishiki",
       "reosan"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "したでなめる",
@@ -1075,9 +2070,12 @@
     "type": "ghost",
     "category": "physical",
     "power": 30,
+    "accuracy": 100,
     "targets": [
       "reosan"
-    ]
+    ],
+    "isContact": true,
+    "targetStatus": "paralysis"
   },
   {
     "id": "シャドークロー",
@@ -1085,11 +2083,14 @@
     "type": "ghost",
     "category": "physical",
     "power": 70,
+    "accuracy": 100,
     "targets": [
       "ume",
       "nishiki",
       "reosan"
-    ]
+    ],
+    "isContact": true,
+    "critRank": 1
   },
   {
     "id": "シャドーパンチ",
@@ -1097,12 +2098,14 @@
     "type": "ghost",
     "category": "physical",
     "power": 60,
+    "accuracy": null,
     "targets": [
       "ume",
       "macchan",
       "nishiki",
       "reosan"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "シャドーボール",
@@ -1110,11 +2113,13 @@
     "type": "ghost",
     "category": "special",
     "power": 80,
+    "accuracy": 100,
     "targets": [
       "ume",
       "nishiki",
       "reosan"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "シャドーレイ",
@@ -1122,11 +2127,13 @@
     "type": "ghost",
     "category": "special",
     "power": 100,
+    "accuracy": 100,
     "targets": [
       "ume",
       "nishiki",
       "reosan"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "たたりめ",
@@ -1134,13 +2141,27 @@
     "type": "ghost",
     "category": "special",
     "power": 65,
+    "accuracy": 100,
     "targets": [
       "ume",
       "micchi",
       "nishiki",
       "sena",
       "reosan"
-    ]
+    ],
+    "isContact": false
+  },
+  {
+    "id": "のろい",
+    "name": "のろい",
+    "type": "ghost",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "reosan"
+    ],
+    "isContact": false
   },
   {
     "id": "ふんどのこぶし",
@@ -1148,12 +2169,14 @@
     "type": "ghost",
     "category": "physical",
     "power": 50,
+    "accuracy": 100,
     "targets": [
       "ume",
       "macchan",
       "nishiki",
       "reosan"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "ポルターガイスト",
@@ -1161,10 +2184,32 @@
     "type": "ghost",
     "category": "physical",
     "power": 110,
+    "accuracy": 90,
     "targets": [
       "ume",
       "reosan"
-    ]
+    ],
+    "isContact": false
+  },
+  {
+    "id": "みちづれ",
+    "name": "みちづれ",
+    "type": "ghost",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "eiraku",
+      "morimitsu",
+      "ume",
+      "touma",
+      "tomoki",
+      "micchi",
+      "nishiki",
+      "sena",
+      "reosan"
+    ],
+    "isContact": false
   },
   {
     "id": "アイススピナー",
@@ -1172,10 +2217,12 @@
     "type": "ice",
     "category": "physical",
     "power": 80,
+    "accuracy": 100,
     "targets": [
       "tomoki",
       "haruta"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "アイスハンマー",
@@ -1183,10 +2230,15 @@
     "type": "ice",
     "category": "physical",
     "power": 100,
+    "accuracy": 90,
     "targets": [
       "tomoki",
       "haruta"
-    ]
+    ],
+    "isContact": true,
+    "selfStatChanges": {
+      "spe": -1
+    }
   },
   {
     "id": "オーロラビーム",
@@ -1194,10 +2246,39 @@
     "type": "ice",
     "category": "special",
     "power": 65,
+    "accuracy": 100,
     "targets": [
       "tomoki",
       "haruta"
-    ]
+    ],
+    "isContact": false
+  },
+  {
+    "id": "オーロラベール",
+    "name": "オーロラベール",
+    "type": "ice",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "tatsuta",
+      "tomoki",
+      "haruta"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "くろいきり",
+    "name": "くろいきり",
+    "type": "ice",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "ume",
+      "tomoki"
+    ],
+    "isContact": false
   },
   {
     "id": "こおりのいぶき",
@@ -1205,10 +2286,13 @@
     "type": "ice",
     "category": "special",
     "power": 60,
+    "accuracy": 90,
     "targets": [
       "tomoki",
       "haruta"
-    ]
+    ],
+    "isContact": false,
+    "critRank": 3
   },
   {
     "id": "こおりのキバ",
@@ -1216,10 +2300,12 @@
     "type": "ice",
     "category": "physical",
     "power": 65,
+    "accuracy": 95,
     "targets": [
       "tomoki",
       "haruta"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "こおりのつぶて",
@@ -1227,12 +2313,15 @@
     "type": "ice",
     "category": "physical",
     "power": 40,
+    "accuracy": 100,
     "targets": [
       "tatsuta",
       "ume",
       "tomoki",
       "haruta"
-    ]
+    ],
+    "isContact": true,
+    "priority": 1
   },
   {
     "id": "こごえるかぜ",
@@ -1240,10 +2329,12 @@
     "type": "ice",
     "category": "special",
     "power": 55,
+    "accuracy": 95,
     "targets": [
       "tomoki",
       "haruta"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "こなゆき",
@@ -1251,11 +2342,39 @@
     "type": "ice",
     "category": "special",
     "power": 40,
+    "accuracy": 100,
     "targets": [
       "ume",
       "tomoki",
       "haruta"
-    ]
+    ],
+    "isContact": false
+  },
+  {
+    "id": "さむいギャグ",
+    "name": "さむいギャグ",
+    "type": "ice",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "ayuma",
+      "tomoki"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "しろいきり",
+    "name": "しろいきり",
+    "type": "ice",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "ume",
+      "haruta"
+    ],
+    "isContact": false
   },
   {
     "id": "つららおとし",
@@ -1263,12 +2382,15 @@
     "type": "ice",
     "category": "physical",
     "power": 85,
+    "accuracy": 90,
     "targets": [
       "tatsuta",
       "ume",
       "tomoki",
       "haruta"
-    ]
+    ],
+    "isContact": false,
+    "flinchChance": 0.3
   },
   {
     "id": "つららばり",
@@ -1276,12 +2398,16 @@
     "type": "ice",
     "category": "physical",
     "power": 25,
+    "accuracy": 100,
     "targets": [
       "tatsuta",
       "ume",
       "tomoki",
       "haruta"
-    ]
+    ],
+    "isContact": false,
+    "minHits": 2,
+    "maxHits": 5
   },
   {
     "id": "トリプルアクセル",
@@ -1289,10 +2415,15 @@
     "type": "ice",
     "category": "physical",
     "power": 20,
+    "accuracy": 90,
     "targets": [
       "tomoki",
       "haruta"
-    ]
+    ],
+    "isContact": true,
+    "hitCount": 3,
+    "accuracyPerHit": true,
+    "powerStep": 20
   },
   {
     "id": "ふぶき",
@@ -1300,10 +2431,12 @@
     "type": "ice",
     "category": "special",
     "power": 110,
+    "accuracy": 70,
     "targets": [
       "tatsuta",
       "ume"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "フリーズドライ",
@@ -1311,9 +2444,24 @@
     "type": "ice",
     "category": "special",
     "power": 70,
+    "accuracy": 100,
     "targets": [
       "nishiki"
-    ]
+    ],
+    "isContact": false
+  },
+  {
+    "id": "ゆきげしき",
+    "name": "ゆきげしき",
+    "type": "ice",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "tatsuta",
+      "ume"
+    ],
+    "isContact": false
   },
   {
     "id": "ゆきなだれ",
@@ -1321,12 +2469,14 @@
     "type": "ice",
     "category": "physical",
     "power": 60,
+    "accuracy": 100,
     "targets": [
       "tatsuta",
       "ume",
       "tomoki",
       "haruta"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "れいとうパンチ",
@@ -1334,11 +2484,13 @@
     "type": "ice",
     "category": "physical",
     "power": 75,
+    "accuracy": 100,
     "targets": [
       "tomoki",
       "haruta",
       "macchan"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "れいとうビーム",
@@ -1346,10 +2498,12 @@
     "type": "ice",
     "category": "special",
     "power": 90,
+    "accuracy": 100,
     "targets": [
       "tomoki",
       "haruta"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "10まんばりき",
@@ -1357,11 +2511,13 @@
     "type": "ground",
     "category": "physical",
     "power": 95,
+    "accuracy": 95,
     "targets": [
       "eiraku",
       "machida",
       "macchan"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "あなをほる",
@@ -1369,13 +2525,15 @@
     "type": "ground",
     "category": "physical",
     "power": 80,
+    "accuracy": 100,
     "targets": [
       "eiraku",
       "tatsuta",
       "morimori",
       "ayuma",
       "ikkun"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "じしん",
@@ -1383,10 +2541,12 @@
     "type": "ground",
     "category": "physical",
     "power": 100,
+    "accuracy": 100,
     "targets": [
       "machida",
       "morimori"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "じだんだ",
@@ -1394,6 +2554,7 @@
     "type": "ground",
     "category": "physical",
     "power": 75,
+    "accuracy": 100,
     "targets": [
       "eiraku",
       "morimitsu",
@@ -1404,7 +2565,8 @@
       "macchan",
       "sena",
       "ikkun"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "じならし",
@@ -1412,10 +2574,27 @@
     "type": "ground",
     "category": "physical",
     "power": 60,
+    "accuracy": 100,
     "targets": [
       "machida",
       "morimori"
-    ]
+    ],
+    "isContact": false
+  },
+  {
+    "id": "すなかけ",
+    "name": "すなかけ",
+    "type": "ground",
+    "category": "status",
+    "power": 0,
+    "accuracy": 100,
+    "targets": [
+      "morimitsu",
+      "ume",
+      "touma",
+      "reosan"
+    ],
+    "isContact": false
   },
   {
     "id": "すなじごく",
@@ -1423,9 +2602,11 @@
     "type": "ground",
     "category": "physical",
     "power": 35,
+    "accuracy": 85,
     "targets": [
       "ikkun"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "だいちのちから",
@@ -1433,11 +2614,13 @@
     "type": "ground",
     "category": "special",
     "power": 90,
+    "accuracy": 100,
     "targets": [
       "machida",
       "morimori",
       "reosan"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "ドリルライナー",
@@ -1445,11 +2628,14 @@
     "type": "ground",
     "category": "physical",
     "power": 80,
+    "accuracy": 95,
     "targets": [
       "machida",
       "morimori",
       "sena"
-    ]
+    ],
+    "isContact": true,
+    "critRank": 1
   },
   {
     "id": "どろかけ",
@@ -1457,13 +2643,15 @@
     "type": "ground",
     "category": "special",
     "power": 20,
+    "accuracy": 100,
     "targets": [
       "morimitsu",
       "ume",
       "touma",
       "morimori",
       "reosan"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "ねっさのあらし",
@@ -1471,10 +2659,14 @@
     "type": "ground",
     "category": "special",
     "power": 100,
+    "accuracy": 80,
     "targets": [
       "machida",
       "morimori"
-    ]
+    ],
+    "isContact": false,
+    "burnChance": 0.2,
+    "targetStatus": "burn"
   },
   {
     "id": "ねっさのだいち",
@@ -1482,11 +2674,15 @@
     "type": "ground",
     "category": "special",
     "power": 70,
+    "accuracy": 100,
     "targets": [
       "machida",
       "morimori",
       "ikkun"
-    ]
+    ],
+    "isContact": false,
+    "burnChance": 0.3,
+    "targetStatus": "burn"
   },
   {
     "id": "ぶちかまし",
@@ -1494,12 +2690,18 @@
     "type": "ground",
     "category": "physical",
     "power": 120,
+    "accuracy": 100,
     "targets": [
       "machida",
       "morimori",
       "sena",
       "ikkun"
-    ]
+    ],
+    "isContact": true,
+    "selfStatChanges": {
+      "def": -1,
+      "spd": -1
+    }
   },
   {
     "id": "ボーンラッシュ",
@@ -1507,6 +2709,7 @@
     "type": "ground",
     "category": "physical",
     "power": 25,
+    "accuracy": 90,
     "targets": [
       "tatsuta",
       "morimitsu",
@@ -1516,7 +2719,25 @@
       "morimori",
       "haruta",
       "macchan"
-    ]
+    ],
+    "isContact": false,
+    "minHits": 2,
+    "maxHits": 5
+  },
+  {
+    "id": "まきびし",
+    "name": "まきびし",
+    "type": "ground",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "morimitsu",
+      "ume",
+      "morimori",
+      "micchi"
+    ],
+    "isContact": false
   },
   {
     "id": "マッドショット",
@@ -1524,6 +2745,7 @@
     "type": "ground",
     "category": "special",
     "power": 55,
+    "accuracy": 95,
     "targets": [
       "morimitsu",
       "ume",
@@ -1531,7 +2753,8 @@
       "touma",
       "morimori",
       "reosan"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "10まんボルト",
@@ -1539,6 +2762,7 @@
     "type": "electric",
     "category": "special",
     "power": 90,
+    "accuracy": 100,
     "targets": [
       "morimitsu",
       "ume",
@@ -1553,7 +2777,9 @@
       "fuuto",
       "makocchan",
       "reosan"
-    ]
+    ],
+    "isContact": false,
+    "targetStatus": "paralysis"
   },
   {
     "id": "エレキネット",
@@ -1561,12 +2787,42 @@
     "type": "electric",
     "category": "special",
     "power": 55,
+    "accuracy": 95,
     "targets": [
       "ume",
       "sena",
       "makocchan",
       "reosan"
-    ]
+    ],
+    "isContact": false
+  },
+  {
+    "id": "エレキフィールド",
+    "name": "エレキフィールド",
+    "type": "electric",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "ume",
+      "sena",
+      "bucchi",
+      "makocchan"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "かいでんぱ",
+    "name": "かいでんぱ",
+    "type": "electric",
+    "category": "status",
+    "power": 0,
+    "accuracy": 100,
+    "targets": [
+      "ume",
+      "reosan"
+    ],
+    "isContact": false
   },
   {
     "id": "かみなり",
@@ -1574,12 +2830,15 @@
     "type": "electric",
     "category": "special",
     "power": 110,
+    "accuracy": 70,
     "targets": [
       "ume",
       "ayuma",
       "sena",
       "makocchan"
-    ]
+    ],
+    "isContact": false,
+    "targetStatus": "paralysis"
   },
   {
     "id": "かみなりのキバ",
@@ -1587,10 +2846,12 @@
     "type": "electric",
     "category": "physical",
     "power": 65,
+    "accuracy": 95,
     "targets": [
       "ume",
       "sena"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "かみなりパンチ",
@@ -1598,11 +2859,14 @@
     "type": "electric",
     "category": "physical",
     "power": 75,
+    "accuracy": 100,
     "targets": [
       "ume",
       "macchan",
       "sena"
-    ]
+    ],
+    "isContact": true,
+    "targetStatus": "paralysis"
   },
   {
     "id": "サンダーダイブ",
@@ -1610,6 +2874,7 @@
     "type": "electric",
     "category": "physical",
     "power": 100,
+    "accuracy": 95,
     "targets": [
       "ume",
       "machida",
@@ -1617,7 +2882,42 @@
       "haruta",
       "micchi",
       "sena"
-    ]
+    ],
+    "isContact": true
+  },
+  {
+    "id": "じゅうでん",
+    "name": "じゅうでん",
+    "type": "electric",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "eiraku",
+      "tatsuta",
+      "morimitsu",
+      "takaho",
+      "ume",
+      "machida",
+      "touma",
+      "morimori",
+      "ayuma",
+      "bucchi",
+      "tomoki",
+      "haruta",
+      "macchan",
+      "micchi",
+      "nishiki",
+      "sena",
+      "ikkun",
+      "fuuto",
+      "makocchan",
+      "reosan"
+    ],
+    "isContact": false,
+    "selfStatChanges": {
+      "spd": 1
+    }
   },
   {
     "id": "スパーク",
@@ -1625,6 +2925,7 @@
     "type": "electric",
     "category": "physical",
     "power": 65,
+    "accuracy": 100,
     "targets": [
       "morimitsu",
       "ume",
@@ -1639,7 +2940,9 @@
       "fuuto",
       "makocchan",
       "reosan"
-    ]
+    ],
+    "isContact": true,
+    "targetStatus": "paralysis"
   },
   {
     "id": "チャージビーム",
@@ -1647,13 +2950,18 @@
     "type": "electric",
     "category": "special",
     "power": 50,
+    "accuracy": 90,
     "targets": [
       "ume",
       "bucchi",
       "sena",
       "reosan",
       "makocchan"
-    ]
+    ],
+    "isContact": false,
+    "selfStatChanges": {
+      "spa": 1
+    }
   },
   {
     "id": "でんきショック",
@@ -1661,6 +2969,7 @@
     "type": "electric",
     "category": "special",
     "power": 40,
+    "accuracy": 100,
     "targets": [
       "eiraku",
       "tatsuta",
@@ -1682,7 +2991,9 @@
       "fuuto",
       "makocchan",
       "reosan"
-    ]
+    ],
+    "isContact": false,
+    "targetStatus": "paralysis"
   },
   {
     "id": "でんげきは",
@@ -1690,6 +3001,7 @@
     "type": "electric",
     "category": "special",
     "power": 60,
+    "accuracy": null,
     "targets": [
       "morimitsu",
       "ume",
@@ -1704,7 +3016,52 @@
       "fuuto",
       "makocchan",
       "reosan"
-    ]
+    ],
+    "isContact": false
+  },
+  {
+    "id": "でんじは",
+    "name": "でんじは",
+    "type": "electric",
+    "category": "status",
+    "power": 0,
+    "accuracy": 90,
+    "targets": [
+      "eiraku",
+      "tatsuta",
+      "morimitsu",
+      "takaho",
+      "ume",
+      "machida",
+      "touma",
+      "ayuma",
+      "bucchi",
+      "tomoki",
+      "haruta",
+      "macchan",
+      "micchi",
+      "nishiki",
+      "sena",
+      "fuuto",
+      "makocchan"
+    ],
+    "isContact": false,
+    "targetStatus": "paralysis"
+  },
+  {
+    "id": "でんじふゆう",
+    "name": "でんじふゆう",
+    "type": "electric",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "ume",
+      "sena",
+      "makocchan",
+      "reosan"
+    ],
+    "isContact": false
   },
   {
     "id": "でんじほう",
@@ -1712,11 +3069,14 @@
     "type": "electric",
     "category": "special",
     "power": 120,
+    "accuracy": 50,
     "targets": [
       "ume",
       "sena",
       "makocchan"
-    ]
+    ],
+    "isContact": false,
+    "targetStatus": "paralysis"
   },
   {
     "id": "パラボラチャージ",
@@ -1724,11 +3084,13 @@
     "type": "electric",
     "category": "special",
     "power": 65,
+    "accuracy": 100,
     "targets": [
       "ume",
       "sena",
       "makocchan"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "ほうでん",
@@ -1736,11 +3098,14 @@
     "type": "electric",
     "category": "special",
     "power": 80,
+    "accuracy": 100,
     "targets": [
       "ume",
       "sena",
       "makocchan"
-    ]
+    ],
+    "isContact": false,
+    "targetStatus": "paralysis"
   },
   {
     "id": "ほっぺすりすり",
@@ -1748,9 +3113,12 @@
     "type": "electric",
     "category": "physical",
     "power": 20,
+    "accuracy": 100,
     "targets": [
       "morimori"
-    ]
+    ],
+    "isContact": true,
+    "targetStatus": "paralysis"
   },
   {
     "id": "ボルテッカー",
@@ -1758,12 +3126,16 @@
     "type": "electric",
     "category": "physical",
     "power": 120,
+    "accuracy": 100,
     "targets": [
       "machida",
       "haruta",
       "micchi",
       "sena"
-    ]
+    ],
+    "isContact": true,
+    "recoilRatio": 0.3333333333333333,
+    "targetStatus": "paralysis"
   },
   {
     "id": "ボルトチェンジ",
@@ -1771,6 +3143,7 @@
     "type": "electric",
     "category": "special",
     "power": 70,
+    "accuracy": 100,
     "targets": [
       "ume",
       "machida",
@@ -1779,7 +3152,8 @@
       "micchi",
       "sena",
       "makocchan"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "ワイルドボルト",
@@ -1787,10 +3161,13 @@
     "type": "electric",
     "category": "physical",
     "power": 90,
+    "accuracy": 100,
     "targets": [
       "ume",
       "sena"
-    ]
+    ],
+    "isContact": true,
+    "recoilRatio": 0.25
   },
   {
     "id": "アシッドボム",
@@ -1798,11 +3175,26 @@
     "type": "poison",
     "category": "special",
     "power": 40,
+    "accuracy": 100,
     "targets": [
       "tatsuta",
       "ikkun",
       "makocchan"
-    ]
+    ],
+    "isContact": false
+  },
+  {
+    "id": "いえき",
+    "name": "いえき",
+    "type": "poison",
+    "category": "status",
+    "power": 0,
+    "accuracy": 100,
+    "targets": [
+      "morimori",
+      "ikkun"
+    ],
+    "isContact": false
   },
   {
     "id": "クリアスモッグ",
@@ -1810,10 +3202,12 @@
     "type": "poison",
     "category": "special",
     "power": 50,
+    "accuracy": null,
     "targets": [
       "bucchi",
       "makocchan"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "クロスポイズン",
@@ -1821,10 +3215,13 @@
     "type": "poison",
     "category": "physical",
     "power": 70,
+    "accuracy": 100,
     "targets": [
       "ikkun",
       "makocchan"
-    ]
+    ],
+    "isContact": true,
+    "critRank": 1
   },
   {
     "id": "ゲップ",
@@ -1832,10 +3229,12 @@
     "type": "poison",
     "category": "special",
     "power": 120,
+    "accuracy": 90,
     "targets": [
       "morimori",
       "ikkun"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "ダストシュート",
@@ -1843,11 +3242,38 @@
     "type": "poison",
     "category": "physical",
     "power": 120,
+    "accuracy": 80,
     "targets": [
       "morimitsu",
       "haruta",
       "ikkun"
-    ]
+    ],
+    "isContact": false
+  },
+  {
+    "id": "トーチカ",
+    "name": "トーチカ",
+    "type": "poison",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "ikkun",
+      "makocchan"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "どくガス",
+    "name": "どくガス",
+    "type": "poison",
+    "category": "status",
+    "power": 0,
+    "accuracy": 90,
+    "targets": [
+      "ikkun"
+    ],
+    "isContact": false
   },
   {
     "id": "どくづき",
@@ -1855,12 +3281,32 @@
     "type": "poison",
     "category": "physical",
     "power": 80,
+    "accuracy": 100,
     "targets": [
       "morimitsu",
       "touma",
       "micchi",
       "makocchan"
-    ]
+    ],
+    "isContact": true
+  },
+  {
+    "id": "どくどく",
+    "name": "どくどく",
+    "type": "poison",
+    "category": "status",
+    "power": 0,
+    "accuracy": 90,
+    "targets": [
+      "morimitsu",
+      "ume",
+      "touma",
+      "ayuma",
+      "micchi",
+      "ikkun",
+      "makocchan"
+    ],
+    "isContact": false
   },
   {
     "id": "どくどくのキバ",
@@ -1868,10 +3314,75 @@
     "type": "poison",
     "category": "physical",
     "power": 80,
+    "accuracy": 100,
     "targets": [
       "ume",
       "ikkun"
-    ]
+    ],
+    "isContact": true
+  },
+  {
+    "id": "どくのこな",
+    "name": "どくのこな",
+    "type": "poison",
+    "category": "status",
+    "power": 0,
+    "accuracy": 75,
+    "targets": [
+      "tatsuta",
+      "makocchan"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "どくびし",
+    "name": "どくびし",
+    "type": "poison",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "ume",
+      "micchi",
+      "ikkun",
+      "makocchan"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "とぐろをまく",
+    "name": "とぐろをまく",
+    "type": "poison",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "bucchi",
+      "nishiki",
+      "reosan"
+    ],
+    "isContact": false,
+    "selfStatChanges": {
+      "atk": 1,
+      "def": 1
+    }
+  },
+  {
+    "id": "とける",
+    "name": "とける",
+    "type": "poison",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "nishiki",
+      "ikkun",
+      "makocchan"
+    ],
+    "isContact": false,
+    "selfStatChanges": {
+      "def": 2
+    }
   },
   {
     "id": "ヘドロばくだん",
@@ -1879,11 +3390,13 @@
     "type": "poison",
     "category": "special",
     "power": 90,
+    "accuracy": 100,
     "targets": [
       "morimori",
       "ikkun",
       "reosan"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "ベノムショック",
@@ -1891,10 +3404,12 @@
     "type": "poison",
     "category": "special",
     "power": 65,
+    "accuracy": 100,
     "targets": [
       "tatsuta",
       "makocchan"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "ようかいえき",
@@ -1902,10 +3417,12 @@
     "type": "poison",
     "category": "special",
     "power": 40,
+    "accuracy": 100,
     "targets": [
       "morimori",
       "ikkun"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "げきりん",
@@ -1913,11 +3430,13 @@
     "type": "dragon",
     "category": "physical",
     "power": 120,
+    "accuracy": 100,
     "targets": [
       "ayuma",
       "macchan",
       "sena"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "スケイルショット",
@@ -1925,10 +3444,18 @@
     "type": "dragon",
     "category": "physical",
     "power": 25,
+    "accuracy": 90,
     "targets": [
       "tatsuta",
       "macchan"
-    ]
+    ],
+    "isContact": false,
+    "minHits": 2,
+    "maxHits": 5,
+    "selfStatChanges": {
+      "def": 1,
+      "spe": 1
+    }
   },
   {
     "id": "たつまき",
@@ -1936,10 +3463,13 @@
     "type": "dragon",
     "category": "special",
     "power": 40,
+    "accuracy": 100,
     "targets": [
       "tatsuta",
       "macchan"
-    ]
+    ],
+    "isContact": false,
+    "flinchChance": 0.2
   },
   {
     "id": "ときのほうこう",
@@ -1947,9 +3477,11 @@
     "type": "dragon",
     "category": "special",
     "power": 150,
+    "accuracy": 90,
     "targets": [
       "makocchan"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "ドラゴンクロー",
@@ -1957,10 +3489,12 @@
     "type": "dragon",
     "category": "physical",
     "power": 80,
+    "accuracy": 100,
     "targets": [
       "tatsuta",
       "macchan"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "ドラゴンダイブ",
@@ -1968,10 +3502,13 @@
     "type": "dragon",
     "category": "physical",
     "power": 100,
+    "accuracy": 75,
     "targets": [
       "tatsuta",
       "macchan"
-    ]
+    ],
+    "isContact": true,
+    "flinchChance": 0.2
   },
   {
     "id": "ドラゴンテール",
@@ -1979,10 +3516,12 @@
     "type": "dragon",
     "category": "physical",
     "power": 60,
+    "accuracy": 90,
     "targets": [
       "tatsuta",
       "macchan"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "りゅうせいぐん",
@@ -1990,10 +3529,15 @@
     "type": "dragon",
     "category": "special",
     "power": 130,
+    "accuracy": 90,
     "targets": [
       "tatsuta",
       "macchan"
-    ]
+    ],
+    "isContact": false,
+    "selfStatChanges": {
+      "spa": -2
+    }
   },
   {
     "id": "りゅうのいぶき",
@@ -2001,10 +3545,13 @@
     "type": "dragon",
     "category": "special",
     "power": 60,
+    "accuracy": 100,
     "targets": [
       "tatsuta",
       "macchan"
-    ]
+    ],
+    "isContact": false,
+    "targetStatus": "paralysis"
   },
   {
     "id": "りゅうのはどう",
@@ -2012,11 +3559,30 @@
     "type": "dragon",
     "category": "special",
     "power": 85,
+    "accuracy": 100,
     "targets": [
       "tatsuta",
       "macchan",
       "reosan"
-    ]
+    ],
+    "isContact": false
+  },
+  {
+    "id": "りゅうのまい",
+    "name": "りゅうのまい",
+    "type": "dragon",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "tatsuta",
+      "macchan"
+    ],
+    "isContact": false,
+    "selfStatChanges": {
+      "atk": 1,
+      "spe": 1
+    }
   },
   {
     "id": "ワイドブレイカー",
@@ -2024,10 +3590,55 @@
     "type": "dragon",
     "category": "physical",
     "power": 60,
+    "accuracy": 100,
     "targets": [
       "tatsuta",
       "macchan"
-    ]
+    ],
+    "isContact": true
+  },
+  {
+    "id": "あくび",
+    "name": "あくび",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "tatsuta",
+      "ume",
+      "machida",
+      "touma",
+      "morimori",
+      "ayuma",
+      "bucchi",
+      "tomoki",
+      "haruta",
+      "macchan",
+      "nishiki",
+      "sena",
+      "ikkun",
+      "fuuto",
+      "reosan"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "あさのひざし",
+    "name": "あさのひざし",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "eiraku",
+      "takaho",
+      "machida",
+      "haruta",
+      "fuuto",
+      "makocchan"
+    ],
+    "isContact": false
   },
   {
     "id": "あばれる",
@@ -2035,6 +3646,7 @@
     "type": "normal",
     "category": "physical",
     "power": 120,
+    "accuracy": 100,
     "targets": [
       "ume",
       "touma",
@@ -2043,7 +3655,67 @@
       "macchan",
       "sena",
       "ikkun"
-    ]
+    ],
+    "isContact": true
+  },
+  {
+    "id": "アンコール",
+    "name": "アンコール",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": 100,
+    "targets": [
+      "eiraku",
+      "takaho",
+      "machida",
+      "touma",
+      "morimori",
+      "ayuma",
+      "bucchi",
+      "haruta",
+      "macchan",
+      "nishiki",
+      "sena",
+      "ikkun",
+      "fuuto",
+      "makocchan",
+      "reosan"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "いたみわけ",
+    "name": "いたみわけ",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "morimitsu",
+      "micchi"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "いばる",
+    "name": "いばる",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": 85,
+    "targets": [
+      "morimitsu",
+      "touma",
+      "morimori",
+      "ayuma",
+      "tomoki",
+      "macchan",
+      "micchi",
+      "ikkun",
+      "fuuto"
+    ],
+    "isContact": false
   },
   {
     "id": "いびき",
@@ -2051,12 +3723,27 @@
     "type": "normal",
     "category": "special",
     "power": 50,
+    "accuracy": 100,
     "targets": [
       "morimori",
       "nishiki",
       "ikkun",
       "fuuto"
-    ]
+    ],
+    "isContact": false,
+    "flinchChance": 0.3
+  },
+  {
+    "id": "いやなおと",
+    "name": "いやなおと",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": 85,
+    "targets": [
+      "reosan"
+    ],
+    "isContact": false
   },
   {
     "id": "ウェザーボール",
@@ -2064,10 +3751,26 @@
     "type": "normal",
     "category": "special",
     "power": 50,
+    "accuracy": 100,
     "targets": [
       "morimori",
       "tomoki"
-    ]
+    ],
+    "isContact": false
+  },
+  {
+    "id": "うたう",
+    "name": "うたう",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": 55,
+    "targets": [
+      "eiraku",
+      "tatsuta",
+      "fuuto"
+    ],
+    "isContact": false
   },
   {
     "id": "エコーボイス",
@@ -2075,12 +3778,49 @@
     "type": "normal",
     "category": "special",
     "power": 40,
+    "accuracy": 100,
     "targets": [
       "eiraku",
       "tatsuta",
       "ikkun",
       "fuuto"
-    ]
+    ],
+    "isContact": false
+  },
+  {
+    "id": "えんまく",
+    "name": "えんまく",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": 100,
+    "targets": [
+      "ume",
+      "touma",
+      "ayuma",
+      "tomoki",
+      "micchi",
+      "ikkun"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "おたけび",
+    "name": "おたけび",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": 100,
+    "targets": [
+      "morimitsu",
+      "ume",
+      "touma",
+      "morimori",
+      "ayuma",
+      "macchan",
+      "ikkun"
+    ],
+    "isContact": false
   },
   {
     "id": "かいりき",
@@ -2088,10 +3828,26 @@
     "type": "normal",
     "category": "physical",
     "power": 80,
+    "accuracy": 100,
     "targets": [
       "eiraku",
       "macchan"
-    ]
+    ],
+    "isContact": true
+  },
+  {
+    "id": "かげぶんしん",
+    "name": "かげぶんしん",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "eiraku",
+      "touma",
+      "fuuto"
+    ],
+    "isContact": false
   },
   {
     "id": "かたきうち",
@@ -2099,6 +3855,7 @@
     "type": "normal",
     "category": "physical",
     "power": 70,
+    "accuracy": 100,
     "targets": [
       "eiraku",
       "takaho",
@@ -2108,387 +3865,16 @@
       "haruta",
       "macchan",
       "sena"
-    ]
+    ],
+    "isContact": true
   },
   {
-    "id": "からげんき",
-    "name": "からげんき",
+    "id": "かたくなる",
+    "name": "かたくなる",
     "type": "normal",
-    "category": "physical",
-    "power": 70,
-    "targets": [
-      "tatsuta",
-      "morimori",
-      "reosan"
-    ]
-  },
-  {
-    "id": "ギガインパクト",
-    "name": "ギガインパクト",
-    "type": "normal",
-    "category": "physical",
-    "power": 150,
-    "targets": [
-      "eiraku"
-    ]
-  },
-  {
-    "id": "きりさく",
-    "name": "きりさく",
-    "type": "normal",
-    "category": "physical",
-    "power": 70,
-    "targets": [
-      "touma",
-      "sena"
-    ]
-  },
-  {
-    "id": "こうそくスピン",
-    "name": "こうそくスピン",
-    "type": "normal",
-    "category": "physical",
-    "power": 50,
-    "targets": [
-      "eiraku",
-      "morimitsu",
-      "ume",
-      "touma",
-      "bucchi",
-      "micchi",
-      "nishiki",
-      "fuuto"
-    ]
-  },
-  {
-    "id": "さわぐ",
-    "name": "さわぐ",
-    "type": "normal",
-    "category": "special",
-    "power": 90,
-    "targets": [
-      "tatsuta",
-      "morimitsu",
-      "ume",
-      "touma",
-      "morimori",
-      "ayuma",
-      "tomoki",
-      "haruta",
-      "macchan",
-      "nishiki",
-      "sena",
-      "ikkun",
-      "fuuto"
-    ]
-  },
-  {
-    "id": "じばく",
-    "name": "じばく",
-    "type": "normal",
-    "category": "physical",
-    "power": 200,
-    "targets": [
-      "eiraku",
-      "tatsuta",
-      "morimitsu",
-      "touma",
-      "morimori",
-      "nishiki",
-      "ikkun"
-    ]
-  },
-  {
-    "id": "しめつける",
-    "name": "しめつける",
-    "type": "normal",
-    "category": "physical",
-    "power": 15,
-    "targets": [
-      "touma"
-    ]
-  },
-  {
-    "id": "しんそく",
-    "name": "しんそく",
-    "type": "normal",
-    "category": "physical",
-    "power": 80,
-    "targets": [
-      "eiraku",
-      "machida",
-      "ayuma",
-      "tomoki",
-      "haruta",
-      "macchan",
-      "micchi"
-    ]
-  },
-  {
-    "id": "ずつき",
-    "name": "ずつき",
-    "type": "normal",
-    "category": "physical",
-    "power": 70,
-    "targets": [
-      "eiraku",
-      "tatsuta",
-      "morimitsu",
-      "takaho",
-      "ume",
-      "machida",
-      "touma",
-      "morimori",
-      "ayuma",
-      "bucchi",
-      "tomoki",
-      "haruta",
-      "macchan",
-      "micchi",
-      "nishiki",
-      "sena",
-      "ikkun",
-      "fuuto",
-      "reosan"
-    ]
-  },
-  {
-    "id": "すてみタックル",
-    "name": "すてみタックル",
-    "type": "normal",
-    "category": "physical",
-    "power": 120,
-    "targets": [
-      "morimori",
-      "nishiki"
-    ]
-  },
-  {
-    "id": "スピードスター",
-    "name": "スピードスター",
-    "type": "normal",
-    "category": "special",
-    "power": 60,
-    "targets": [
-      "machida",
-      "ayuma",
-      "tomoki",
-      "haruta",
-      "macchan",
-      "micchi"
-    ]
-  },
-  {
-    "id": "たいあたり",
-    "name": "たいあたり",
-    "type": "normal",
-    "category": "physical",
-    "power": 40,
-    "targets": [
-      "eiraku",
-      "tatsuta",
-      "morimitsu",
-      "takaho",
-      "ume",
-      "machida",
-      "touma",
-      "morimori",
-      "ayuma",
-      "bucchi",
-      "tomoki",
-      "haruta",
-      "macchan",
-      "micchi",
-      "nishiki",
-      "sena",
-      "ikkun",
-      "fuuto",
-      "reosan"
-    ]
-  },
-  {
-    "id": "ダブルアタック",
-    "name": "ダブルアタック",
-    "type": "normal",
-    "category": "physical",
-    "power": 35,
-    "targets": [
-      "eiraku",
-      "morimitsu",
-      "takaho",
-      "touma",
-      "ayuma",
-      "haruta",
-      "macchan",
-      "micchi",
-      "sena",
-      "fuuto"
-    ]
-  },
-  {
-    "id": "でんこうせっか",
-    "name": "でんこうせっか",
-    "type": "normal",
-    "category": "physical",
-    "power": 40,
-    "targets": [
-      "eiraku",
-      "touma",
-      "ayuma",
-      "haruta",
-      "macchan",
-      "fuuto"
-    ]
-  },
-  {
-    "id": "とっしん",
-    "name": "とっしん",
-    "type": "normal",
-    "category": "physical",
-    "power": 90,
-    "targets": [
-      "eiraku",
-      "tatsuta",
-      "morimitsu",
-      "takaho",
-      "ume",
-      "machida",
-      "touma",
-      "morimori",
-      "ayuma",
-      "bucchi",
-      "tomoki",
-      "haruta",
-      "macchan",
-      "micchi",
-      "nishiki",
-      "sena",
-      "ikkun",
-      "fuuto",
-      "reosan"
-    ]
-  },
-  {
-    "id": "ねこだまし",
-    "name": "ねこだまし",
-    "type": "normal",
-    "category": "physical",
-    "power": 40,
-    "targets": [
-      "touma"
-    ]
-  },
-  {
-    "id": "のしかかり",
-    "name": "のしかかり",
-    "type": "normal",
-    "category": "physical",
-    "power": 85,
-    "targets": [
-      "ume",
-      "morimori",
-      "ikkun"
-    ]
-  },
-  {
-    "id": "ハイパーボイス",
-    "name": "ハイパーボイス",
-    "type": "normal",
-    "category": "special",
-    "power": 90,
-    "targets": [
-      "eiraku",
-      "tatsuta",
-      "touma",
-      "morimori",
-      "ayuma",
-      "ikkun",
-      "fuuto",
-      "reosan"
-    ]
-  },
-  {
-    "id": "はかいこうせん",
-    "name": "はかいこうせん",
-    "type": "normal",
-    "category": "special",
-    "power": 150,
-    "targets": [
-      "ume",
-      "morimori",
-      "haruta",
-      "ikkun"
-    ]
-  },
-  {
-    "id": "ばくおんぱ",
-    "name": "ばくおんぱ",
-    "type": "normal",
-    "category": "special",
-    "power": 140,
-    "targets": [
-      "eiraku",
-      "touma",
-      "ikkun"
-    ]
-  },
-  {
-    "id": "フェイント",
-    "name": "フェイント",
-    "type": "normal",
-    "category": "physical",
-    "power": 30,
-    "targets": [
-      "eiraku",
-      "morimitsu",
-      "takaho",
-      "ume",
-      "touma",
-      "ayuma",
-      "haruta",
-      "macchan",
-      "micchi",
-      "fuuto"
-    ]
-  },
-  {
-    "id": "ふみつけ",
-    "name": "ふみつけ",
-    "type": "normal",
-    "category": "physical",
-    "power": 65,
-    "targets": [
-      "ayuma",
-      "micchi"
-    ]
-  },
-  {
-    "id": "ほしがる",
-    "name": "ほしがる",
-    "type": "normal",
-    "category": "physical",
-    "power": 60,
-    "targets": [
-      "ikkun",
-      "fuuto"
-    ]
-  },
-  {
-    "id": "みだれづき",
-    "name": "みだれづき",
-    "type": "normal",
-    "category": "physical",
-    "power": 15,
-    "targets": [
-      "morimitsu"
-    ]
-  },
-  {
-    "id": "わるあがき",
-    "name": "わるあがき",
-    "type": "normal",
-    "category": "physical",
-    "power": 50,
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
     "targets": [
       "eiraku",
       "tatsuta",
@@ -2510,7 +3896,1195 @@
       "fuuto",
       "makocchan",
       "reosan"
-    ]
+    ],
+    "isContact": false
+  },
+  {
+    "id": "かなしばり",
+    "name": "かなしばり",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": 100,
+    "targets": [
+      "reosan"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "からげんき",
+    "name": "からげんき",
+    "type": "normal",
+    "category": "physical",
+    "power": 70,
+    "accuracy": 100,
+    "targets": [
+      "tatsuta",
+      "morimori",
+      "reosan"
+    ],
+    "isContact": true
+  },
+  {
+    "id": "からをやぶる",
+    "name": "からをやぶる",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "machida",
+      "ayuma",
+      "micchi"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "きあいだめ",
+    "name": "きあいだめ",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "machida",
+      "haruta",
+      "macchan",
+      "fuuto"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "ギガインパクト",
+    "name": "ギガインパクト",
+    "type": "normal",
+    "category": "physical",
+    "power": 150,
+    "accuracy": 90,
+    "targets": [
+      "eiraku"
+    ],
+    "isContact": true
+  },
+  {
+    "id": "きりさく",
+    "name": "きりさく",
+    "type": "normal",
+    "category": "physical",
+    "power": 70,
+    "accuracy": 100,
+    "targets": [
+      "touma",
+      "sena"
+    ],
+    "isContact": true,
+    "critRank": 1
+  },
+  {
+    "id": "くすぐる",
+    "name": "くすぐる",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": 100,
+    "targets": [
+      "touma"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "くろいまなざし",
+    "name": "くろいまなざし",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "micchi"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "こうそくスピン",
+    "name": "こうそくスピン",
+    "type": "normal",
+    "category": "physical",
+    "power": 50,
+    "accuracy": 100,
+    "targets": [
+      "eiraku",
+      "morimitsu",
+      "ume",
+      "touma",
+      "bucchi",
+      "micchi",
+      "nishiki",
+      "fuuto"
+    ],
+    "isContact": true,
+    "selfStatChanges": {
+      "spe": 1
+    }
+  },
+  {
+    "id": "こらえる",
+    "name": "こらえる",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "tatsuta",
+      "morimitsu",
+      "takaho",
+      "machida",
+      "ayuma",
+      "tomoki",
+      "haruta",
+      "macchan",
+      "micchi",
+      "makocchan"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "こわいかお",
+    "name": "こわいかお",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": 100,
+    "targets": [
+      "ayuma",
+      "macchan"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "さいきのいのり",
+    "name": "さいきのいのり",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "takaho",
+      "makocchan"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "さわぐ",
+    "name": "さわぐ",
+    "type": "normal",
+    "category": "special",
+    "power": 90,
+    "accuracy": 100,
+    "targets": [
+      "tatsuta",
+      "morimitsu",
+      "ume",
+      "touma",
+      "morimori",
+      "ayuma",
+      "tomoki",
+      "haruta",
+      "macchan",
+      "nishiki",
+      "sena",
+      "ikkun",
+      "fuuto"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "じこあんじ",
+    "name": "じこあんじ",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "morimori",
+      "reosan"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "じこさいせい",
+    "name": "じこさいせい",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "eiraku",
+      "tatsuta",
+      "morimitsu",
+      "takaho",
+      "ume",
+      "machida",
+      "touma",
+      "ayuma",
+      "bucchi",
+      "tomoki",
+      "haruta",
+      "macchan",
+      "micchi",
+      "sena",
+      "ikkun",
+      "fuuto",
+      "makocchan"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "しっぽぎり",
+    "name": "しっぽぎり",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "morimitsu",
+      "ume",
+      "touma",
+      "tomoki",
+      "ikkun"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "しっぽをふる",
+    "name": "しっぽをふる",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "eiraku",
+      "haruta"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "じばく",
+    "name": "じばく",
+    "type": "normal",
+    "category": "physical",
+    "power": 200,
+    "accuracy": 100,
+    "targets": [
+      "eiraku",
+      "tatsuta",
+      "morimitsu",
+      "touma",
+      "morimori",
+      "nishiki",
+      "ikkun"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "しめつける",
+    "name": "しめつける",
+    "type": "normal",
+    "category": "physical",
+    "power": 15,
+    "accuracy": 85,
+    "targets": [
+      "touma"
+    ],
+    "isContact": true
+  },
+  {
+    "id": "しんそく",
+    "name": "しんそく",
+    "type": "normal",
+    "category": "physical",
+    "power": 80,
+    "accuracy": 100,
+    "targets": [
+      "eiraku",
+      "machida",
+      "ayuma",
+      "tomoki",
+      "haruta",
+      "macchan",
+      "micchi"
+    ],
+    "isContact": true,
+    "priority": 2
+  },
+  {
+    "id": "しんぴのまもり",
+    "name": "しんぴのまもり",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "reosan"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "ずつき",
+    "name": "ずつき",
+    "type": "normal",
+    "category": "physical",
+    "power": 70,
+    "accuracy": 100,
+    "targets": [
+      "eiraku",
+      "tatsuta",
+      "morimitsu",
+      "takaho",
+      "ume",
+      "machida",
+      "touma",
+      "morimori",
+      "ayuma",
+      "bucchi",
+      "tomoki",
+      "haruta",
+      "macchan",
+      "micchi",
+      "nishiki",
+      "sena",
+      "ikkun",
+      "fuuto",
+      "reosan"
+    ],
+    "isContact": true,
+    "flinchChance": 0.3
+  },
+  {
+    "id": "すてみタックル",
+    "name": "すてみタックル",
+    "type": "normal",
+    "category": "physical",
+    "power": 120,
+    "accuracy": 100,
+    "targets": [
+      "morimori",
+      "nishiki"
+    ],
+    "isContact": true,
+    "recoilRatio": 0.3333333333333333
+  },
+  {
+    "id": "スピードスター",
+    "name": "スピードスター",
+    "type": "normal",
+    "category": "special",
+    "power": 60,
+    "accuracy": null,
+    "targets": [
+      "machida",
+      "ayuma",
+      "tomoki",
+      "haruta",
+      "macchan",
+      "micchi"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "せいちょう",
+    "name": "せいちょう",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "eiraku",
+      "tatsuta",
+      "morimitsu",
+      "takaho",
+      "ume",
+      "machida",
+      "touma",
+      "morimori",
+      "ayuma",
+      "bucchi",
+      "tomoki",
+      "haruta",
+      "macchan",
+      "micchi",
+      "nishiki",
+      "sena",
+      "ikkun",
+      "fuuto",
+      "makocchan",
+      "reosan"
+    ],
+    "isContact": false,
+    "selfStatChanges": {
+      "atk": 1,
+      "spa": 1
+    }
+  },
+  {
+    "id": "たいあたり",
+    "name": "たいあたり",
+    "type": "normal",
+    "category": "physical",
+    "power": 40,
+    "accuracy": 100,
+    "targets": [
+      "eiraku",
+      "tatsuta",
+      "morimitsu",
+      "takaho",
+      "ume",
+      "machida",
+      "touma",
+      "morimori",
+      "ayuma",
+      "bucchi",
+      "tomoki",
+      "haruta",
+      "macchan",
+      "micchi",
+      "nishiki",
+      "sena",
+      "ikkun",
+      "fuuto",
+      "reosan"
+    ],
+    "isContact": true
+  },
+  {
+    "id": "たくわえる",
+    "name": "たくわえる",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "eiraku",
+      "morimitsu",
+      "takaho",
+      "machida",
+      "tomoki",
+      "micchi",
+      "makocchan"
+    ],
+    "isContact": false,
+    "selfStatChanges": {
+      "def": 1,
+      "spd": 1
+    }
+  },
+  {
+    "id": "ダブルアタック",
+    "name": "ダブルアタック",
+    "type": "normal",
+    "category": "physical",
+    "power": 35,
+    "accuracy": 90,
+    "targets": [
+      "eiraku",
+      "morimitsu",
+      "takaho",
+      "touma",
+      "ayuma",
+      "haruta",
+      "macchan",
+      "micchi",
+      "sena",
+      "fuuto"
+    ],
+    "isContact": true,
+    "hitCount": 2
+  },
+  {
+    "id": "ちいさくなる",
+    "name": "ちいさくなる",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "eiraku",
+      "tatsuta",
+      "morimitsu",
+      "takaho",
+      "ume",
+      "machida",
+      "touma",
+      "morimori",
+      "ayuma",
+      "bucchi",
+      "tomoki",
+      "haruta",
+      "macchan",
+      "micchi",
+      "nishiki",
+      "sena",
+      "ikkun",
+      "fuuto",
+      "makocchan",
+      "reosan"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "ちょうおんぱ",
+    "name": "ちょうおんぱ",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": 55,
+    "targets": [
+      "morimori",
+      "reosan"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "つぼをつく",
+    "name": "つぼをつく",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "morimitsu",
+      "takaho",
+      "micchi",
+      "makocchan"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "つるぎのまい",
+    "name": "つるぎのまい",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "touma",
+      "bucchi",
+      "ikkun",
+      "fuuto"
+    ],
+    "isContact": false,
+    "selfStatChanges": {
+      "atk": 2
+    }
+  },
+  {
+    "id": "でんこうせっか",
+    "name": "でんこうせっか",
+    "type": "normal",
+    "category": "physical",
+    "power": 40,
+    "accuracy": 100,
+    "targets": [
+      "eiraku",
+      "touma",
+      "ayuma",
+      "haruta",
+      "macchan",
+      "fuuto"
+    ],
+    "isContact": true,
+    "priority": 1
+  },
+  {
+    "id": "とっしん",
+    "name": "とっしん",
+    "type": "normal",
+    "category": "physical",
+    "power": 90,
+    "accuracy": 85,
+    "targets": [
+      "eiraku",
+      "tatsuta",
+      "morimitsu",
+      "takaho",
+      "ume",
+      "machida",
+      "touma",
+      "morimori",
+      "ayuma",
+      "bucchi",
+      "tomoki",
+      "haruta",
+      "macchan",
+      "micchi",
+      "nishiki",
+      "sena",
+      "ikkun",
+      "fuuto",
+      "reosan"
+    ],
+    "isContact": true,
+    "recoilRatio": 0.25
+  },
+  {
+    "id": "ないしょばなし",
+    "name": "ないしょばなし",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "eiraku",
+      "tatsuta",
+      "morimitsu",
+      "takaho",
+      "ume",
+      "machida",
+      "touma",
+      "morimori",
+      "ayuma",
+      "bucchi",
+      "tomoki",
+      "haruta",
+      "macchan",
+      "micchi",
+      "nishiki",
+      "sena",
+      "ikkun",
+      "fuuto",
+      "makocchan",
+      "reosan"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "なかまづくり",
+    "name": "なかまづくり",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": 100,
+    "targets": [
+      "morimori"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "なまける",
+    "name": "なまける",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "touma"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "にらみつける",
+    "name": "にらみつける",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "ayuma",
+      "macchan"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "ねがいごと",
+    "name": "ねがいごと",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "reosan"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "ねこだまし",
+    "name": "ねこだまし",
+    "type": "normal",
+    "category": "physical",
+    "power": 40,
+    "accuracy": 100,
+    "targets": [
+      "touma"
+    ],
+    "isContact": true,
+    "flinchChance": 1.0
+  },
+  {
+    "id": "ねごと",
+    "name": "ねごと",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "ayuma",
+      "bucchi",
+      "nishiki",
+      "ikkun",
+      "fuuto"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "のしかかり",
+    "name": "のしかかり",
+    "type": "normal",
+    "category": "physical",
+    "power": 85,
+    "accuracy": 100,
+    "targets": [
+      "ume",
+      "morimori",
+      "ikkun"
+    ],
+    "isContact": true,
+    "targetStatus": "paralysis"
+  },
+  {
+    "id": "ハイパーボイス",
+    "name": "ハイパーボイス",
+    "type": "normal",
+    "category": "special",
+    "power": 90,
+    "accuracy": 100,
+    "targets": [
+      "eiraku",
+      "tatsuta",
+      "touma",
+      "morimori",
+      "ayuma",
+      "ikkun",
+      "fuuto",
+      "reosan"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "はかいこうせん",
+    "name": "はかいこうせん",
+    "type": "normal",
+    "category": "special",
+    "power": 150,
+    "accuracy": 90,
+    "targets": [
+      "ume",
+      "morimori",
+      "haruta",
+      "ikkun"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "ばくおんぱ",
+    "name": "ばくおんぱ",
+    "type": "normal",
+    "category": "special",
+    "power": 140,
+    "accuracy": 100,
+    "targets": [
+      "eiraku",
+      "touma",
+      "ikkun"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "ハッピータイム",
+    "name": "ハッピータイム",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "reosan"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "バトンタッチ",
+    "name": "バトンタッチ",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "eiraku",
+      "tatsuta",
+      "morimitsu",
+      "takaho",
+      "machida",
+      "touma",
+      "morimori",
+      "ayuma",
+      "bucchi",
+      "tomoki",
+      "haruta",
+      "macchan",
+      "micchi",
+      "nishiki",
+      "sena",
+      "ikkun",
+      "fuuto",
+      "makocchan"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "はねる",
+    "name": "はねる",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "takaho",
+      "morimori",
+      "ikkun"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "はらだいこ",
+    "name": "はらだいこ",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "morimori",
+      "ikkun"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "フェイント",
+    "name": "フェイント",
+    "type": "normal",
+    "category": "physical",
+    "power": 30,
+    "accuracy": 100,
+    "targets": [
+      "eiraku",
+      "morimitsu",
+      "takaho",
+      "ume",
+      "touma",
+      "ayuma",
+      "haruta",
+      "macchan",
+      "micchi",
+      "fuuto"
+    ],
+    "isContact": true,
+    "priority": 2
+  },
+  {
+    "id": "ふみつけ",
+    "name": "ふみつけ",
+    "type": "normal",
+    "category": "physical",
+    "power": 65,
+    "accuracy": 100,
+    "targets": [
+      "ayuma",
+      "micchi"
+    ],
+    "isContact": true,
+    "flinchChance": 0.3
+  },
+  {
+    "id": "フラフラダンス",
+    "name": "フラフラダンス",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": 100,
+    "targets": [
+      "eiraku",
+      "fuuto"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "ふるいたてる",
+    "name": "ふるいたてる",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "eiraku",
+      "takaho",
+      "morimori",
+      "ayuma",
+      "macchan",
+      "sena",
+      "ikkun",
+      "fuuto"
+    ],
+    "isContact": false,
+    "selfStatChanges": {
+      "atk": 1,
+      "spa": 1
+    }
+  },
+  {
+    "id": "ほえる",
+    "name": "ほえる",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "morimitsu",
+      "ume",
+      "touma",
+      "morimori",
+      "ayuma",
+      "macchan",
+      "sena",
+      "ikkun"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "ほおばる",
+    "name": "ほおばる",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "tatsuta",
+      "ume",
+      "haruta",
+      "ikkun",
+      "fuuto",
+      "makocchan"
+    ],
+    "isContact": false,
+    "selfStatChanges": {
+      "def": 2
+    }
+  },
+  {
+    "id": "ほしがる",
+    "name": "ほしがる",
+    "type": "normal",
+    "category": "physical",
+    "power": 60,
+    "accuracy": 100,
+    "targets": [
+      "ikkun",
+      "fuuto"
+    ],
+    "isContact": true
+  },
+  {
+    "id": "まねっこ",
+    "name": "まねっこ",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "tomoki",
+      "fuuto"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "まもる",
+    "name": "まもる",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "eiraku",
+      "tatsuta",
+      "morimitsu",
+      "ume",
+      "machida",
+      "touma",
+      "morimori",
+      "ayuma",
+      "bucchi",
+      "haruta",
+      "macchan",
+      "micchi",
+      "nishiki",
+      "sena",
+      "ikkun",
+      "fuuto",
+      "makocchan",
+      "reosan"
+    ],
+    "isContact": false,
+    "priority": 4,
+    "protect": true
+  },
+  {
+    "id": "みがわり",
+    "name": "みがわり",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "eiraku",
+      "tatsuta",
+      "morimitsu",
+      "ume",
+      "machida",
+      "touma",
+      "morimori",
+      "ayuma",
+      "bucchi",
+      "tomoki",
+      "haruta",
+      "macchan",
+      "micchi",
+      "nishiki",
+      "sena",
+      "ikkun",
+      "fuuto",
+      "reosan"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "みだれづき",
+    "name": "みだれづき",
+    "type": "normal",
+    "category": "physical",
+    "power": 15,
+    "accuracy": 85,
+    "targets": [
+      "morimitsu"
+    ],
+    "isContact": true,
+    "minHits": 2,
+    "maxHits": 5
+  },
+  {
+    "id": "ミルクのみ",
+    "name": "ミルクのみ",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "fuuto"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "みをけずる",
+    "name": "みをけずる",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "eiraku",
+      "tatsuta",
+      "morimitsu",
+      "takaho",
+      "ume",
+      "machida",
+      "touma",
+      "morimori",
+      "ayuma",
+      "bucchi",
+      "tomoki",
+      "haruta",
+      "macchan",
+      "micchi",
+      "nishiki",
+      "sena",
+      "ikkun",
+      "fuuto",
+      "makocchan",
+      "reosan"
+    ],
+    "isContact": false,
+    "selfStatChanges": {
+      "atk": 2,
+      "spa": 2,
+      "spe": 2
+    }
+  },
+  {
+    "id": "ゆびをふる",
+    "name": "ゆびをふる",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "bucchi",
+      "fuuto",
+      "reosan"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "ロックオン",
+    "name": "ロックオン",
+    "type": "normal",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "machida",
+      "touma",
+      "ayuma",
+      "tomoki",
+      "haruta",
+      "fuuto"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "わるあがき",
+    "name": "わるあがき",
+    "type": "normal",
+    "category": "physical",
+    "power": 50,
+    "accuracy": null,
+    "targets": [
+      "eiraku",
+      "tatsuta",
+      "morimitsu",
+      "takaho",
+      "ume",
+      "machida",
+      "touma",
+      "morimori",
+      "ayuma",
+      "bucchi",
+      "tomoki",
+      "haruta",
+      "macchan",
+      "micchi",
+      "nishiki",
+      "sena",
+      "ikkun",
+      "fuuto",
+      "makocchan",
+      "reosan"
+    ],
+    "isContact": true
   },
   {
     "id": "アイアンテール",
@@ -2518,10 +5092,12 @@
     "type": "steel",
     "category": "physical",
     "power": 100,
+    "accuracy": 75,
     "targets": [
       "ayuma",
       "sena"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "アイアンヘッド",
@@ -2529,11 +5105,52 @@
     "type": "steel",
     "category": "physical",
     "power": 80,
+    "accuracy": 100,
     "targets": [
       "ayuma",
       "haruta",
       "sena"
-    ]
+    ],
+    "isContact": true,
+    "flinchChance": 0.3
+  },
+  {
+    "id": "ギアチェンジ",
+    "name": "ギアチェンジ",
+    "type": "steel",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "ayuma",
+      "haruta",
+      "sena",
+      "makocchan"
+    ],
+    "isContact": false,
+    "selfStatChanges": {
+      "spe": 2,
+      "atk": 2
+    }
+  },
+  {
+    "id": "きんぞくおん",
+    "name": "きんぞくおん",
+    "type": "steel",
+    "category": "status",
+    "power": 0,
+    "accuracy": 85,
+    "targets": [
+      "eiraku",
+      "machida",
+      "touma",
+      "ayuma",
+      "haruta",
+      "micchi",
+      "sena",
+      "makocchan"
+    ],
+    "isContact": false
   },
   {
     "id": "ゴールドラッシュ",
@@ -2541,9 +5158,14 @@
     "type": "steel",
     "category": "special",
     "power": 120,
+    "accuracy": 100,
     "targets": [
       "morimitsu"
-    ]
+    ],
+    "isContact": false,
+    "selfStatChanges": {
+      "spa": -1
+    }
   },
   {
     "id": "コメットパンチ",
@@ -2551,11 +5173,16 @@
     "type": "steel",
     "category": "physical",
     "power": 90,
+    "accuracy": 90,
     "targets": [
       "ayuma",
       "macchan",
       "sena"
-    ]
+    ],
+    "isContact": true,
+    "selfStatChanges": {
+      "atk": 1
+    }
   },
   {
     "id": "スマートホーン",
@@ -2563,10 +5190,12 @@
     "type": "steel",
     "category": "physical",
     "power": 70,
+    "accuracy": null,
     "targets": [
       "ayuma",
       "sena"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "タキオンカッター",
@@ -2574,12 +5203,15 @@
     "type": "steel",
     "category": "special",
     "power": 50,
+    "accuracy": null,
     "targets": [
       "ayuma",
       "bucchi",
       "haruta",
       "makocchan"
-    ]
+    ],
+    "isContact": false,
+    "hitCount": 2
   },
   {
     "id": "てっていこうせん",
@@ -2587,10 +5219,32 @@
     "type": "steel",
     "category": "special",
     "power": 140,
+    "accuracy": 95,
     "targets": [
       "ayuma",
       "haruta"
-    ]
+    ],
+    "isContact": false
+  },
+  {
+    "id": "てっぺき",
+    "name": "てっぺき",
+    "type": "steel",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "eiraku",
+      "machida",
+      "morimori",
+      "ayuma",
+      "micchi",
+      "sena"
+    ],
+    "isContact": false,
+    "selfStatChanges": {
+      "def": 2
+    }
   },
   {
     "id": "はめつのめがい",
@@ -2598,9 +5252,11 @@
     "type": "steel",
     "category": "special",
     "power": 140,
+    "accuracy": 100,
     "targets": [
       "reosan"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "バレットパンチ",
@@ -2608,11 +5264,14 @@
     "type": "steel",
     "category": "physical",
     "power": 40,
+    "accuracy": 100,
     "targets": [
       "ayuma",
       "macchan",
       "sena"
-    ]
+    ],
+    "isContact": true,
+    "priority": 1
   },
   {
     "id": "メタルクロー",
@@ -2620,10 +5279,15 @@
     "type": "steel",
     "category": "physical",
     "power": 50,
+    "accuracy": 95,
     "targets": [
       "ayuma",
       "sena"
-    ]
+    ],
+    "isContact": true,
+    "selfStatChanges": {
+      "atk": 1
+    }
   },
   {
     "id": "ラスターカノン",
@@ -2631,11 +5295,13 @@
     "type": "steel",
     "category": "special",
     "power": 80,
+    "accuracy": 100,
     "targets": [
       "ayuma",
       "sena",
       "makocchan"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "アクロバット",
@@ -2643,6 +5309,7 @@
     "type": "flying",
     "category": "physical",
     "power": 55,
+    "accuracy": 100,
     "targets": [
       "morimitsu",
       "touma",
@@ -2650,7 +5317,8 @@
       "tomoki",
       "macchan",
       "fuuto"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "エアカッター",
@@ -2658,13 +5326,16 @@
     "type": "flying",
     "category": "special",
     "power": 60,
+    "accuracy": 95,
     "targets": [
       "morimitsu",
       "touma",
       "bucchi",
       "tomoki",
       "micchi"
-    ]
+    ],
+    "isContact": false,
+    "critRank": 1
   },
   {
     "id": "エアスラッシュ",
@@ -2672,12 +5343,29 @@
     "type": "flying",
     "category": "special",
     "power": 75,
+    "accuracy": 95,
     "targets": [
       "morimitsu",
       "touma",
       "tomoki",
       "micchi"
-    ]
+    ],
+    "isContact": false,
+    "flinchChance": 0.3
+  },
+  {
+    "id": "おいかぜ",
+    "name": "おいかぜ",
+    "type": "flying",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "morimitsu",
+      "tomoki",
+      "fuuto"
+    ],
+    "isContact": false
   },
   {
     "id": "かぜおこし",
@@ -2685,11 +5373,27 @@
     "type": "flying",
     "category": "special",
     "power": 40,
+    "accuracy": 100,
     "targets": [
       "tatsuta",
       "ayuma",
       "tomoki"
-    ]
+    ],
+    "isContact": false
+  },
+  {
+    "id": "きりばらい",
+    "name": "きりばらい",
+    "type": "flying",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "takaho",
+      "bucchi",
+      "makocchan"
+    ],
+    "isContact": false
   },
   {
     "id": "こがらしあらし",
@@ -2697,12 +5401,14 @@
     "type": "flying",
     "category": "special",
     "power": 100,
+    "accuracy": 80,
     "targets": [
       "morimitsu",
       "ume",
       "tomoki",
       "fuuto"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "ゴットバード",
@@ -2710,10 +5416,14 @@
     "type": "flying",
     "category": "physical",
     "power": 140,
+    "accuracy": 90,
     "targets": [
       "morimitsu",
       "tomoki"
-    ]
+    ],
+    "isContact": false,
+    "critRank": 1,
+    "flinchChance": 0.3
   },
   {
     "id": "そらをとぶ",
@@ -2721,6 +5431,7 @@
     "type": "flying",
     "category": "physical",
     "power": 90,
+    "accuracy": 95,
     "targets": [
       "eiraku",
       "tatsuta",
@@ -2733,7 +5444,8 @@
       "sena",
       "fuuto",
       "makocchan"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "ダブルウイング",
@@ -2741,12 +5453,15 @@
     "type": "flying",
     "category": "physical",
     "power": 40,
+    "accuracy": 90,
     "targets": [
       "morimitsu",
       "takaho",
       "tomoki",
       "fuuto"
-    ]
+    ],
+    "isContact": true,
+    "hitCount": 2
   },
   {
     "id": "ついばむ",
@@ -2754,11 +5469,13 @@
     "type": "flying",
     "category": "physical",
     "power": 60,
+    "accuracy": 100,
     "targets": [
       "touma",
       "haruta",
       "nishiki"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "つつく",
@@ -2766,11 +5483,13 @@
     "type": "flying",
     "category": "physical",
     "power": 35,
+    "accuracy": 100,
     "targets": [
       "morimitsu",
       "touma",
       "tomoki"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "つばさでうつ",
@@ -2778,10 +5497,12 @@
     "type": "flying",
     "category": "physical",
     "power": 60,
+    "accuracy": 100,
     "targets": [
       "morimitsu",
       "tomoki"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "つばめがえし",
@@ -2789,6 +5510,7 @@
     "type": "flying",
     "category": "physical",
     "power": 60,
+    "accuracy": null,
     "targets": [
       "tatsuta",
       "morimitsu",
@@ -2797,7 +5519,8 @@
       "tomoki",
       "macchan",
       "fuuto"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "とびはねる",
@@ -2805,10 +5528,13 @@
     "type": "flying",
     "category": "physical",
     "power": 85,
+    "accuracy": 85,
     "targets": [
       "ume",
       "morimori"
-    ]
+    ],
+    "isContact": true,
+    "targetStatus": "paralysis"
   },
   {
     "id": "ドリルくちばし",
@@ -2816,10 +5542,39 @@
     "type": "flying",
     "category": "physical",
     "power": 80,
+    "accuracy": 100,
     "targets": [
       "morimitsu",
       "tomoki"
-    ]
+    ],
+    "isContact": true
+  },
+  {
+    "id": "はねやすめ",
+    "name": "はねやすめ",
+    "type": "flying",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "morimitsu",
+      "tomoki"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "フェザーダンス",
+    "name": "フェザーダンス",
+    "type": "flying",
+    "category": "status",
+    "power": 0,
+    "accuracy": 100,
+    "targets": [
+      "eiraku",
+      "machida",
+      "fuuto"
+    ],
+    "isContact": false
   },
   {
     "id": "ブレイブバード",
@@ -2827,9 +5582,12 @@
     "type": "flying",
     "category": "physical",
     "power": 120,
+    "accuracy": 100,
     "targets": [
       "morimitsu"
-    ]
+    ],
+    "isContact": true,
+    "recoilRatio": 0.3333333333333333
   },
   {
     "id": "ぼうふう",
@@ -2837,6 +5595,7 @@
     "type": "flying",
     "category": "special",
     "power": 110,
+    "accuracy": 70,
     "targets": [
       "morimitsu",
       "touma",
@@ -2844,7 +5603,25 @@
       "tomoki",
       "sena",
       "fuuto"
-    ]
+    ],
+    "isContact": false
+  },
+  {
+    "id": "あまえる",
+    "name": "あまえる",
+    "type": "fairy",
+    "category": "status",
+    "power": 0,
+    "accuracy": 100,
+    "targets": [
+      "eiraku",
+      "touma",
+      "morimori",
+      "haruta",
+      "nishiki",
+      "ikkun"
+    ],
+    "isContact": false
   },
   {
     "id": "じゃれつく",
@@ -2852,6 +5629,7 @@
     "type": "fairy",
     "category": "physical",
     "power": 90,
+    "accuracy": 90,
     "targets": [
       "eiraku",
       "tatsuta",
@@ -2865,7 +5643,8 @@
       "tomoki",
       "haruta",
       "macchan"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "チャームボイス",
@@ -2873,6 +5652,7 @@
     "type": "fairy",
     "category": "special",
     "power": 40,
+    "accuracy": null,
     "targets": [
       "machida",
       "morimori",
@@ -2880,7 +5660,49 @@
       "haruta",
       "fuuto",
       "makocchan"
-    ]
+    ],
+    "isContact": false
+  },
+  {
+    "id": "つきのひかり",
+    "name": "つきのひかり",
+    "type": "fairy",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "morimitsu",
+      "bucchi",
+      "haruta",
+      "makocchan"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "つぶらなひとみ",
+    "name": "つぶらなひとみ",
+    "type": "fairy",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "eiraku"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "てんしのキッス",
+    "name": "てんしのキッス",
+    "type": "fairy",
+    "category": "status",
+    "power": 0,
+    "accuracy": 75,
+    "targets": [
+      "bucchi",
+      "haruta",
+      "makocchan"
+    ],
+    "isContact": false
   },
   {
     "id": "ドレインキッス",
@@ -2888,12 +5710,15 @@
     "type": "fairy",
     "category": "special",
     "power": 50,
+    "accuracy": 100,
     "targets": [
       "morimori",
       "bucchi",
       "haruta",
       "makocchan"
-    ]
+    ],
+    "isContact": false,
+    "drainRatio": 0.75
   },
   {
     "id": "マジカルシャイン",
@@ -2901,12 +5726,14 @@
     "type": "fairy",
     "category": "special",
     "power": 80,
+    "accuracy": 100,
     "targets": [
       "machida",
       "bucchi",
       "haruta",
       "makocchan"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "ミストバースト",
@@ -2914,11 +5741,27 @@
     "type": "fairy",
     "category": "special",
     "power": 100,
+    "accuracy": 100,
     "targets": [
       "bucchi",
       "haruta",
       "makocchan"
-    ]
+    ],
+    "isContact": false
+  },
+  {
+    "id": "ミストフィールド",
+    "name": "ミストフィールド",
+    "type": "fairy",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "bucchi",
+      "haruta",
+      "makocchan"
+    ],
+    "isContact": false
   },
   {
     "id": "みわくのボイス",
@@ -2926,13 +5769,15 @@
     "type": "fairy",
     "category": "special",
     "power": 80,
+    "accuracy": 100,
     "targets": [
       "eiraku",
       "machida",
       "bucchi",
       "haruta",
       "makocchan"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "ムーンフォース",
@@ -2940,12 +5785,14 @@
     "type": "fairy",
     "category": "special",
     "power": 95,
+    "accuracy": 100,
     "targets": [
       "morimitsu",
       "bucchi",
       "haruta",
       "makocchan"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "ようせいのかぜ",
@@ -2953,11 +5800,13 @@
     "type": "fairy",
     "category": "special",
     "power": 40,
+    "accuracy": 100,
     "targets": [
       "bucchi",
       "haruta",
       "makocchan"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "オーバーヒート",
@@ -2965,11 +5814,31 @@
     "type": "fire",
     "category": "special",
     "power": 130,
+    "accuracy": 90,
     "targets": [
       "morimitsu",
       "haruta",
       "fuuto"
-    ]
+    ],
+    "isContact": false,
+    "selfStatChanges": {
+      "spa": -2
+    }
+  },
+  {
+    "id": "おにび",
+    "name": "おにび",
+    "type": "fire",
+    "category": "status",
+    "power": 0,
+    "accuracy": 85,
+    "targets": [
+      "ume",
+      "bucchi",
+      "nishiki"
+    ],
+    "isContact": false,
+    "targetStatus": "burn"
   },
   {
     "id": "かえんぐるま",
@@ -2977,10 +5846,14 @@
     "type": "fire",
     "category": "physical",
     "power": 60,
+    "accuracy": 100,
     "targets": [
       "morimitsu",
       "fuuto"
-    ]
+    ],
+    "isContact": true,
+    "burnChance": 0.1,
+    "targetStatus": "burn"
   },
   {
     "id": "かえんほうしゃ",
@@ -2988,11 +5861,15 @@
     "type": "fire",
     "category": "special",
     "power": 90,
+    "accuracy": 100,
     "targets": [
       "morimitsu",
       "tomoki",
       "fuuto"
-    ]
+    ],
+    "isContact": false,
+    "burnChance": 0.1,
+    "targetStatus": "burn"
   },
   {
     "id": "かえんボール",
@@ -3000,6 +5877,7 @@
     "type": "fire",
     "category": "physical",
     "power": 120,
+    "accuracy": 90,
     "targets": [
       "morimitsu",
       "machida",
@@ -3007,7 +5885,10 @@
       "haruta",
       "micchi",
       "fuuto"
-    ]
+    ],
+    "isContact": false,
+    "burnChance": 0.1,
+    "targetStatus": "burn"
   },
   {
     "id": "しっとのほのお",
@@ -3015,12 +5896,14 @@
     "type": "fire",
     "category": "special",
     "power": 70,
+    "accuracy": 100,
     "targets": [
       "eiraku",
       "ayuma",
       "nishiki",
       "reosan"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "せいなるほのお",
@@ -3028,9 +5911,13 @@
     "type": "fire",
     "category": "physical",
     "power": 100,
+    "accuracy": 95,
     "targets": [
       "fuuto"
-    ]
+    ],
+    "isContact": false,
+    "burnChance": 0.5,
+    "targetStatus": "burn"
   },
   {
     "id": "だいもんじ",
@@ -3038,11 +5925,15 @@
     "type": "fire",
     "category": "special",
     "power": 110,
+    "accuracy": 85,
     "targets": [
       "morimitsu",
       "macchan",
       "fuuto"
-    ]
+    ],
+    "isContact": false,
+    "burnChance": 0.1,
+    "targetStatus": "burn"
   },
   {
     "id": "ニトロチャージ",
@@ -3050,6 +5941,7 @@
     "type": "fire",
     "category": "physical",
     "power": 50,
+    "accuracy": 100,
     "targets": [
       "morimitsu",
       "machida",
@@ -3059,7 +5951,23 @@
       "macchan",
       "micchi",
       "fuuto"
-    ]
+    ],
+    "isContact": true,
+    "selfStatChanges": {
+      "spe": 1
+    }
+  },
+  {
+    "id": "にほんばれ",
+    "name": "にほんばれ",
+    "type": "fire",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "haruta"
+    ],
+    "isContact": false
   },
   {
     "id": "ねっぷう",
@@ -3067,11 +5975,15 @@
     "type": "fire",
     "category": "special",
     "power": 95,
+    "accuracy": 90,
     "targets": [
       "morimitsu",
       "takaho",
       "fuuto"
-    ]
+    ],
+    "isContact": false,
+    "burnChance": 0.1,
+    "targetStatus": "burn"
   },
   {
     "id": "フレアソング",
@@ -3079,11 +5991,16 @@
     "type": "fire",
     "category": "special",
     "power": 80,
+    "accuracy": 100,
     "targets": [
       "eiraku",
       "tatsuta",
       "fuuto"
-    ]
+    ],
+    "isContact": false,
+    "selfStatChanges": {
+      "spa": 1
+    }
   },
   {
     "id": "フレアドライブ",
@@ -3091,10 +6008,15 @@
     "type": "fire",
     "category": "physical",
     "power": 120,
+    "accuracy": 100,
     "targets": [
       "morimitsu",
       "fuuto"
-    ]
+    ],
+    "isContact": true,
+    "recoilRatio": 0.3333333333333333,
+    "burnChance": 0.1,
+    "targetStatus": "burn"
   },
   {
     "id": "ブレイズキック",
@@ -3102,6 +6024,7 @@
     "type": "fire",
     "category": "physical",
     "power": 85,
+    "accuracy": 90,
     "targets": [
       "morimitsu",
       "machida",
@@ -3109,7 +6032,11 @@
       "haruta",
       "micchi",
       "fuuto"
-    ]
+    ],
+    "isContact": true,
+    "critRank": 1,
+    "burnChance": 0.1,
+    "targetStatus": "burn"
   },
   {
     "id": "ふんか",
@@ -3117,12 +6044,14 @@
     "type": "fire",
     "category": "special",
     "power": 150,
+    "accuracy": 100,
     "targets": [
       "morimitsu",
       "morimori",
       "ayuma",
       "fuuto"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "ほのおのうず",
@@ -3130,11 +6059,13 @@
     "type": "fire",
     "category": "special",
     "power": 35,
+    "accuracy": 85,
     "targets": [
       "morimitsu",
       "touma",
       "fuuto"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "ほのおのキバ",
@@ -3142,10 +6073,14 @@
     "type": "fire",
     "category": "physical",
     "power": 65,
+    "accuracy": 95,
     "targets": [
       "morimitsu",
       "fuuto"
-    ]
+    ],
+    "isContact": true,
+    "burnChance": 0.1,
+    "flinchChance": 0.1
   },
   {
     "id": "ほのおのパンチ",
@@ -3153,11 +6088,15 @@
     "type": "fire",
     "category": "physical",
     "power": 75,
+    "accuracy": 100,
     "targets": [
       "morimitsu",
       "macchan",
       "fuuto"
-    ]
+    ],
+    "isContact": true,
+    "burnChance": 0.1,
+    "targetStatus": "burn"
   },
   {
     "id": "ほのおのまい",
@@ -3165,9 +6104,14 @@
     "type": "fire",
     "category": "special",
     "power": 80,
+    "accuracy": 100,
     "targets": [
       "fuuto"
-    ]
+    ],
+    "isContact": false,
+    "selfStatChanges": {
+      "spa": 1
+    }
   },
   {
     "id": "マジカルフレイム",
@@ -3175,12 +6119,14 @@
     "type": "fire",
     "category": "special",
     "power": 75,
+    "accuracy": 100,
     "targets": [
       "machida",
       "bucchi",
       "haruta",
       "makocchan"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "もえつきる",
@@ -3188,12 +6134,14 @@
     "type": "fire",
     "category": "special",
     "power": 130,
+    "accuracy": 100,
     "targets": [
       "morimitsu",
       "touma",
       "morimori",
       "haruta"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "やけっぱち",
@@ -3201,11 +6149,13 @@
     "type": "fire",
     "category": "physical",
     "power": 75,
+    "accuracy": 100,
     "targets": [
       "morimitsu",
       "morimori",
       "fuuto"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "れんごく",
@@ -3213,9 +6163,13 @@
     "type": "fire",
     "category": "special",
     "power": 100,
+    "accuracy": 50,
     "targets": [
       "ayuma"
-    ]
+    ],
+    "isContact": false,
+    "burnChance": 1.0,
+    "targetStatus": "burn"
   },
   {
     "id": "アクアカッター",
@@ -3223,12 +6177,15 @@
     "type": "water",
     "category": "physical",
     "power": 70,
+    "accuracy": 100,
     "targets": [
       "eiraku",
       "machida",
       "touma",
       "bucchi"
-    ]
+    ],
+    "isContact": false,
+    "critRank": 1
   },
   {
     "id": "アクアジェット",
@@ -3236,10 +6193,12 @@
     "type": "water",
     "category": "physical",
     "power": 40,
+    "accuracy": 100,
     "targets": [
       "eiraku",
       "machida"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "アクアステップ",
@@ -3247,10 +6206,15 @@
     "type": "water",
     "category": "physical",
     "power": 80,
+    "accuracy": 100,
     "targets": [
       "eiraku",
       "machida"
-    ]
+    ],
+    "isContact": true,
+    "selfStatChanges": {
+      "spe": 1
+    }
   },
   {
     "id": "アクアテール",
@@ -3258,10 +6222,12 @@
     "type": "water",
     "category": "physical",
     "power": 90,
+    "accuracy": 90,
     "targets": [
       "eiraku",
       "machida"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "アクアブレイク",
@@ -3269,10 +6235,37 @@
     "type": "water",
     "category": "physical",
     "power": 85,
+    "accuracy": 100,
     "targets": [
       "eiraku",
       "machida"
-    ]
+    ],
+    "isContact": true
+  },
+  {
+    "id": "アクアリング",
+    "name": "アクアリング",
+    "type": "water",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "eiraku",
+      "machida"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "あまごい",
+    "name": "あまごい",
+    "type": "water",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "reosan"
+    ],
+    "isContact": false
   },
   {
     "id": "うずしお",
@@ -3280,11 +6273,13 @@
     "type": "water",
     "category": "special",
     "power": 35,
+    "accuracy": 85,
     "targets": [
       "machida",
       "micchi",
       "sena"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "うたかたのアリア",
@@ -3292,9 +6287,27 @@
     "type": "water",
     "category": "special",
     "power": 90,
+    "accuracy": 100,
     "targets": [
       "makocchan"
-    ]
+    ],
+    "isContact": false
+  },
+  {
+    "id": "からにこもる",
+    "name": "からにこもる",
+    "type": "water",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "morimori",
+      "reosan"
+    ],
+    "isContact": false,
+    "selfStatChanges": {
+      "def": 1
+    }
   },
   {
     "id": "クイックターン",
@@ -3302,12 +6315,14 @@
     "type": "water",
     "category": "physical",
     "power": 60,
+    "accuracy": 100,
     "targets": [
       "eiraku",
       "machida",
       "ayuma",
       "macchan"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "ジェットパンチ",
@@ -3315,11 +6330,14 @@
     "type": "water",
     "category": "physical",
     "power": 60,
+    "accuracy": 100,
     "targets": [
       "eiraku",
       "machida",
       "macchan"
-    ]
+    ],
+    "isContact": true,
+    "priority": 1
   },
   {
     "id": "しおふき",
@@ -3327,10 +6345,12 @@
     "type": "water",
     "category": "special",
     "power": 150,
+    "accuracy": 100,
     "targets": [
       "eiraku",
       "machida"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "ダイビング",
@@ -3338,13 +6358,15 @@
     "type": "water",
     "category": "physical",
     "power": 80,
+    "accuracy": 100,
     "targets": [
       "morimitsu",
       "takaho",
       "machida",
       "ayuma",
       "macchan"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "たきのぼり",
@@ -3352,13 +6374,16 @@
     "type": "water",
     "category": "physical",
     "power": 80,
+    "accuracy": 100,
     "targets": [
       "eiraku",
       "ume",
       "machida",
       "micchi",
       "fuuto"
-    ]
+    ],
+    "isContact": true,
+    "flinchChance": 0.2
   },
   {
     "id": "だくりゅう",
@@ -3366,11 +6391,13 @@
     "type": "water",
     "category": "special",
     "power": 90,
+    "accuracy": 85,
     "targets": [
       "tatsuta",
       "morimori",
       "ikkun"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "なみのり",
@@ -3378,6 +6405,7 @@
     "type": "water",
     "category": "special",
     "power": 90,
+    "accuracy": 100,
     "targets": [
       "eiraku",
       "morimitsu",
@@ -3385,7 +6413,8 @@
       "machida",
       "macchan",
       "reosan"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "ねっとう",
@@ -3393,9 +6422,13 @@
     "type": "water",
     "category": "special",
     "power": 80,
+    "accuracy": 100,
     "targets": [
       "touma"
-    ]
+    ],
+    "isContact": false,
+    "burnChance": 0.3,
+    "targetStatus": "burn"
   },
   {
     "id": "ねらいうち",
@@ -3403,12 +6436,15 @@
     "type": "water",
     "category": "special",
     "power": 80,
+    "accuracy": 100,
     "targets": [
       "machida",
       "ayuma",
       "tomoki",
       "haruta"
-    ]
+    ],
+    "isContact": false,
+    "critRank": 1
   },
   {
     "id": "ハイドロポンプ",
@@ -3416,10 +6452,12 @@
     "type": "water",
     "category": "special",
     "power": 110,
+    "accuracy": 80,
     "targets": [
       "eiraku",
       "machida"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "バブルこうせん",
@@ -3427,10 +6465,12 @@
     "type": "water",
     "category": "special",
     "power": 65,
+    "accuracy": 100,
     "targets": [
       "eiraku",
       "machida"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "ひやみず",
@@ -3438,9 +6478,11 @@
     "type": "water",
     "category": "special",
     "power": 50,
+    "accuracy": 100,
     "targets": [
       "ume"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "みずのはどう",
@@ -3448,11 +6490,31 @@
     "type": "water",
     "category": "special",
     "power": 60,
+    "accuracy": 100,
     "targets": [
       "eiraku",
       "machida",
       "reosan"
-    ]
+    ],
+    "isContact": false
+  },
+  {
+    "id": "いとをはく",
+    "name": "いとをはく",
+    "type": "bug",
+    "category": "status",
+    "power": 0,
+    "accuracy": 95,
+    "targets": [
+      "eiraku",
+      "morimitsu",
+      "touma",
+      "bucchi",
+      "micchi",
+      "ikkun",
+      "reosan"
+    ],
+    "isContact": false
   },
   {
     "id": "かふんだんご",
@@ -3460,13 +6522,15 @@
     "type": "bug",
     "category": "special",
     "power": 90,
+    "accuracy": 100,
     "targets": [
       "tatsuta",
       "ume",
       "bucchi",
       "tomoki",
       "reosan"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "きゅうけつ",
@@ -3474,10 +6538,12 @@
     "type": "bug",
     "category": "physical",
     "power": 80,
+    "accuracy": 100,
     "targets": [
       "ume",
       "reosan"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "シザークロス",
@@ -3485,10 +6551,31 @@
     "type": "bug",
     "category": "physical",
     "power": 80,
+    "accuracy": 100,
     "targets": [
       "touma",
       "haruta"
-    ]
+    ],
+    "isContact": true
+  },
+  {
+    "id": "ちょうのまい",
+    "name": "ちょうのまい",
+    "type": "bug",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "bucchi",
+      "fuuto",
+      "reosan"
+    ],
+    "isContact": false,
+    "selfStatChanges": {
+      "spa": 1,
+      "spd": 1,
+      "spe": 1
+    }
   },
   {
     "id": "であいがしら",
@@ -3496,13 +6583,15 @@
     "type": "bug",
     "category": "physical",
     "power": 90,
+    "accuracy": 100,
     "targets": [
       "eiraku",
       "takaho",
       "nishiki",
       "sena",
       "reosan"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "とどめばり",
@@ -3510,10 +6599,15 @@
     "type": "bug",
     "category": "physical",
     "power": 50,
+    "accuracy": 100,
     "targets": [
       "bucchi",
       "reosan"
-    ]
+    ],
+    "isContact": true,
+    "selfStatChanges": {
+      "atk": 3
+    }
   },
   {
     "id": "とびかかる",
@@ -3521,6 +6615,7 @@
     "type": "bug",
     "category": "physical",
     "power": 80,
+    "accuracy": 100,
     "targets": [
       "morimitsu",
       "ume",
@@ -3532,7 +6627,8 @@
       "macchan",
       "fuuto",
       "reosan"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "とんぼがえり",
@@ -3540,6 +6636,7 @@
     "type": "bug",
     "category": "physical",
     "power": 70,
+    "accuracy": 100,
     "targets": [
       "eiraku",
       "tatsuta",
@@ -3559,7 +6656,42 @@
       "ikkun",
       "fuuto",
       "reosan"
-    ]
+    ],
+    "isContact": true
+  },
+  {
+    "id": "ねばねばネット",
+    "name": "ねばねばネット",
+    "type": "bug",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "eiraku",
+      "morimitsu",
+      "ume",
+      "touma",
+      "bucchi",
+      "micchi",
+      "ikkun",
+      "reosan"
+    ],
+    "isContact": false
+  },
+  {
+    "id": "ほたるび",
+    "name": "ほたるび",
+    "type": "bug",
+    "category": "status",
+    "power": 0,
+    "accuracy": null,
+    "targets": [
+      "bucchi"
+    ],
+    "isContact": false,
+    "selfStatChanges": {
+      "spa": 3
+    }
   },
   {
     "id": "まとわりつく",
@@ -3567,11 +6699,13 @@
     "type": "bug",
     "category": "special",
     "power": 20,
+    "accuracy": 100,
     "targets": [
       "morimitsu",
       "ikkun",
       "reosan"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "ミサイルばり",
@@ -3579,11 +6713,15 @@
     "type": "bug",
     "category": "physical",
     "power": 25,
+    "accuracy": 95,
     "targets": [
       "morimitsu",
       "bucchi",
       "reosan"
-    ]
+    ],
+    "isContact": false,
+    "minHits": 2,
+    "maxHits": 5
   },
   {
     "id": "むしのさざめき",
@@ -3591,10 +6729,12 @@
     "type": "bug",
     "category": "special",
     "power": 90,
+    "accuracy": 100,
     "targets": [
       "bucchi",
       "reosan"
-    ]
+    ],
+    "isContact": false
   },
   {
     "id": "メガホーン",
@@ -3602,11 +6742,13 @@
     "type": "bug",
     "category": "physical",
     "power": 120,
+    "accuracy": 85,
     "targets": [
       "bucchi",
       "fuuto",
       "reosan"
-    ]
+    ],
+    "isContact": true
   },
   {
     "id": "れんぞくぎり",
@@ -3614,10 +6756,12 @@
     "type": "bug",
     "category": "physical",
     "power": 40,
+    "accuracy": 95,
     "targets": [
       "touma",
       "bucchi",
       "ikkun"
-    ]
+    ],
+    "isContact": true
   }
 ]

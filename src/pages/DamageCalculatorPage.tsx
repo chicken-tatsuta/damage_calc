@@ -27,6 +27,8 @@ import { calcDamage, getKOChance } from "../lib/damage";
 import { calcAllStats } from "../lib/stats";
 import type { BaseStats, EVs, IVs, Nature } from "../lib/stats";
 import type { PokemonType, Weather, Field } from "../lib/damage";
+import NatureMatrixPicker from "../components/NatureMatrixPicker";
+import MovePicker, { TYPE_LABELS } from "../components/MovePicker";
 
 import pokemonData from "../data/pokemons.json";
 import moveData from "../data/moves.json";
@@ -79,28 +81,6 @@ type PokemonData = {
 };
 
 type MoveCategory = "physical" | "special" | "status";
-
-// 表示用のタイプ名
-const TYPE_LABELS: Record<PokemonType, string> = {
-  normal: "ノーマル",
-  fire: "ほのお",
-  water: "みず",
-  electric: "でんき",
-  grass: "くさ",
-  ice: "こおり",
-  fighting: "かくとう",
-  poison: "どく",
-  ground: "じめん",
-  flying: "ひこう",
-  psychic: "エスパー",
-  bug: "むし",
-  rock: "いわ",
-  ghost: "ゴースト",
-  dragon: "ドラゴン",
-  dark: "あく",
-  steel: "はがね",
-  fairy: "フェアリー",
-};
 
 const STAGE_OPTIONS = Array.from({ length: 13 }, (_, i) => i - 6).map((v) => ({
   value: v,
@@ -419,6 +399,8 @@ const initialDefenderStats =
     firstDefender
   );
   const [selectedMove, setSelectedMove] = useState<MoveData | null>(firstMove);
+  const [attackerNature, setAttackerNature] = useState<Nature>(defaultAttackNature);
+  const [defenderNature, setDefenderNature] = useState<Nature>(defaultDefenseNature);
 
   const [attackerStage, setAttackerStage] = useState<number>(0);
   const [defenderStage, setDefenderStage] = useState<number>(0);
@@ -490,7 +472,7 @@ const initialDefenderStats =
       attackerEVs,
       defaultAttackIVs,
       LEVEL,
-      defaultAttackNature
+      attackerNature
     );
 
     const defStats = calcAllStats(
@@ -498,7 +480,7 @@ const initialDefenderStats =
       defenderEVs,
       defaultDefenseIVs,
       LEVEL,
-      defaultDefenseNature
+      defenderNature
     );
 
     // HP は常に防御側のH
@@ -530,6 +512,8 @@ setDefense(Math.floor(rawDefense * defMul));
     defenderHpEV,
     defenderDefEV,
     defenderSpDEV,
+    attackerNature,
+    defenderNature,
   ]);
   const moveType: PokemonType = selectedMove?.type ?? "fire";
   const moveCategory = selectedMove?.category ?? "physical";
@@ -700,7 +684,7 @@ const effectivenessColor =
         ? "warning.main"
         : "text.secondary";
   const filteredMoves = useMemo(() => {
-    return MOVES.filter((move) => {
+    const candidateMoves = MOVES.filter((move) => {
       // 変化技は除外
       if (move.category === "status") return false;
 
@@ -716,6 +700,8 @@ const effectivenessColor =
       // 攻撃側に配布されている技だけ
       return move.targets.includes(attackerPokemon.id);
     });
+
+    return candidateMoves;
   }, [attackerPokemon]);
 
   // 攻撃側ポケモンが変わって、今選んでいる技が候補外になったら自動で差し替え
@@ -760,6 +746,7 @@ const effectivenessColor =
                     getOptionLabel={(option) => option.name}
                     value={attackerPokemon}
                     onChange={(_, newValue) => setAttackerPokemon(newValue)}
+                    isOptionEqualToValue={(option, value) => option.id === value.id}
                     renderInput={(params) => (
                       <TextField {...params} label="ポケモン" size="small" />
                     )}
@@ -788,15 +775,14 @@ const effectivenessColor =
   clearOnEscape
 />
 
-                  {/* 技選択 */}
-                  <Autocomplete
+                  <NatureMatrixPicker value={attackerNature} onChange={setAttackerNature} />
+
+                  <MovePicker
                     options={filteredMoves}
-                    getOptionLabel={(option) => option.name}
                     value={selectedMove}
-                    onChange={(_, newValue) => setSelectedMove(newValue)}
-                    renderInput={(params) => (
-                      <TextField {...params} label="技" size="small" />
-                    )}
+                    onChange={(move) => setSelectedMove(move as MoveData | null)}
+                    label="技"
+                    helperText="タイプで絞り込みできます"
                   />
 
 <Typography variant="subtitle2">
@@ -949,6 +935,7 @@ const effectivenessColor =
                     getOptionLabel={(option) => option.name}
                     value={defenderPokemon}
                     onChange={(_, newValue) => setDefenderPokemon(newValue)}
+                    isOptionEqualToValue={(option, value) => option.id === value.id}
                     renderInput={(params) => (
                       <TextField {...params} label="ポケモン" size="small" />
                     )}
@@ -976,6 +963,8 @@ const effectivenessColor =
   )}
   clearOnEscape
 />
+
+                  <NatureMatrixPicker value={defenderNature} onChange={setDefenderNature} />
 
                   <Typography variant="body2" color="text.secondary">
                     こっちは HP と防御実数値をいじる（実数値はポケモンと努力値から自動計算）。

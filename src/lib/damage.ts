@@ -53,7 +53,7 @@ const TYPE_CHART: Record<PokemonType, TypeRelation> = {
   fairy:   { strong: ["fighting", "dragon", "dark"], weak: ["fire", "poison", "steel"], noEffect: [] },
 };
 
-const getTypeEffectiveness = (
+export const getTypeEffectiveness = (
   moveType: PokemonType,
   defenderTypes: PokemonType[],
 ): number => {

@@ -206,7 +206,7 @@ const SpeedLinePage: React.FC = () => {
                     sx={{ width: 140 }}
                   >
                     <MenuItem value="+">↑（最速）</MenuItem>
-                    <MenuItem value="=">→（補正なし）</MenuItem>
+                    <MenuItem value="=">→（無振）</MenuItem>
                     <MenuItem value="-">↓（下降）</MenuItem>
                   </TextField>
                   <TextField

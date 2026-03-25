@@ -13,20 +13,22 @@ import {
 } from "@mui/material";
 import BoltIcon from "@mui/icons-material/Bolt";
 import GroupsIcon from "@mui/icons-material/Groups";
-import SpeedIcon from "@mui/icons-material/Speed"; // ★追加
+import SpeedIcon from "@mui/icons-material/Speed";
+import SportsMmaIcon from "@mui/icons-material/SportsMma"; // 追加
 
-// ダメ計とパーティ補完の「ページ」を遅延読み込み
 const DamageCalculatorPage = React.lazy(
   () => import("./pages/DamageCalculatorPage")
 );
 const PartyTypePage = React.lazy(
   () => import("./pages/PartyTypePage")
 );
+const SpeedLinePage = React.lazy(
+  () => import("./pages/SpeedLinePage")
+);
+const MatchupSimulatorPage = React.lazy(
+  () => import("./pages/MatchupSimulatorPage")
+); // 追加
 
-// ★追加：Sライン早見ページ
-const SpeedLinePage = React.lazy(() => import("./pages/SpeedLinePage"));
-
-// 共通テーマ
 const theme = createTheme({
   palette: {
     mode: "light",
@@ -80,8 +82,7 @@ const theme = createTheme({
   },
 });
 
-// ★追加："speed"
-type ToolId = "damage" | "party" | "speed";
+type ToolId = "damage" | "party" | "speed" | "matchup"; // matchup追加
 
 const App: React.FC = () => {
   const [currentTool, setCurrentTool] = useState<ToolId>("damage");
@@ -90,7 +91,13 @@ const App: React.FC = () => {
     <ThemeProvider theme={theme}>
       <CssBaseline />
 
-      <Box sx={{ display: "flex", minHeight: "100vh", bgcolor: "background.default" }}>
+      <Box
+        sx={{
+          display: "flex",
+          minHeight: "100vh",
+          bgcolor: "background.default",
+        }}
+      >
         {/* ===== 左サイドバー ===== */}
         <Box
           sx={{
@@ -140,7 +147,6 @@ const App: React.FC = () => {
                 <ListItemText primary="パーティ補完" />
               </ListItemButton>
 
-              {/* ★追加：Sライン早見 */}
               <ListItemButton
                 selected={currentTool === "speed"}
                 onClick={() => setCurrentTool("speed")}
@@ -149,6 +155,16 @@ const App: React.FC = () => {
                   <SpeedIcon fontSize="small" />
                 </ListItemIcon>
                 <ListItemText primary="Sライン早見" />
+              </ListItemButton>
+
+              <ListItemButton
+                selected={currentTool === "matchup"}
+                onClick={() => setCurrentTool("matchup")}
+              >
+                <ListItemIcon sx={{ minWidth: 32 }}>
+                  <SportsMmaIcon fontSize="small" />
+                </ListItemIcon>
+                <ListItemText primary="対面勝率シミュ" />
               </ListItemButton>
             </List>
           </Box>
@@ -165,7 +181,8 @@ const App: React.FC = () => {
           >
             {currentTool === "damage" && <DamageCalculatorPage />}
             {currentTool === "party" && <PartyTypePage />}
-            {currentTool === "speed" && <SpeedLinePage />}{/* ★追加 */}
+            {currentTool === "speed" && <SpeedLinePage />}
+            {currentTool === "matchup" && <MatchupSimulatorPage />}
           </Suspense>
         </Box>
       </Box>
